@@ -467,6 +467,27 @@
     /* scrollbar hide */
     .screen::-webkit-scrollbar { display: none; }
     .screen { -ms-overflow-style: none; scrollbar-width: none; }
+
+    /* ── TIMER BAR (Бліц mode) ── */
+    .progress-bar-fill.depleting { transition: none; }
+    .progress-bar-fill.timer-low { background: linear-gradient(90deg, var(--danger), #ff6b63); }
+
+    /* ── HEARTS (Виживання mode) ── */
+    .hearts-row {
+      display: none;
+      justify-content: center;
+      gap: 10px;
+      font-size: 26px;
+      padding: 4px 0 2px;
+      max-width: 520px;
+      width: 100%;
+      margin: 0 auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .hearts-row.visible { display: flex; }
+    .heart-item { transition: opacity 250ms, filter 250ms; }
+    .heart-item.lost { opacity: 0.28; filter: grayscale(1); }
   </style>
 </head>
 <body>
@@ -501,7 +522,25 @@
           <div class="mode-card-arrow">›</div>
         </div>
 
-        <!-- Future mode cards go here -->
+        <!-- Бліц mode card -->
+        <div class="mode-card" id="cardBlitz" role="button" tabindex="0">
+          <div class="mode-card-icon">⚡</div>
+          <div class="mode-card-body">
+            <div class="mode-card-title">Бліц</div>
+            <div class="mode-card-desc">60 секунд, максимум правильних відповідей</div>
+          </div>
+          <div class="mode-card-arrow">›</div>
+        </div>
+
+        <!-- Виживання mode card -->
+        <div class="mode-card" id="cardSurvival" role="button" tabindex="0">
+          <div class="mode-card-icon">❤️</div>
+          <div class="mode-card-body">
+            <div class="mode-card-title">Виживання</div>
+            <div class="mode-card-desc">3 життя, скільки протримаєшся?</div>
+          </div>
+          <div class="mode-card-arrow">›</div>
+        </div>
 
       </div>
 
@@ -526,7 +565,7 @@
   <div class="screen" id="screenLevel">
     <div class="top-nav">
       <button class="btn-back" id="btnBackFromLevel">‹ Назад</button>
-      <div class="nav-title">Класичний</div>
+      <div class="nav-title" id="levelScreenTitle">Класичний</div>
     </div>
     <div class="screen-inner" style="padding-top:12px;">
 
@@ -585,6 +624,11 @@
         <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
       </div>
     </div>
+    <div class="hearts-row" id="heartsRow">
+      <span class="heart-item" id="heart1">❤️</span>
+      <span class="heart-item" id="heart2">❤️</span>
+      <span class="heart-item" id="heart3">❤️</span>
+    </div>
     <div class="word-card">
       <div class="word-en" id="wordEn">—</div>
       <div class="pos-badge" id="posBadge">іменник</div>
@@ -639,8 +683,9 @@
 ═══════════════════════════════════════════════ */
 const SESSION_SIZE = 15;
 const STORAGE_PREFIX = 'wordup_';
-const STORAGE_WORDS_KEY = STORAGE_PREFIX + 'words_v1';     // per-word history
-const STORAGE_LEVELS_KEY = STORAGE_PREFIX + 'levels_v1';   // per-level aggregates
+const STORAGE_WORDS_KEY  = STORAGE_PREFIX + 'words_v1';    // per-word history
+const STORAGE_LEVELS_KEY = STORAGE_PREFIX + 'levels_v1';   // classic per-level aggregates
+const STORAGE_BEST_KEY   = STORAGE_PREFIX + 'best_v1';     // per-mode+level best scores
 
 const LEVEL_ORDER = ['A2', 'B1', 'B2'];
 
@@ -666,18 +711,38 @@ const POS_UA = {
 };
 
 /* ═══════════════════════════════════════════════
-   MODES CONFIG  (extensible for future modes)
+   MODES CONFIG
 ═══════════════════════════════════════════════ */
 const MODES = {
   classic: {
     id: 'classic',
+    label: 'Класичний',
     sessionSize: 15,
     timerEnabled: false,
     livesEnabled: false,
     direction: 'en_to_ua',
     distractorCount: 2,
   },
-  // future: blitz, survival, topics, review …
+  blitz: {
+    id: 'blitz',
+    label: 'Бліц',
+    sessionSize: Infinity,   // keep cycling until timer expires
+    timerEnabled: true,
+    timerDuration: 60,       // seconds
+    livesEnabled: false,
+    direction: 'en_to_ua',
+    distractorCount: 2,
+  },
+  survival: {
+    id: 'survival',
+    label: 'Виживання',
+    sessionSize: 50,         // safety cap: perfect run won't go forever
+    timerEnabled: false,
+    livesEnabled: true,
+    startLives: 3,
+    direction: 'en_to_ua',
+    distractorCount: 2,
+  },
 };
 
 /* ═══════════════════════════════════════════════
@@ -687,6 +752,7 @@ let allWords = [];
 let wordsByLevel = {};      // { A2: [...], B1: [...], B2: [...] }
 let wordsByPos   = {};      // { verb: [...], noun: [...], ... }
 
+let pendingMode = 'classic';   // which mode card was tapped last
 let session = null;
 /*  session shape:
     {
@@ -779,6 +845,17 @@ function pctStr(correct, seen) {
   return Math.round(correct / seen * 100) + '%';
 }
 
+function loadBestScores() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_BEST_KEY) || '{}'); } catch { return {}; }
+}
+function saveBestScores(h) { localStorage.setItem(STORAGE_BEST_KEY, JSON.stringify(h)); }
+function getBestScore(mode, level) { return loadBestScores()[`${mode}_${level}`] || 0; }
+function updateBestScore(mode, level, score) {
+  const h = loadBestScores();
+  const key = `${mode}_${level}`;
+  if (!h[key] || score > h[key]) { h[key] = score; saveBestScores(h); }
+}
+
 /* ═══════════════════════════════════════════════
    DISTRACTOR GENERATION
 ═══════════════════════════════════════════════ */
@@ -860,6 +937,54 @@ function posUa(pos) {
 }
 
 /* ═══════════════════════════════════════════════
+   BLITZ TIMER
+═══════════════════════════════════════════════ */
+function startBlitzTimer(durationMs) {
+  const s = session;
+  s.timerEnd = Date.now() + durationMs;
+  const fill = document.getElementById('progressFill');
+
+  function tick() {
+    if (!session || session !== s || s.finished) return;
+    const remaining = s.timerEnd - Date.now();
+    if (remaining <= 0) {
+      fill.style.width = '0%';
+      fill.classList.remove('timer-low');
+      finishSession();
+      return;
+    }
+    const frac = remaining / durationMs;
+    fill.style.width = (frac * 100) + '%';
+    fill.classList.toggle('timer-low', frac < 0.25);
+    // update round counter with time remaining
+    document.getElementById('roundCounter').textContent = `⏱ ${Math.ceil(remaining / 1000)}с`;
+    s.timerRafId = requestAnimationFrame(tick);
+  }
+  s.timerRafId = requestAnimationFrame(tick);
+}
+
+function stopBlitzTimer() {
+  if (session && session.timerRafId) {
+    cancelAnimationFrame(session.timerRafId);
+    session.timerRafId = null;
+  }
+}
+
+/* ═══════════════════════════════════════════════
+   HEARTS DISPLAY
+═══════════════════════════════════════════════ */
+function renderHearts() {
+  const lives = session ? session.lives : 0;
+  for (let i = 1; i <= 3; i++) {
+    const el = document.getElementById(`heart${i}`);
+    if (!el) continue;
+    const lost = i > lives;
+    el.classList.toggle('lost', lost);
+    el.textContent = lost ? '🤍' : '❤️';
+  }
+}
+
+/* ═══════════════════════════════════════════════
    SESSION RUNNER  (shared core, mode-configurable)
 ═══════════════════════════════════════════════ */
 function buildPool(level) {
@@ -872,7 +997,8 @@ function startSession(mode, level) {
   const pool = buildPool(level);
   if (pool.length === 0) return;
 
-  const queue = sample(pool, Math.min(cfg.sessionSize, pool.length));
+  const queueSize = cfg.sessionSize === Infinity ? pool.length : Math.min(cfg.sessionSize, pool.length);
+  const queue = sample(pool, queueSize);
 
   session = {
     mode,
@@ -884,9 +1010,39 @@ function startSession(mode, level) {
     incorrect: 0,
     streak: 0,
     locked: false,
+    finished: false,
+    timerRafId: null,
+    timerEnd: null,
+    lives: cfg.livesEnabled ? cfg.startLives : null,
   };
 
+  // Reset progress bar
+  const fill = document.getElementById('progressFill');
+  if (cfg.timerEnabled) {
+    fill.classList.add('depleting');
+    fill.classList.remove('timer-low');
+    fill.style.width = '100%';
+  } else {
+    fill.classList.remove('depleting', 'timer-low');
+    fill.style.transition = '';
+    fill.style.width = '0%';
+  }
+
+  // Show/hide hearts
+  const heartsRow = document.getElementById('heartsRow');
+  if (cfg.livesEnabled) {
+    heartsRow.classList.add('visible');
+    renderHearts();
+  } else {
+    heartsRow.classList.remove('visible');
+  }
+
   showScreen('screenGame');
+
+  if (cfg.timerEnabled) {
+    startBlitzTimer(cfg.timerDuration * 1000);
+  }
+
   renderQuestion();
 }
 
@@ -895,13 +1051,30 @@ function startSession(mode, level) {
 ═══════════════════════════════════════════════ */
 function renderQuestion() {
   const s = session;
-  const word = s.queue[s.idx];
-  const total = s.queue.length;
 
-  // Top bar
-  document.getElementById('roundCounter').textContent = `${s.idx + 1} / ${total}`;
-  document.getElementById('streakBadge').textContent = `🔥 ${s.streak}`;
-  document.getElementById('progressFill').style.width = `${(s.idx / total) * 100}%`;
+  // Blitz: cycle queue when exhausted (pool reshuffled to avoid immediate repeats)
+  if (s.mode === 'blitz' && s.idx >= s.queue.length) {
+    s.queue = sample(s.pool, s.pool.length);
+    s.idx = 0;
+  }
+
+  const word = s.queue[s.idx];
+
+  // Top bar — mode-specific
+  if (s.mode === 'blitz') {
+    // round counter text is updated by the timer rAF tick; streak badge stays
+    document.getElementById('streakBadge').textContent = `🔥 ${s.streak}`;
+  } else if (s.mode === 'survival') {
+    document.getElementById('roundCounter').textContent = `${s.idx + 1} / ${s.queue.length}`;
+    document.getElementById('streakBadge').textContent = `🔥 ${s.streak}`;
+    document.getElementById('progressFill').style.width = `${(s.idx / s.queue.length) * 100}%`;
+    renderHearts();
+  } else {
+    const total = s.queue.length;
+    document.getElementById('roundCounter').textContent = `${s.idx + 1} / ${total}`;
+    document.getElementById('streakBadge').textContent = `🔥 ${s.streak}`;
+    document.getElementById('progressFill').style.width = `${(s.idx / total) * 100}%`;
+  }
 
   // Word display
   document.getElementById('wordEn').textContent = word.en;
@@ -928,44 +1101,51 @@ function renderQuestion() {
 
 function handleAnswer(btn, isCorrect, targetWord) {
   const s = session;
-  if (s.locked) return;
+  if (s.locked || s.finished) return;
   s.locked = true;
 
   haptic(isCorrect ? 'success' : 'error');
 
-  // Mark tapped button
   btn.classList.add(isCorrect ? 'correct' : 'wrong');
   btn.classList.add('locked');
 
-  // If wrong, reveal the correct button
   if (!isCorrect) {
-    const allBtns = document.querySelectorAll('.answer-btn');
-    allBtns.forEach(b => {
-      const wordObj = session.queue[session.idx];
-      // find the btn whose ua matches the correct word
-      if (b.textContent === wordObj.ua) b.classList.add('correct');
+    document.querySelectorAll('.answer-btn').forEach(b => {
+      if (b.textContent === s.queue[s.idx].ua) b.classList.add('correct');
       b.classList.add('locked');
     });
   } else {
-    // lock all
     document.querySelectorAll('.answer-btn').forEach(b => b.classList.add('locked'));
   }
 
-  // Record
   if (isCorrect) { s.correct++; s.streak++; }
   else           { s.incorrect++; s.streak = 0; }
 
   recordWordResult(targetWord.id, isCorrect);
 
-  // Advance
+  // Survival: lose a life on wrong answer
+  if (!isCorrect && s.mode === 'survival') {
+    s.lives--;
+    renderHearts();
+    if (s.lives <= 0) {
+      setTimeout(() => { if (session === s && !s.finished) finishSession(); }, 900);
+      return;
+    }
+  }
+
+  // Blitz: snappy 280ms advance; classic/survival: 700ms
+  const delay = s.mode === 'blitz' ? 280 : 700;
+
   setTimeout(() => {
+    if (session !== s || s.finished) return;
     s.idx++;
-    if (s.idx >= s.queue.length) {
+    // Blitz never ends by count (timer controls it); survival+classic end at queue length
+    if (s.mode !== 'blitz' && s.idx >= s.queue.length) {
       finishSession();
     } else {
       renderQuestion();
     }
-  }, 700);
+  }, delay);
 }
 
 /* ═══════════════════════════════════════════════
@@ -973,32 +1153,57 @@ function handleAnswer(btn, isCorrect, targetWord) {
 ═══════════════════════════════════════════════ */
 function finishSession() {
   const s = session;
-  const total = s.queue.length;
-  const pct = Math.round(s.correct / total * 100);
+  if (!s || s.finished) return;
+  s.finished = true;
+  s.locked = true;
+  stopBlitzTimer();
 
-  recordLevelResult(s.level, s.correct, total);
+  let stars, scoreBigText, scorePctText, msg;
+  const correct   = s.correct;
+  const incorrect = s.incorrect;
+  let total;
 
-  // Stars
-  const stars = pct >= 90 ? 3 : pct >= 70 ? 2 : 1;
-  const starsRow = document.getElementById('starsRow');
-  starsRow.innerHTML = [1,2,3].map(i =>
+  if (s.mode === 'blitz') {
+    total = correct + incorrect;
+    const pct = total > 0 ? Math.round(correct / total * 100) : 0;
+    // Thresholds assume ~1.5-2s avg per question; may need tuning after real playtesting
+    stars = correct >= 25 ? 3 : correct >= 15 ? 2 : 1;
+    scoreBigText = `${correct}`;
+    scorePctText = `${pct}% точність`;
+    msg = correct >= 25 ? 'Неймовірна швидкість! 🚀' : correct >= 15 ? 'Хороший результат! ⚡' : 'Тренуйся ще! 💪';
+    updateBestScore('blitz', s.level, correct);
+
+  } else if (s.mode === 'survival') {
+    total = correct + incorrect;
+    // Thresholds approximate; may need tuning after real playtesting
+    stars = correct >= 20 ? 3 : correct >= 10 ? 2 : 1;
+    scoreBigText = `${correct}`;
+    scorePctText = `з ${total} слів`;
+    msg = correct >= 20 ? 'Виживець! 🏆' : correct >= 10 ? 'Добрий результат! 👍' : 'Тренуйся ще! 💪';
+    updateBestScore('survival', s.level, correct);
+
+  } else {
+    // classic — unchanged behavior
+    total = s.queue.length;
+    const pct = Math.round(correct / total * 100);
+    stars = pct >= 90 ? 3 : pct >= 70 ? 2 : 1;
+    scoreBigText = `${correct}/${total}`;
+    scorePctText = `${pct}%`;
+    const msgs = [[90,'Відмінно! 🎉'],[70,'Добре! 👍'],[50,'Непогано 🙂'],[0,'Потрібно більше практики 💪']];
+    msg = msgs.find(([t]) => pct >= t)[1];
+    recordLevelResult(s.level, correct, total);
+  }
+
+  document.getElementById('starsRow').innerHTML = [1,2,3].map(i =>
     `<span class="${i <= stars ? '' : 'star-dim'}">⭐</span>`
   ).join('');
 
-  // Score
-  document.getElementById('scoreBig').textContent = `${s.correct}/${total}`;
-  document.getElementById('scorePct').textContent  = `${pct}%`;
-  document.getElementById('rCorrect').textContent  = s.correct;
-  document.getElementById('rWrong').textContent    = s.incorrect;
-  document.getElementById('rTotal').textContent    = total;
-
-  const msgs = [
-    [90, 'Відмінно! 🎉'],
-    [70, 'Добре! 👍'],
-    [50, 'Непогано 🙂'],
-    [0,  'Потрібно більше практики 💪'],
-  ];
-  document.getElementById('scoreMsg').textContent = msgs.find(([t]) => pct >= t)[1];
+  document.getElementById('scoreBig').textContent = scoreBigText;
+  document.getElementById('scorePct').textContent = scorePctText;
+  document.getElementById('scoreMsg').textContent = msg;
+  document.getElementById('rCorrect').textContent = correct;
+  document.getElementById('rWrong').textContent   = incorrect;
+  document.getElementById('rTotal').textContent   = total;
 
   showScreen('screenResult');
   updateGlobalStats();
@@ -1019,67 +1224,96 @@ function updateGlobalStats() {
   document.getElementById('statWords').textContent     = allWords.length;
 }
 
-function updateLevelStats() {
-  const h = loadLevelHistory();
+function updateLevelStats(mode) {
+  mode = mode || pendingMode || 'classic';
 
   const countMap = { A2: 0, B1: 0, B2: 0 };
   allWords.forEach(w => { if (countMap[w.level] !== undefined) countMap[w.level]++; });
 
   ['A2','B1','B2'].forEach(lvl => {
-    const lh = h[lvl];
-    const acc = lh ? pctStr(lh.correct, lh.seen) : null;
-    document.getElementById(`desc${lvl}`).textContent =
-      lvl === 'A2' ? 'Базова лексика' :
-      lvl === 'B1' ? 'Розмовна лексика' : 'Складніша лексика';
-    document.getElementById(`meta${lvl}`).textContent =
-      `${countMap[lvl]} слів` + (acc ? ` · точність ${acc}` : '');
+    let meta = `${countMap[lvl]} слів`;
+    if (mode === 'classic') {
+      const h = loadLevelHistory();
+      const lh = h[lvl];
+      const acc = lh ? pctStr(lh.correct, lh.seen) : null;
+      if (acc) meta += ` · точність ${acc}`;
+    } else if (mode === 'blitz') {
+      const best = getBestScore('blitz', lvl);
+      if (best > 0) meta += ` · рекорд: ${best}`;
+    } else if (mode === 'survival') {
+      const best = getBestScore('survival', lvl);
+      if (best > 0) meta += ` · рекорд: ${best} слів`;
+    }
+    document.getElementById(`meta${lvl}`).textContent = meta;
   });
 
-  const allH = h['ALL'];
-  const allAcc = allH ? pctStr(allH.correct, allH.seen) : null;
-  document.getElementById('descAll').textContent = 'Весь словниковий запас';
-  document.getElementById('metaAll').textContent =
-    `${allWords.length} слів` + (allAcc ? ` · точність ${allAcc}` : '');
+  let allMeta = `${allWords.length} слів`;
+  if (mode === 'classic') {
+    const h = loadLevelHistory();
+    const allH = h['ALL'];
+    const acc = allH ? pctStr(allH.correct, allH.seen) : null;
+    if (acc) allMeta += ` · точність ${acc}`;
+  } else if (mode === 'blitz') {
+    const best = getBestScore('blitz', 'ALL');
+    if (best > 0) allMeta += ` · рекорд: ${best}`;
+  } else if (mode === 'survival') {
+    const best = getBestScore('survival', 'ALL');
+    if (best > 0) allMeta += ` · рекорд: ${best} слів`;
+  }
+  document.getElementById('metaAll').textContent = allMeta;
 }
 
 /* ═══════════════════════════════════════════════
    EVENT BINDING
 ═══════════════════════════════════════════════ */
 function bindEvents() {
-  // Main menu → level select
-  document.getElementById('cardClassic').addEventListener('click', () => {
-    haptic('light');
-    updateLevelStats();
-    showScreen('screenLevel');
-  });
-
-  // Level select → game
-  document.querySelectorAll('.level-card').forEach(card => {
-    card.addEventListener('click', () => {
+  // Main menu → level select (all three mode cards share the same level-select screen)
+  [
+    { id: 'cardClassic',  mode: 'classic'  },
+    { id: 'cardBlitz',    mode: 'blitz'    },
+    { id: 'cardSurvival', mode: 'survival' },
+  ].forEach(({ id, mode }) => {
+    document.getElementById(id).addEventListener('click', () => {
       haptic('light');
-      const level = card.dataset.level;
-      startSession('classic', level);
+      pendingMode = mode;
+      document.getElementById('levelScreenTitle').textContent = MODES[mode].label;
+      updateLevelStats(mode);
+      showScreen('screenLevel');
     });
   });
 
-  // Back buttons
+  // Level select → game (uses pendingMode set by whichever card was tapped)
+  document.querySelectorAll('.level-card').forEach(card => {
+    card.addEventListener('click', () => {
+      haptic('light');
+      startSession(pendingMode, card.dataset.level);
+    });
+  });
+
+  // Back from level select
   document.getElementById('btnBackFromLevel').addEventListener('click', () => {
     haptic('light');
     showScreen('screenMenu');
   });
+
+  // Back from game — stop any running timer, mark session finished
   document.getElementById('btnBackFromGame').addEventListener('click', () => {
     haptic('light');
+    if (session) { session.finished = true; session.locked = true; }
+    stopBlitzTimer();
     showScreen('screenLevel');
   });
 
-  // Result actions
+  // Result: play again with same mode+level
   document.getElementById('btnPlayAgain').addEventListener('click', () => {
     haptic('medium');
     if (session) startSession(session.mode, session.level);
   });
+
+  // Result: back to menu
   document.getElementById('btnToMenu').addEventListener('click', () => {
     haptic('light');
-    updateLevelStats();
+    updateLevelStats(pendingMode);
     showScreen('screenMenu');
   });
 }
