@@ -488,6 +488,127 @@
     .hearts-row.visible { display: flex; }
     .heart-item { transition: opacity 250ms, filter 250ms; }
     .heart-item.lost { opacity: 0.28; filter: grayscale(1); }
+
+    /* ── SRS BADGE on mode card ── */
+    .mode-card-badge {
+      background: var(--danger);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 10px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      vertical-align: middle;
+      line-height: 1.6;
+      margin-left: 4px;
+    }
+
+    /* ── SRS BOX STRIP ── */
+    .srs-box-strip {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 16px 2px;
+      gap: 4px;
+      max-width: 520px;
+      width: 100%;
+      margin: 0 auto;
+      flex-shrink: 0;
+    }
+    .srs-box-cell {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 5px 4px;
+      flex: 1;
+      max-width: 54px;
+    }
+    .srs-box-num {
+      font-size: 9px;
+      font-weight: 700;
+      color: var(--text3);
+      text-transform: uppercase;
+      letter-spacing: .3px;
+    }
+    .srs-box-count {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--accent1);
+    }
+    .srs-box-arrow {
+      color: var(--text3);
+      font-size: 11px;
+      flex-shrink: 0;
+    }
+
+    /* ── SRS LEARN STEP ── */
+    .srs-learn-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--cyan);
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      margin-bottom: 4px;
+    }
+    .srs-translation {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--success);
+      text-align: center;
+      margin-top: 10px;
+      line-height: 1.2;
+    }
+
+    /* ── SRS BOX INDICATOR (during test) ── */
+    .srs-box-indicator {
+      display: inline-block;
+      background: rgba(108,92,231,.18);
+      color: #a89bf7;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 14px;
+      border-radius: 20px;
+    }
+
+    /* ── SRS EMPTY STATE ── */
+    .srs-empty {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 28px;
+      gap: 10px;
+      text-align: center;
+      max-width: 520px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .srs-empty-title { font-size: 22px; font-weight: 700; margin-top: 4px; }
+    .srs-empty-msg   { font-size: 15px; color: var(--text2); font-weight: 500; line-height: 1.5; }
+    .srs-empty-waiting { font-size: 13px; color: var(--text3); margin-top: 2px; }
+
+    /* ── SRS NEXT DUE (result screen) ── */
+    .srs-next-due {
+      font-size: 14px;
+      color: var(--text2);
+      text-align: center;
+      padding: 12px 16px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      width: 100%;
+      line-height: 1.5;
+    }
+
+    /* ── SRS CONTENT AREA ── */
+    #srsContent { flex-direction: column; flex: 1; }
   </style>
 </head>
 <body>
@@ -538,6 +659,16 @@
           <div class="mode-card-body">
             <div class="mode-card-title">Виживання</div>
             <div class="mode-card-desc">3 життя, скільки протримаєшся?</div>
+          </div>
+          <div class="mode-card-arrow">›</div>
+        </div>
+
+        <!-- Повторення (SRS) mode card -->
+        <div class="mode-card" id="cardSRS" role="button" tabindex="0">
+          <div class="mode-card-icon">🔁</div>
+          <div class="mode-card-body">
+            <div class="mode-card-title">Повторення <span class="mode-card-badge" id="srsBadge" style="display:none;">0</span></div>
+            <div class="mode-card-desc">Картки Лейтнера — повторюй те, що забуваєш</div>
           </div>
           <div class="mode-card-arrow">›</div>
         </div>
@@ -673,6 +804,105 @@
     </div>
   </div>
 
+
+  <!-- ══ SCREEN: SRS (Повторення) ══ -->
+  <div class="screen" id="screenSRS">
+    <div class="top-nav">
+      <button class="btn-back" id="btnBackFromSRS">‹ Назад</button>
+      <div class="nav-title">Повторення 🔁</div>
+      <div id="srsProgressText" style="font-size:14px;color:var(--text2);font-weight:600;min-width:40px;text-align:right;"></div>
+    </div>
+
+    <!-- 5-box pipeline strip (always visible) -->
+    <div class="srs-box-strip">
+      <div class="srs-box-cell"><div class="srs-box-num">Б1</div><div class="srs-box-count" id="srsBoxCount1">0</div></div>
+      <div class="srs-box-arrow">›</div>
+      <div class="srs-box-cell"><div class="srs-box-num">Б2</div><div class="srs-box-count" id="srsBoxCount2">0</div></div>
+      <div class="srs-box-arrow">›</div>
+      <div class="srs-box-cell"><div class="srs-box-num">Б3</div><div class="srs-box-count" id="srsBoxCount3">0</div></div>
+      <div class="srs-box-arrow">›</div>
+      <div class="srs-box-cell"><div class="srs-box-num">Б4</div><div class="srs-box-count" id="srsBoxCount4">0</div></div>
+      <div class="srs-box-arrow">›</div>
+      <div class="srs-box-cell"><div class="srs-box-num">Б5</div><div class="srs-box-count" id="srsBoxCount5">0</div></div>
+      <div class="srs-box-arrow">🎓</div>
+    </div>
+
+    <!-- Empty state -->
+    <div id="srsEmpty" class="srs-empty">
+      <div style="font-size:52px">✅</div>
+      <div class="srs-empty-title">На сьогодні все!</div>
+      <div class="srs-empty-msg" id="srsEmptyMsg">Всі слова переглянуто</div>
+      <div class="srs-empty-waiting" id="srsEmptyWaiting"></div>
+      <button class="btn-secondary" id="btnSrsEmptyBack" style="margin-top:20px;max-width:300px;">До меню</button>
+    </div>
+
+    <!-- Session content (shown during an active quiz) -->
+    <div id="srsContent" style="display:none;flex:1;flex-direction:column;">
+      <div class="progress-bar-wrap">
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="srsProgressFill" style="width:0%"></div>
+        </div>
+      </div>
+
+      <div class="word-card">
+        <div class="srs-learn-label" id="srsLearnLabel" style="display:none;">Запам'ятай</div>
+        <div class="word-en" id="srsWordEn">—</div>
+        <div class="pos-badge" id="srsPosBadge">—</div>
+        <div class="srs-translation" id="srsTranslation" style="display:none;">—</div>
+      </div>
+
+      <div style="text-align:center;padding:0 20px 8px;">
+        <span class="srs-box-indicator" id="srsBoxLabel">Коробка 1/5</span>
+      </div>
+
+      <div class="answers-area" id="srsAnswersArea"></div>
+    </div>
+  </div>
+
+  <!-- ══ SCREEN: SRS RESULT ══ -->
+  <div class="screen" id="screenSRSResult">
+    <div class="top-nav" style="justify-content:center;">
+      <div class="nav-title" style="text-align:center;flex:unset;">Повторення завершено</div>
+    </div>
+    <div class="result-inner">
+      <div style="font-size:52px">🔁</div>
+
+      <div class="result-detail" style="flex-direction:column;gap:14px;">
+        <div style="display:flex;justify-content:space-around;width:100%;">
+          <div class="result-stat">
+            <div class="result-stat-val result-correct" id="srsResCorrect">0</div>
+            <div class="result-stat-lbl">Правильно</div>
+          </div>
+          <div class="result-stat">
+            <div class="result-stat-val result-wrong" id="srsResWrong">0</div>
+            <div class="result-stat-lbl">Помилок</div>
+          </div>
+          <div class="result-stat">
+            <div class="result-stat-val" style="color:var(--warning);" id="srsResGraduated">0</div>
+            <div class="result-stat-lbl">Вивчено 🎉</div>
+          </div>
+        </div>
+        <div style="border-top:1px solid var(--border);padding-top:14px;display:flex;justify-content:space-around;width:100%;">
+          <div class="result-stat">
+            <div class="result-stat-val" style="color:var(--cyan);" id="srsResMovedUp">0</div>
+            <div class="result-stat-lbl">Просунуто</div>
+          </div>
+          <div class="result-stat">
+            <div class="result-stat-val" style="color:var(--danger);" id="srsResDropped">0</div>
+            <div class="result-stat-lbl">Повернуто</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="srs-next-due" id="srsResNextDue" style="display:none;"></div>
+
+      <div class="btn-actions">
+        <button class="btn-primary" id="btnSrsPlayAgain">Повторити ще раз</button>
+        <button class="btn-secondary" id="btnSrsToMenu">До меню</button>
+      </div>
+    </div>
+  </div>
+
 </div><!-- #app -->
 
 <script>
@@ -686,6 +916,14 @@ const STORAGE_PREFIX = 'wordup_';
 const STORAGE_WORDS_KEY  = STORAGE_PREFIX + 'words_v1';    // per-word history
 const STORAGE_LEVELS_KEY = STORAGE_PREFIX + 'levels_v1';   // classic per-level aggregates
 const STORAGE_BEST_KEY   = STORAGE_PREFIX + 'best_v1';     // per-mode+level best scores
+
+const SRS_KEY          = STORAGE_PREFIX + 'srs';
+const SRS_LEARNED_KEY  = STORAGE_PREFIX + 'learned';
+const SRS_SESSION_SIZE = 15;
+// Days to next review after a CORRECT answer FROM each box (index = current box 1-4)
+const SRS_BOX_DAYS = [0, 1, 2, 4, 7]; // index 0 unused; box5→graduate
+
+const UA_MONTHS = ['січня','лютого','березня','квітня','травня','червня','липня','серпня','вересня','жовтня','листопада','грудня'];
 
 const LEVEL_ORDER = ['A2', 'B1', 'B2'];
 
@@ -854,6 +1092,323 @@ function updateBestScore(mode, level, score) {
   const h = loadBestScores();
   const key = `${mode}_${level}`;
   if (!h[key] || score > h[key]) { h[key] = score; saveBestScores(h); }
+}
+
+/* ═══════════════════════════════════════════════
+   SRS — SPACED REPETITION (Leitner, 5 boxes)
+═══════════════════════════════════════════════ */
+function todayStr() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
+function addDays(dateStr, n) {
+  const d = new Date(dateStr + 'T00:00:00');
+  d.setDate(d.getDate() + n);
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
+function dateToUa(dateStr) {
+  const parts = dateStr.split('-').map(Number);
+  return `${parts[2]} ${UA_MONTHS[parts[1] - 1]}`;
+}
+
+function nWords(n) {
+  const r10 = n % 10, r100 = n % 100;
+  if (r100 >= 11 && r100 <= 14) return `${n} слів`;
+  if (r10 === 1) return `${n} слово`;
+  if (r10 >= 2 && r10 <= 4) return `${n} слова`;
+  return `${n} слів`;
+}
+
+function srsLoad() {
+  try { return JSON.parse(localStorage.getItem(SRS_KEY) || '{}'); } catch { return {}; }
+}
+function srsSave(data) { localStorage.setItem(SRS_KEY, JSON.stringify(data)); }
+
+function learnedLoad() {
+  try { return JSON.parse(localStorage.getItem(SRS_LEARNED_KEY) || '[]'); } catch { return []; }
+}
+function learnedSave(arr) { localStorage.setItem(SRS_LEARNED_KEY, JSON.stringify(arr)); }
+
+// Called when user answers WRONG in any mode — adds word to SRS
+function srsAddWord(wordId) {
+  const srs = srsLoad();
+  const learned = learnedLoad();
+  const today = todayStr();
+  const li = learned.indexOf(wordId);
+  if (li !== -1) { learned.splice(li, 1); learnedSave(learned); }
+  if (srs[wordId]) {
+    srs[wordId].box    = 1;
+    srs[wordId].due    = today;
+    srs[wordId].lapses = (srs[wordId].lapses || 0) + 1;
+  } else {
+    srs[wordId] = { box: 1, due: today, addedAt: today, lapses: 0 };
+  }
+  srsSave(srs);
+  updateSrsBadge();
+}
+
+// Advance word after CORRECT answer in SRS mode; returns 'graduated'|'advanced'|'noop'
+function srsAdvance(wordId) {
+  const srs = srsLoad();
+  const entry = srs[wordId];
+  if (!entry) return 'noop';
+  const today = todayStr();
+  if (entry.box >= 5) {
+    delete srs[wordId];
+    srsSave(srs);
+    const learned = learnedLoad();
+    if (!learned.includes(wordId)) { learned.push(wordId); learnedSave(learned); }
+    return 'graduated';
+  }
+  const days = SRS_BOX_DAYS[entry.box];
+  entry.box++;
+  entry.due = addDays(today, days);
+  srs[wordId] = entry;
+  srsSave(srs);
+  return 'advanced';
+}
+
+// Reset word to box 1 after WRONG answer in SRS mode
+function srsDemote(wordId) {
+  const srs = srsLoad();
+  const entry = srs[wordId];
+  if (!entry) return;
+  entry.box    = 1;
+  entry.due    = todayStr();
+  entry.lapses = (entry.lapses || 0) + 1;
+  srs[wordId]  = entry;
+  srsSave(srs);
+}
+
+// Returns array of due items [{id, entry, word}] sorted box1 first
+function srsDueWords() {
+  const srs = srsLoad();
+  const today = todayStr();
+  const wordMap = new Map(allWords.map(w => [w.id, w]));
+  const due = [];
+  for (const [id, entry] of Object.entries(srs)) {
+    if (entry.due <= today && wordMap.has(id)) {
+      due.push({ id, entry: { ...entry }, word: wordMap.get(id) });
+    }
+  }
+  due.sort((a, b) => a.entry.box - b.entry.box);
+  return due;
+}
+
+// Returns {date, count} for the nearest future due date, or null
+function srsNextDueInfo() {
+  const srs   = srsLoad();
+  const today = todayStr();
+  const map   = {};
+  for (const e of Object.values(srs)) {
+    if (e.due > today) map[e.due] = (map[e.due] || 0) + 1;
+  }
+  const dates = Object.keys(map).sort();
+  if (!dates.length) return null;
+  return { date: dates[0], count: map[dates[0]] };
+}
+
+function updateSrsBadge() {
+  const count = srsDueWords().length;
+  const badge = document.getElementById('srsBadge');
+  if (!badge) return;
+  if (count > 0) {
+    badge.textContent   = count;
+    badge.style.display = 'inline-flex';
+  } else {
+    badge.style.display = 'none';
+  }
+}
+
+function updateSrsBoxStrip() {
+  const srs    = srsLoad();
+  const counts = [0, 0, 0, 0, 0];
+  for (const e of Object.values(srs)) {
+    if (e.box >= 1 && e.box <= 5) counts[e.box - 1]++;
+  }
+  for (let i = 1; i <= 5; i++) {
+    const el = document.getElementById(`srsBoxCount${i}`);
+    if (el) el.textContent = counts[i - 1];
+  }
+}
+
+/* ── SRS SESSION ── */
+let srsSession = null;
+
+function startSrsSession() {
+  const dueList   = srsDueWords().slice(0, SRS_SESSION_SIZE);
+  const emptyEl   = document.getElementById('srsEmpty');
+  const contentEl = document.getElementById('srsContent');
+
+  updateSrsBoxStrip();
+  showScreen('screenSRS');
+
+  if (dueList.length === 0) {
+    srsSession          = null;
+    emptyEl.style.display   = 'flex';
+    contentEl.style.display = 'none';
+
+    const info  = srsNextDueInfo();
+    const total = Object.keys(srsLoad()).length;
+    const msgEl  = document.getElementById('srsEmptyMsg');
+    const waitEl = document.getElementById('srsEmptyWaiting');
+
+    if (info) {
+      msgEl.textContent  = `Наступне повторення: ${dateToUa(info.date)}, ${nWords(info.count)}`;
+    } else if (total === 0) {
+      msgEl.textContent  = 'Тут з\'являться слова, де ти помилилися 💪';
+    } else {
+      msgEl.textContent  = 'Чудово! Всі слова вивчено на сьогодні!';
+    }
+    waitEl.textContent = total > 0 ? `${nWords(total)} в черзі` : '';
+    return;
+  }
+
+  emptyEl.style.display   = 'none';
+  contentEl.style.display = 'flex';
+
+  srsSession = {
+    queue: dueList.map(item => ({
+      id:         item.id,
+      word:       item.word,
+      boxBefore:  item.entry.box,
+      learnShown: false,
+    })),
+    idx:          0,
+    correctCount: 0,
+    wrongCount:   0,
+    graduatedIds: [],
+    locked:       false,
+    finished:     false,
+  };
+
+  document.getElementById('srsProgressFill').style.width = '0%';
+  renderSrsQuestion();
+}
+
+function renderSrsQuestion() {
+  const ss = srsSession;
+  if (!ss) return;
+  if (ss.idx >= ss.queue.length) { finishSrsSession(); return; }
+
+  const item  = ss.queue[ss.idx];
+  const total = ss.queue.length;
+
+  document.getElementById('srsProgressText').textContent   = `${ss.idx + 1}/${total}`;
+  document.getElementById('srsProgressFill').style.width   = `${(ss.idx / total) * 100}%`;
+  document.getElementById('srsBoxLabel').textContent       = `Коробка ${item.boxBefore}/5`;
+
+  if (item.boxBefore === 1 && !item.learnShown) {
+    renderSrsLearnStep(item);
+  } else {
+    renderSrsTestStep(item);
+  }
+}
+
+function renderSrsLearnStep(item) {
+  const ss = srsSession;
+  document.getElementById('srsLearnLabel').style.display   = 'block';
+  document.getElementById('srsWordEn').textContent         = item.word.en;
+  document.getElementById('srsPosBadge').textContent       = posUa(item.word.pos);
+  document.getElementById('srsTranslation').textContent    = item.word.ua;
+  document.getElementById('srsTranslation').style.display  = 'block';
+
+  const area = document.getElementById('srsAnswersArea');
+  area.innerHTML = '';
+  const btn = document.createElement('button');
+  btn.className = 'btn-primary';
+  btn.textContent = 'Далі →';
+  btn.style.marginTop = '8px';
+  btn.addEventListener('click', () => {
+    if (!srsSession || srsSession !== ss || ss.locked) return;
+    item.learnShown = true;
+    renderSrsTestStep(item);
+  });
+  area.appendChild(btn);
+  ss.locked = false;
+}
+
+function renderSrsTestStep(item) {
+  const ss = srsSession;
+  document.getElementById('srsLearnLabel').style.display   = 'none';
+  document.getElementById('srsWordEn').textContent         = item.word.en;
+  document.getElementById('srsPosBadge').textContent       = posUa(item.word.pos);
+  document.getElementById('srsTranslation').style.display  = 'none';
+
+  const distractors = getDistractors(item.word, 3); // 4-option quiz
+  const options     = shuffle([item.word, ...distractors]);
+
+  const area = document.getElementById('srsAnswersArea');
+  area.innerHTML = '';
+  options.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.className   = 'answer-btn';
+    btn.textContent = opt.ua;
+    btn.dataset.id  = opt.id;
+    btn.addEventListener('click', () => handleSrsAnswer(btn, opt.id === item.word.id, item));
+    area.appendChild(btn);
+  });
+  ss.locked = false;
+}
+
+function handleSrsAnswer(btn, isCorrect, item) {
+  const ss = srsSession;
+  if (!ss || ss.locked || ss.finished) return;
+  ss.locked = true;
+
+  haptic(isCorrect ? 'success' : 'error');
+  btn.classList.add(isCorrect ? 'correct' : 'wrong', 'locked');
+
+  document.querySelectorAll('#srsAnswersArea .answer-btn').forEach(b => {
+    if (!isCorrect && b.textContent === item.word.ua) b.classList.add('correct');
+    b.classList.add('locked');
+  });
+
+  if (isCorrect) {
+    ss.correctCount++;
+    const result = srsAdvance(item.id);
+    if (result === 'graduated') ss.graduatedIds.push(item.id);
+  } else {
+    ss.wrongCount++;
+    srsDemote(item.id);
+  }
+
+  recordWordResult(item.id, isCorrect);
+  updateSrsBoxStrip();
+
+  setTimeout(() => {
+    if (srsSession !== ss || ss.finished) return;
+    ss.idx++;
+    renderSrsQuestion();
+  }, 700);
+}
+
+function finishSrsSession() {
+  const ss = srsSession;
+  if (!ss || ss.finished) return;
+  ss.finished = true;
+
+  const movedUp  = ss.correctCount - ss.graduatedIds.length;
+
+  document.getElementById('srsResCorrect').textContent   = ss.correctCount;
+  document.getElementById('srsResWrong').textContent     = ss.wrongCount;
+  document.getElementById('srsResGraduated').textContent = ss.graduatedIds.length;
+  document.getElementById('srsResMovedUp').textContent   = movedUp;
+  document.getElementById('srsResDropped').textContent   = ss.wrongCount;
+
+  const nextDueEl = document.getElementById('srsResNextDue');
+  const info      = srsNextDueInfo();
+  if (info) {
+    nextDueEl.textContent    = `Наступне повторення: ${dateToUa(info.date)}, ${nWords(info.count)}`;
+    nextDueEl.style.display  = 'block';
+  } else {
+    nextDueEl.style.display  = 'none';
+  }
+
+  showScreen('screenSRSResult');
+  updateSrsBadge();
 }
 
 /* ═══════════════════════════════════════════════
@@ -1122,6 +1677,7 @@ function handleAnswer(btn, isCorrect, targetWord) {
   else           { s.incorrect++; s.streak = 0; }
 
   recordWordResult(targetWord.id, isCorrect);
+  if (!isCorrect) srsAddWord(targetWord.id); // SRS hook — additive, does not affect existing flow
 
   // Survival: lose a life on wrong answer
   if (!isCorrect && s.mode === 'survival') {
@@ -1222,6 +1778,7 @@ function updateGlobalStats() {
   document.getElementById('statTotalSeen').textContent = totalSeen;
   document.getElementById('statAccuracy').textContent  = pctStr(totalCorrect, totalSeen) || '—';
   document.getElementById('statWords').textContent     = allWords.length;
+  updateSrsBadge();
 }
 
 function updateLevelStats(mode) {
@@ -1314,6 +1871,35 @@ function bindEvents() {
   document.getElementById('btnToMenu').addEventListener('click', () => {
     haptic('light');
     updateLevelStats(pendingMode);
+    showScreen('screenMenu');
+  });
+
+  // ── SRS events ──
+  document.getElementById('cardSRS').addEventListener('click', () => {
+    haptic('light');
+    startSrsSession();
+  });
+
+  document.getElementById('btnBackFromSRS').addEventListener('click', () => {
+    haptic('light');
+    if (srsSession) { srsSession.finished = true; srsSession.locked = true; }
+    updateSrsBadge();
+    showScreen('screenMenu');
+  });
+
+  document.getElementById('btnSrsEmptyBack').addEventListener('click', () => {
+    haptic('light');
+    showScreen('screenMenu');
+  });
+
+  document.getElementById('btnSrsPlayAgain').addEventListener('click', () => {
+    haptic('medium');
+    startSrsSession();
+  });
+
+  document.getElementById('btnSrsToMenu').addEventListener('click', () => {
+    haptic('light');
+    updateSrsBadge();
     showScreen('screenMenu');
   });
 }
