@@ -13498,5 +13498,9059 @@
     "level": "B2",
     "topic": "business",
     "freqRank": 1500
+  },
+  {
+    "id": "w1501",
+    "en": "raise",
+    "ua": "підвищувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1501
+  },
+  {
+    "id": "w1502",
+    "en": "lower",
+    "ua": "знижувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1502
+  },
+  {
+    "id": "w1503",
+    "en": "consider",
+    "ua": "розглядати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1503
+  },
+  {
+    "id": "w1504",
+    "en": "prepare",
+    "ua": "готуватися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1504
+  },
+  {
+    "id": "w1505",
+    "en": "contact",
+    "ua": "зв'язуватися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 1505
+  },
+  {
+    "id": "w1506",
+    "en": "communicate",
+    "ua": "спілкуватися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 1506
+  },
+  {
+    "id": "w1507",
+    "en": "express",
+    "ua": "висловлювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 1507
+  },
+  {
+    "id": "w1508",
+    "en": "present",
+    "ua": "представляти",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1508
+  },
+  {
+    "id": "w1509",
+    "en": "lead",
+    "ua": "очолювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1509
+  },
+  {
+    "id": "w1510",
+    "en": "design",
+    "ua": "проектувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1510
+  },
+  {
+    "id": "w1511",
+    "en": "analyse",
+    "ua": "аналізувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1511
+  },
+  {
+    "id": "w1512",
+    "en": "measure",
+    "ua": "вимірювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1512
+  },
+  {
+    "id": "w1513",
+    "en": "test",
+    "ua": "тестувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1513
+  },
+  {
+    "id": "w1514",
+    "en": "collaborate",
+    "ua": "співпрацювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1514
+  },
+  {
+    "id": "w1515",
+    "en": "approve",
+    "ua": "схвалювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1515
+  },
+  {
+    "id": "w1516",
+    "en": "pollute",
+    "ua": "забруднювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 1516
+  },
+  {
+    "id": "w1517",
+    "en": "bother",
+    "ua": "турбувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "emotions",
+    "freqRank": 1517
+  },
+  {
+    "id": "w1518",
+    "en": "forgive",
+    "ua": "прощати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "emotions",
+    "freqRank": 1518
+  },
+  {
+    "id": "w1519",
+    "en": "inspire",
+    "ua": "надихати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "emotions",
+    "freqRank": 1519
+  },
+  {
+    "id": "w1520",
+    "en": "publish",
+    "ua": "публікувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1520
+  },
+  {
+    "id": "w1521",
+    "en": "edit",
+    "ua": "редагувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1521
+  },
+  {
+    "id": "w1522",
+    "en": "access",
+    "ua": "отримувати доступ",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1522
+  },
+  {
+    "id": "w1523",
+    "en": "stream",
+    "ua": "транслювати онлайн",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1523
+  },
+  {
+    "id": "w1524",
+    "en": "register",
+    "ua": "реєструватися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1524
+  },
+  {
+    "id": "w1525",
+    "en": "tour",
+    "ua": "їздити на екскурсію",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 1525
+  },
+  {
+    "id": "w1526",
+    "en": "respond",
+    "ua": "відповідати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 1526
+  },
+  {
+    "id": "w1527",
+    "en": "react",
+    "ua": "реагувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1527
+  },
+  {
+    "id": "w1528",
+    "en": "found",
+    "ua": "засновувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1528
+  },
+  {
+    "id": "w1529",
+    "en": "transfer",
+    "ua": "передавати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1529
+  },
+  {
+    "id": "w1530",
+    "en": "exchange",
+    "ua": "обмінювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1530
+  },
+  {
+    "id": "w1531",
+    "en": "separate",
+    "ua": "роз'єднувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1531
+  },
+  {
+    "id": "w1532",
+    "en": "replace",
+    "ua": "замінювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1532
+  },
+  {
+    "id": "w1533",
+    "en": "remove",
+    "ua": "усувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1533
+  },
+  {
+    "id": "w1534",
+    "en": "relate",
+    "ua": "відноситися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1534
+  },
+  {
+    "id": "w1535",
+    "en": "claim",
+    "ua": "стверджувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 1535
+  },
+  {
+    "id": "w1536",
+    "en": "prove",
+    "ua": "доводити",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1536
+  },
+  {
+    "id": "w1537",
+    "en": "represent",
+    "ua": "представляти",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1537
+  },
+  {
+    "id": "w1538",
+    "en": "reflect",
+    "ua": "відображати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1538
+  },
+  {
+    "id": "w1539",
+    "en": "display",
+    "ua": "показувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1539
+  },
+  {
+    "id": "w1540",
+    "en": "observe",
+    "ua": "спостерігати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1540
+  },
+  {
+    "id": "w1541",
+    "en": "collect",
+    "ua": "збирати (дані)",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1541
+  },
+  {
+    "id": "w1542",
+    "en": "categorize",
+    "ua": "класифікувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1542
+  },
+  {
+    "id": "w1543",
+    "en": "summarize",
+    "ua": "підсумовувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1543
+  },
+  {
+    "id": "w1544",
+    "en": "quote",
+    "ua": "цитувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1544
+  },
+  {
+    "id": "w1545",
+    "en": "refer",
+    "ua": "посилатися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1545
+  },
+  {
+    "id": "w1546",
+    "en": "practise",
+    "ua": "практикувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1546
+  },
+  {
+    "id": "w1547",
+    "en": "intend",
+    "ua": "мати намір",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1547
+  },
+  {
+    "id": "w1548",
+    "en": "aim",
+    "ua": "прагнути",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1548
+  },
+  {
+    "id": "w1549",
+    "en": "attempt",
+    "ua": "намагатися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1549
+  },
+  {
+    "id": "w1550",
+    "en": "complete",
+    "ua": "завершувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1550
+  },
+  {
+    "id": "w1551",
+    "en": "launch",
+    "ua": "запускати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "business",
+    "freqRank": 1551
+  },
+  {
+    "id": "w1552",
+    "en": "proceed",
+    "ua": "продовжувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1552
+  },
+  {
+    "id": "w1553",
+    "en": "hurry",
+    "ua": "поспішати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "daily life",
+    "freqRank": 1553
+  },
+  {
+    "id": "w1554",
+    "en": "rush",
+    "ua": "мчати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "daily life",
+    "freqRank": 1554
+  },
+  {
+    "id": "w1555",
+    "en": "suppose",
+    "ua": "припускати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1555
+  },
+  {
+    "id": "w1556",
+    "en": "realise",
+    "ua": "усвідомлювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1556
+  },
+  {
+    "id": "w1557",
+    "en": "recognise",
+    "ua": "впізнавати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1557
+  },
+  {
+    "id": "w1558",
+    "en": "admire",
+    "ua": "захоплюватися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "emotions",
+    "freqRank": 1558
+  },
+  {
+    "id": "w1559",
+    "en": "worship",
+    "ua": "боготворити",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "emotions",
+    "freqRank": 1559
+  },
+  {
+    "id": "w1560",
+    "en": "compete",
+    "ua": "змагатися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "sport",
+    "freqRank": 1560
+  },
+  {
+    "id": "w1561",
+    "en": "entertain",
+    "ua": "розважати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1561
+  },
+  {
+    "id": "w1562",
+    "en": "amuse",
+    "ua": "бавити",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1562
+  },
+  {
+    "id": "w1563",
+    "en": "photograph",
+    "ua": "фотографувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1563
+  },
+  {
+    "id": "w1564",
+    "en": "debate",
+    "ua": "дискутувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 1564
+  },
+  {
+    "id": "w1565",
+    "en": "interrupt",
+    "ua": "перебивати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 1565
+  },
+  {
+    "id": "w1566",
+    "en": "repeat",
+    "ua": "повторювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 1566
+  },
+  {
+    "id": "w1567",
+    "en": "rephrase",
+    "ua": "перефразовувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 1567
+  },
+  {
+    "id": "w1568",
+    "en": "simplify",
+    "ua": "спрощувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1568
+  },
+  {
+    "id": "w1569",
+    "en": "compromise",
+    "ua": "йти на компроміс",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1569
+  },
+  {
+    "id": "w1570",
+    "en": "protest",
+    "ua": "протестувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1570
+  },
+  {
+    "id": "w1571",
+    "en": "elect",
+    "ua": "обирати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1571
+  },
+  {
+    "id": "w1572",
+    "en": "appoint",
+    "ua": "призначати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1572
+  },
+  {
+    "id": "w1573",
+    "en": "profession",
+    "ua": "професія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1573
+  },
+  {
+    "id": "w1574",
+    "en": "payment",
+    "ua": "платіж",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money",
+    "freqRank": 1574
+  },
+  {
+    "id": "w1575",
+    "en": "price",
+    "ua": "ціна",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "shopping",
+    "freqRank": 1575
+  },
+  {
+    "id": "w1576",
+    "en": "dentist",
+    "ua": "стоматолог",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 1576
+  },
+  {
+    "id": "w1577",
+    "en": "hardware",
+    "ua": "обладнання",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1577
+  },
+  {
+    "id": "w1578",
+    "en": "folder",
+    "ua": "папка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1578
+  },
+  {
+    "id": "w1579",
+    "en": "document",
+    "ua": "документ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1579
+  },
+  {
+    "id": "w1580",
+    "en": "database",
+    "ua": "база даних",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1580
+  },
+  {
+    "id": "w1581",
+    "en": "virus",
+    "ua": "вірус",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1581
+  },
+  {
+    "id": "w1582",
+    "en": "error",
+    "ua": "помилка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1582
+  },
+  {
+    "id": "w1583",
+    "en": "smartphone",
+    "ua": "смартфон",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1583
+  },
+  {
+    "id": "w1584",
+    "en": "tablet",
+    "ua": "планшет",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1584
+  },
+  {
+    "id": "w1585",
+    "en": "laptop",
+    "ua": "ноутбук",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1585
+  },
+  {
+    "id": "w1586",
+    "en": "printer",
+    "ua": "принтер",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1586
+  },
+  {
+    "id": "w1587",
+    "en": "ability",
+    "ua": "здатність",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1587
+  },
+  {
+    "id": "w1588",
+    "en": "method",
+    "ua": "метод",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1588
+  },
+  {
+    "id": "w1589",
+    "en": "solution",
+    "ua": "розв'язання",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1589
+  },
+  {
+    "id": "w1590",
+    "en": "development",
+    "ua": "розвиток",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1590
+  },
+  {
+    "id": "w1591",
+    "en": "improvement",
+    "ua": "поліпшення",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1591
+  },
+  {
+    "id": "w1592",
+    "en": "mistake",
+    "ua": "помилка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1592
+  },
+  {
+    "id": "w1593",
+    "en": "argument",
+    "ua": "аргумент",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 1593
+  },
+  {
+    "id": "w1594",
+    "en": "conversation",
+    "ua": "розмова",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 1594
+  },
+  {
+    "id": "w1595",
+    "en": "speech",
+    "ua": "промова",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 1595
+  },
+  {
+    "id": "w1596",
+    "en": "discussion",
+    "ua": "обговорення",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 1596
+  },
+  {
+    "id": "w1597",
+    "en": "survey",
+    "ua": "опитування",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 1597
+  },
+  {
+    "id": "w1598",
+    "en": "report",
+    "ua": "звіт",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1598
+  },
+  {
+    "id": "w1599",
+    "en": "presentation",
+    "ua": "презентація",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1599
+  },
+  {
+    "id": "w1600",
+    "en": "language",
+    "ua": "мова",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1600
+  },
+  {
+    "id": "w1601",
+    "en": "history",
+    "ua": "історія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1601
+  },
+  {
+    "id": "w1602",
+    "en": "politics",
+    "ua": "політика",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1602
+  },
+  {
+    "id": "w1603",
+    "en": "souvenir",
+    "ua": "сувенір",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 1603
+  },
+  {
+    "id": "w1604",
+    "en": "currency",
+    "ua": "валюта",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money",
+    "freqRank": 1604
+  },
+  {
+    "id": "w1605",
+    "en": "attraction",
+    "ua": "визначна пам'ятка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 1605
+  },
+  {
+    "id": "w1606",
+    "en": "landscape",
+    "ua": "краєвид",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 1606
+  },
+  {
+    "id": "w1607",
+    "en": "coast",
+    "ua": "узбережжя",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 1607
+  },
+  {
+    "id": "w1608",
+    "en": "harbour",
+    "ua": "гавань",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 1608
+  },
+  {
+    "id": "w1609",
+    "en": "temperature",
+    "ua": "температура",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "weather",
+    "freqRank": 1609
+  },
+  {
+    "id": "w1610",
+    "en": "humidity",
+    "ua": "вологість",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "weather",
+    "freqRank": 1610
+  },
+  {
+    "id": "w1611",
+    "en": "calorie",
+    "ua": "калорія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 1611
+  },
+  {
+    "id": "w1612",
+    "en": "vegetarian",
+    "ua": "вегетаріанець",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 1612
+  },
+  {
+    "id": "w1613",
+    "en": "flavour",
+    "ua": "смак",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 1613
+  },
+  {
+    "id": "w1614",
+    "en": "appetite",
+    "ua": "апетит",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 1614
+  },
+  {
+    "id": "w1615",
+    "en": "exhibition",
+    "ua": "виставка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1615
+  },
+  {
+    "id": "w1616",
+    "en": "gallery",
+    "ua": "галерея",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1616
+  },
+  {
+    "id": "w1617",
+    "en": "concert",
+    "ua": "концерт",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1617
+  },
+  {
+    "id": "w1618",
+    "en": "performance",
+    "ua": "вистава",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1618
+  },
+  {
+    "id": "w1619",
+    "en": "novel",
+    "ua": "роман",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1619
+  },
+  {
+    "id": "w1620",
+    "en": "poet",
+    "ua": "поет",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1620
+  },
+  {
+    "id": "w1621",
+    "en": "fiction",
+    "ua": "художня литература",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1621
+  },
+  {
+    "id": "w1622",
+    "en": "documentary",
+    "ua": "документальний фільм",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1622
+  },
+  {
+    "id": "w1623",
+    "en": "cartoon",
+    "ua": "мультфільм",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1623
+  },
+  {
+    "id": "w1624",
+    "en": "theatre",
+    "ua": "театр",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1624
+  },
+  {
+    "id": "w1625",
+    "en": "plot",
+    "ua": "сюжет",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1625
+  },
+  {
+    "id": "w1626",
+    "en": "scene",
+    "ua": "сцена",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1626
+  },
+  {
+    "id": "w1627",
+    "en": "excitement",
+    "ua": "хвилювання",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "emotions",
+    "freqRank": 1627
+  },
+  {
+    "id": "w1628",
+    "en": "overtime",
+    "ua": "понаднормовий час",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1628
+  },
+  {
+    "id": "w1629",
+    "en": "internship",
+    "ua": "стажування",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1629
+  },
+  {
+    "id": "w1630",
+    "en": "promotion",
+    "ua": "підвищення",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1630
+  },
+  {
+    "id": "w1631",
+    "en": "resignation",
+    "ua": "відставка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1631
+  },
+  {
+    "id": "w1632",
+    "en": "retirement",
+    "ua": "вихід на пенсію",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1632
+  },
+  {
+    "id": "w1633",
+    "en": "cooperation",
+    "ua": "співпраця",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1633
+  },
+  {
+    "id": "w1634",
+    "en": "reference",
+    "ua": "рекомендація",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1634
+  },
+  {
+    "id": "w1635",
+    "en": "benefit",
+    "ua": "пільга",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1635
+  },
+  {
+    "id": "w1636",
+    "en": "pension",
+    "ua": "пенсія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money",
+    "freqRank": 1636
+  },
+  {
+    "id": "w1637",
+    "en": "saving",
+    "ua": "заощадження",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money",
+    "freqRank": 1637
+  },
+  {
+    "id": "w1638",
+    "en": "demonstration",
+    "ua": "демонстрація",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1638
+  },
+  {
+    "id": "w1639",
+    "en": "petition",
+    "ua": "петиція",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1639
+  },
+  {
+    "id": "w1640",
+    "en": "activist",
+    "ua": "активіст",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1640
+  },
+  {
+    "id": "w1641",
+    "en": "value",
+    "ua": "цінність",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1641
+  },
+  {
+    "id": "w1642",
+    "en": "norm",
+    "ua": "норма",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1642
+  },
+  {
+    "id": "w1643",
+    "en": "custom",
+    "ua": "звичай",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1643
+  },
+  {
+    "id": "w1644",
+    "en": "lifestyle",
+    "ua": "спосіб життя",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "daily life",
+    "freqRank": 1644
+  },
+  {
+    "id": "w1645",
+    "en": "hobby",
+    "ua": "хобі",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1645
+  },
+  {
+    "id": "w1646",
+    "en": "talent",
+    "ua": "талант",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1646
+  },
+  {
+    "id": "w1647",
+    "en": "passion",
+    "ua": "пристрасть",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "emotions",
+    "freqRank": 1647
+  },
+  {
+    "id": "w1648",
+    "en": "effort",
+    "ua": "зусилля",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1648
+  },
+  {
+    "id": "w1649",
+    "en": "advantage",
+    "ua": "перевага",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1649
+  },
+  {
+    "id": "w1650",
+    "en": "disadvantage",
+    "ua": "недолік",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1650
+  },
+  {
+    "id": "w1651",
+    "en": "complaint",
+    "ua": "скарга",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1651
+  },
+  {
+    "id": "w1652",
+    "en": "compliment",
+    "ua": "компліменти",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1652
+  },
+  {
+    "id": "w1653",
+    "en": "criticism",
+    "ua": "критика",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1653
+  },
+  {
+    "id": "w1654",
+    "en": "praise",
+    "ua": "похвала",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1654
+  },
+  {
+    "id": "w1655",
+    "en": "reward",
+    "ua": "винагорода",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1655
+  },
+  {
+    "id": "w1656",
+    "en": "punishment",
+    "ua": "покарання",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1656
+  },
+  {
+    "id": "w1657",
+    "en": "permission",
+    "ua": "дозвіл",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1657
+  },
+  {
+    "id": "w1658",
+    "en": "responsibility",
+    "ua": "відповідальність",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1658
+  },
+  {
+    "id": "w1659",
+    "en": "duty",
+    "ua": "обов'язок",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1659
+  },
+  {
+    "id": "w1660",
+    "en": "obligation",
+    "ua": "зобов'язання",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1660
+  },
+  {
+    "id": "w1661",
+    "en": "partnership",
+    "ua": "партнерство",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1661
+  },
+  {
+    "id": "w1662",
+    "en": "anniversary",
+    "ua": "річниця",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "family",
+    "freqRank": 1662
+  },
+  {
+    "id": "w1663",
+    "en": "ceremony",
+    "ua": "церемонія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1663
+  },
+  {
+    "id": "w1664",
+    "en": "festival",
+    "ua": "фестиваль",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 1664
+  },
+  {
+    "id": "w1665",
+    "en": "celebration",
+    "ua": "святкування",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "daily life",
+    "freqRank": 1665
+  },
+  {
+    "id": "w1666",
+    "en": "invitation",
+    "ua": "запрошення",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "daily life",
+    "freqRank": 1666
+  },
+  {
+    "id": "w1667",
+    "en": "decoration",
+    "ua": "прикраса",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "home",
+    "freqRank": 1667
+  },
+  {
+    "id": "w1668",
+    "en": "equipment",
+    "ua": "обладнання",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1668
+  },
+  {
+    "id": "w1669",
+    "en": "tool",
+    "ua": "інструмент",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1669
+  },
+  {
+    "id": "w1670",
+    "en": "machine",
+    "ua": "машина",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1670
+  },
+  {
+    "id": "w1671",
+    "en": "system",
+    "ua": "система",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1671
+  },
+  {
+    "id": "w1672",
+    "en": "option",
+    "ua": "варіант",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1672
+  },
+  {
+    "id": "w1673",
+    "en": "setting",
+    "ua": "налаштування",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1673
+  },
+  {
+    "id": "w1674",
+    "en": "mode",
+    "ua": "режим",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1674
+  },
+  {
+    "id": "w1675",
+    "en": "version",
+    "ua": "версія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1675
+  },
+  {
+    "id": "w1676",
+    "en": "model",
+    "ua": "модель",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1676
+  },
+  {
+    "id": "w1677",
+    "en": "format",
+    "ua": "формат",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1677
+  },
+  {
+    "id": "w1678",
+    "en": "link",
+    "ua": "посилання",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1678
+  },
+  {
+    "id": "w1679",
+    "en": "profile",
+    "ua": "профіль",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1679
+  },
+  {
+    "id": "w1680",
+    "en": "notification",
+    "ua": "сповіщення",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1680
+  },
+  {
+    "id": "w1681",
+    "en": "subscription",
+    "ua": "підписка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1681
+  },
+  {
+    "id": "w1682",
+    "en": "rating",
+    "ua": "рейтинг",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1682
+  },
+  {
+    "id": "w1683",
+    "en": "feedback",
+    "ua": "зворотній зв'язок",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1683
+  },
+  {
+    "id": "w1684",
+    "en": "skill set",
+    "ua": "набір навичок",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1684
+  },
+  {
+    "id": "w1685",
+    "en": "workshop",
+    "ua": "майстер-клас",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1685
+  },
+  {
+    "id": "w1686",
+    "en": "seminar",
+    "ua": "семінар",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1686
+  },
+  {
+    "id": "w1687",
+    "en": "conference",
+    "ua": "конференція",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1687
+  },
+  {
+    "id": "w1688",
+    "en": "course",
+    "ua": "курс",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1688
+  },
+  {
+    "id": "w1689",
+    "en": "award",
+    "ua": "нагорода",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1689
+  },
+  {
+    "id": "w1690",
+    "en": "prize",
+    "ua": "приз",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1690
+  },
+  {
+    "id": "w1691",
+    "en": "admission",
+    "ua": "вступ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1691
+  },
+  {
+    "id": "w1692",
+    "en": "graduation",
+    "ua": "випуск",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1692
+  },
+  {
+    "id": "w1693",
+    "en": "quiz",
+    "ua": "вікторина",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1693
+  },
+  {
+    "id": "w1694",
+    "en": "essay",
+    "ua": "есе",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1694
+  },
+  {
+    "id": "w1695",
+    "en": "corridor",
+    "ua": "коридор",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1695
+  },
+  {
+    "id": "w1696",
+    "en": "canteen",
+    "ua": "їдальня",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 1696
+  },
+  {
+    "id": "w1697",
+    "en": "term",
+    "ua": "семестр",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1697
+  },
+  {
+    "id": "w1698",
+    "en": "timetable",
+    "ua": "розклад занять",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1698
+  },
+  {
+    "id": "w1699",
+    "en": "geography",
+    "ua": "географія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1699
+  },
+  {
+    "id": "w1700",
+    "en": "chemistry",
+    "ua": "хімія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1700
+  },
+  {
+    "id": "w1701",
+    "en": "physics",
+    "ua": "фізика",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1701
+  },
+  {
+    "id": "w1702",
+    "en": "biology",
+    "ua": "біологія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1702
+  },
+  {
+    "id": "w1703",
+    "en": "mathematics",
+    "ua": "математика",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1703
+  },
+  {
+    "id": "w1704",
+    "en": "literature",
+    "ua": "литература",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1704
+  },
+  {
+    "id": "w1705",
+    "en": "grammar",
+    "ua": "граматика",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1705
+  },
+  {
+    "id": "w1706",
+    "en": "vocabulary",
+    "ua": "словниковий запас",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1706
+  },
+  {
+    "id": "w1707",
+    "en": "reasonable",
+    "ua": "розумний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1707
+  },
+  {
+    "id": "w1708",
+    "en": "effective",
+    "ua": "дієвий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1708
+  },
+  {
+    "id": "w1709",
+    "en": "professional",
+    "ua": "професійний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1709
+  },
+  {
+    "id": "w1710",
+    "en": "experienced",
+    "ua": "досвідчений",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1710
+  },
+  {
+    "id": "w1711",
+    "en": "qualified",
+    "ua": "кваліфікований",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1711
+  },
+  {
+    "id": "w1712",
+    "en": "motivated",
+    "ua": "мотивований",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1712
+  },
+  {
+    "id": "w1713",
+    "en": "talented",
+    "ua": "талановитий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1713
+  },
+  {
+    "id": "w1714",
+    "en": "intelligent",
+    "ua": "інтелектуальний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1714
+  },
+  {
+    "id": "w1715",
+    "en": "ambitious",
+    "ua": "амбіційний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1715
+  },
+  {
+    "id": "w1716",
+    "en": "determined",
+    "ua": "рішучий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1716
+  },
+  {
+    "id": "w1717",
+    "en": "loyal",
+    "ua": "відданий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1717
+  },
+  {
+    "id": "w1718",
+    "en": "cheerful",
+    "ua": "радісний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "emotions",
+    "freqRank": 1718
+  },
+  {
+    "id": "w1719",
+    "en": "stressed",
+    "ua": "у стресі",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "emotions",
+    "freqRank": 1719
+  },
+  {
+    "id": "w1720",
+    "en": "depressed",
+    "ua": "пригнічений",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "emotions",
+    "freqRank": 1720
+  },
+  {
+    "id": "w1721",
+    "en": "embarrassed",
+    "ua": "збентежений",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "emotions",
+    "freqRank": 1721
+  },
+  {
+    "id": "w1722",
+    "en": "available",
+    "ua": "доступний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1722
+  },
+  {
+    "id": "w1723",
+    "en": "popular",
+    "ua": "популярний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1723
+  },
+  {
+    "id": "w1724",
+    "en": "harmful",
+    "ua": "шкідливий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 1724
+  },
+  {
+    "id": "w1725",
+    "en": "natural",
+    "ua": "природний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 1725
+  },
+  {
+    "id": "w1726",
+    "en": "organic",
+    "ua": "органічний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 1726
+  },
+  {
+    "id": "w1727",
+    "en": "affordable",
+    "ua": "доступний за ціною",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "shopping",
+    "freqRank": 1727
+  },
+  {
+    "id": "w1728",
+    "en": "urgent",
+    "ua": "терміновий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1728
+  },
+  {
+    "id": "w1729",
+    "en": "formal",
+    "ua": "офіційний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1729
+  },
+  {
+    "id": "w1730",
+    "en": "informal",
+    "ua": "неофіційний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1730
+  },
+  {
+    "id": "w1731",
+    "en": "surprising",
+    "ua": "дивовижний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1731
+  },
+  {
+    "id": "w1732",
+    "en": "optional",
+    "ua": "необов'язковий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1732
+  },
+  {
+    "id": "w1733",
+    "en": "permanent",
+    "ua": "постійний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1733
+  },
+  {
+    "id": "w1734",
+    "en": "daily",
+    "ua": "щоденний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "time",
+    "freqRank": 1734
+  },
+  {
+    "id": "w1735",
+    "en": "weekly",
+    "ua": "щотижневий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "time",
+    "freqRank": 1735
+  },
+  {
+    "id": "w1736",
+    "en": "monthly",
+    "ua": "щомісячний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "time",
+    "freqRank": 1736
+  },
+  {
+    "id": "w1737",
+    "en": "annual",
+    "ua": "щорічний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "time",
+    "freqRank": 1737
+  },
+  {
+    "id": "w1738",
+    "en": "average",
+    "ua": "середній",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1738
+  },
+  {
+    "id": "w1739",
+    "en": "typical",
+    "ua": "типовий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1739
+  },
+  {
+    "id": "w1740",
+    "en": "unusual",
+    "ua": "незвичний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1740
+  },
+  {
+    "id": "w1741",
+    "en": "identical",
+    "ua": "ідентичний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1741
+  },
+  {
+    "id": "w1742",
+    "en": "opposite",
+    "ua": "протилежний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1742
+  },
+  {
+    "id": "w1743",
+    "en": "financial",
+    "ua": "фінансовий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "money",
+    "freqRank": 1743
+  },
+  {
+    "id": "w1744",
+    "en": "economic",
+    "ua": "економічний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1744
+  },
+  {
+    "id": "w1745",
+    "en": "political",
+    "ua": "політичний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1745
+  },
+  {
+    "id": "w1746",
+    "en": "social",
+    "ua": "соціальний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1746
+  },
+  {
+    "id": "w1747",
+    "en": "cultural",
+    "ua": "культурний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1747
+  },
+  {
+    "id": "w1748",
+    "en": "educational",
+    "ua": "освітній",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1748
+  },
+  {
+    "id": "w1749",
+    "en": "physical",
+    "ua": "фізичний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 1749
+  },
+  {
+    "id": "w1750",
+    "en": "mental",
+    "ua": "психічний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 1750
+  },
+  {
+    "id": "w1751",
+    "en": "emotional",
+    "ua": "емоційний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "emotions",
+    "freqRank": 1751
+  },
+  {
+    "id": "w1752",
+    "en": "digital",
+    "ua": "цифровий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1752
+  },
+  {
+    "id": "w1753",
+    "en": "technical",
+    "ua": "технічний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1753
+  },
+  {
+    "id": "w1754",
+    "en": "automatic",
+    "ua": "автоматичний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 1754
+  },
+  {
+    "id": "w1755",
+    "en": "manual",
+    "ua": "ручний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 1755
+  },
+  {
+    "id": "w1756",
+    "en": "theoretical",
+    "ua": "теоретичний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 1756
+  },
+  {
+    "id": "w1757",
+    "en": "positive",
+    "ua": "позитивний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1757
+  },
+  {
+    "id": "w1758",
+    "en": "negative",
+    "ua": "негативний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1758
+  },
+  {
+    "id": "w1759",
+    "en": "neutral",
+    "ua": "нейтральний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1759
+  },
+  {
+    "id": "w1760",
+    "en": "fair",
+    "ua": "справедливий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1760
+  },
+  {
+    "id": "w1761",
+    "en": "unfair",
+    "ua": "несправедливий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1761
+  },
+  {
+    "id": "w1762",
+    "en": "legal",
+    "ua": "законний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1762
+  },
+  {
+    "id": "w1763",
+    "en": "illegal",
+    "ua": "незаконний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1763
+  },
+  {
+    "id": "w1764",
+    "en": "safe",
+    "ua": "безпечний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1764
+  },
+  {
+    "id": "w1765",
+    "en": "dangerous",
+    "ua": "небезпечний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1765
+  },
+  {
+    "id": "w1766",
+    "en": "competitive",
+    "ua": "конкурентний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "business",
+    "freqRank": 1766
+  },
+  {
+    "id": "w1767",
+    "en": "environmental",
+    "ua": "екологічний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 1767
+  },
+  {
+    "id": "w1768",
+    "en": "critical",
+    "ua": "критичний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1768
+  },
+  {
+    "id": "w1769",
+    "en": "logical",
+    "ua": "логічний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1769
+  },
+  {
+    "id": "w1770",
+    "en": "gradually",
+    "ua": "поступово",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1770
+  },
+  {
+    "id": "w1771",
+    "en": "constantly",
+    "ua": "постійно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1771
+  },
+  {
+    "id": "w1772",
+    "en": "frequently",
+    "ua": "часто",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "time",
+    "freqRank": 1772
+  },
+  {
+    "id": "w1773",
+    "en": "briefly",
+    "ua": "коротко",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1773
+  },
+  {
+    "id": "w1774",
+    "en": "exactly",
+    "ua": "саме",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1774
+  },
+  {
+    "id": "w1775",
+    "en": "directly",
+    "ua": "безпосередньо",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1775
+  },
+  {
+    "id": "w1776",
+    "en": "properly",
+    "ua": "правильно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1776
+  },
+  {
+    "id": "w1777",
+    "en": "clearly",
+    "ua": "чітко",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1777
+  },
+  {
+    "id": "w1778",
+    "en": "officially",
+    "ua": "офіційно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1778
+  },
+  {
+    "id": "w1779",
+    "en": "initially",
+    "ua": "спочатку",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "time",
+    "freqRank": 1779
+  },
+  {
+    "id": "w1780",
+    "en": "otherwise",
+    "ua": "інакше",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1780
+  },
+  {
+    "id": "w1781",
+    "en": "surprisingly",
+    "ua": "дивовижно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1781
+  },
+  {
+    "id": "w1782",
+    "en": "normally",
+    "ua": "зазвичай",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1782
+  },
+  {
+    "id": "w1783",
+    "en": "especially",
+    "ua": "особливо",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1783
+  },
+  {
+    "id": "w1784",
+    "en": "literally",
+    "ua": "буквально",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1784
+  },
+  {
+    "id": "w1785",
+    "en": "roughly",
+    "ua": "приблизно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1785
+  },
+  {
+    "id": "w1786",
+    "en": "approximately",
+    "ua": "приблизно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1786
+  },
+  {
+    "id": "w1787",
+    "en": "significantly",
+    "ua": "значно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1787
+  },
+  {
+    "id": "w1788",
+    "en": "entirely",
+    "ua": "повністю",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1788
+  },
+  {
+    "id": "w1789",
+    "en": "equally",
+    "ua": "рівномірно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 1789
+  },
+  {
+    "id": "w1790",
+    "en": "execute",
+    "ua": "виконувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1790
+  },
+  {
+    "id": "w1791",
+    "en": "utilise",
+    "ua": "використовувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1791
+  },
+  {
+    "id": "w1792",
+    "en": "optimise",
+    "ua": "оптимізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1792
+  },
+  {
+    "id": "w1793",
+    "en": "oversee",
+    "ua": "наглядати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1793
+  },
+  {
+    "id": "w1794",
+    "en": "forecast",
+    "ua": "прогнозувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1794
+  },
+  {
+    "id": "w1795",
+    "en": "accelerate",
+    "ua": "прискорювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1795
+  },
+  {
+    "id": "w1796",
+    "en": "contradict",
+    "ua": "суперечити",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "communication",
+    "freqRank": 1796
+  },
+  {
+    "id": "w1797",
+    "en": "regulate",
+    "ua": "регулювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1797
+  },
+  {
+    "id": "w1798",
+    "en": "prohibit",
+    "ua": "забороняти",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1798
+  },
+  {
+    "id": "w1799",
+    "en": "quantify",
+    "ua": "кількісно вимірювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1799
+  },
+  {
+    "id": "w1800",
+    "en": "validate",
+    "ua": "підтверджувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1800
+  },
+  {
+    "id": "w1801",
+    "en": "address",
+    "ua": "розглядати (проблему)",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1801
+  },
+  {
+    "id": "w1802",
+    "en": "outsource",
+    "ua": "аутсорсити",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1802
+  },
+  {
+    "id": "w1803",
+    "en": "monetize",
+    "ua": "монетизувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1803
+  },
+  {
+    "id": "w1804",
+    "en": "scale",
+    "ua": "масштабувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1804
+  },
+  {
+    "id": "w1805",
+    "en": "pivot",
+    "ua": "змінювати напрямок",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1805
+  },
+  {
+    "id": "w1806",
+    "en": "rebrand",
+    "ua": "ребрендувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1806
+  },
+  {
+    "id": "w1807",
+    "en": "incentivize",
+    "ua": "стимулювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1807
+  },
+  {
+    "id": "w1808",
+    "en": "empower",
+    "ua": "надавати повноваження",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1808
+  },
+  {
+    "id": "w1809",
+    "en": "portray",
+    "ua": "описувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 1809
+  },
+  {
+    "id": "w1810",
+    "en": "symbolise",
+    "ua": "символізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 1810
+  },
+  {
+    "id": "w1811",
+    "en": "characterise",
+    "ua": "характеризувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1811
+  },
+  {
+    "id": "w1812",
+    "en": "supplement",
+    "ua": "доповнювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1812
+  },
+  {
+    "id": "w1813",
+    "en": "compensate",
+    "ua": "компенсувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1813
+  },
+  {
+    "id": "w1814",
+    "en": "arbitrate",
+    "ua": "виступати арбітром",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1814
+  },
+  {
+    "id": "w1815",
+    "en": "restructure",
+    "ua": "реструктуризувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1815
+  },
+  {
+    "id": "w1816",
+    "en": "benchmark",
+    "ua": "зіставляти з еталоном",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1816
+  },
+  {
+    "id": "w1817",
+    "en": "infer",
+    "ua": "робити висновок",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1817
+  },
+  {
+    "id": "w1818",
+    "en": "deduce",
+    "ua": "виводити логічно",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1818
+  },
+  {
+    "id": "w1819",
+    "en": "formulate",
+    "ua": "формулювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1819
+  },
+  {
+    "id": "w1820",
+    "en": "propose",
+    "ua": "пропонувати (план)",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1820
+  },
+  {
+    "id": "w1821",
+    "en": "conceptualise",
+    "ua": "концептуалізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1821
+  },
+  {
+    "id": "w1822",
+    "en": "operationalise",
+    "ua": "операціоналізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1822
+  },
+  {
+    "id": "w1823",
+    "en": "contextualise",
+    "ua": "контекстуалізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1823
+  },
+  {
+    "id": "w1824",
+    "en": "synthesise",
+    "ua": "синтезувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1824
+  },
+  {
+    "id": "w1825",
+    "en": "critique",
+    "ua": "критикувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 1825
+  },
+  {
+    "id": "w1826",
+    "en": "articulate",
+    "ua": "чітко висловлювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "communication",
+    "freqRank": 1826
+  },
+  {
+    "id": "w1827",
+    "en": "convey",
+    "ua": "передавати (ідею)",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "communication",
+    "freqRank": 1827
+  },
+  {
+    "id": "w1828",
+    "en": "coerce",
+    "ua": "примушувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1828
+  },
+  {
+    "id": "w1829",
+    "en": "intimidate",
+    "ua": "залякувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1829
+  },
+  {
+    "id": "w1830",
+    "en": "denounce",
+    "ua": "засуджувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1830
+  },
+  {
+    "id": "w1831",
+    "en": "condemn",
+    "ua": "засуджувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1831
+  },
+  {
+    "id": "w1832",
+    "en": "subsidize",
+    "ua": "субсидувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 1832
+  },
+  {
+    "id": "w1833",
+    "en": "depreciate",
+    "ua": "знецінюватися",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 1833
+  },
+  {
+    "id": "w1834",
+    "en": "franchise",
+    "ua": "продавати франшизу",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1834
+  },
+  {
+    "id": "w1835",
+    "en": "tender",
+    "ua": "подавати тендер",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1835
+  },
+  {
+    "id": "w1836",
+    "en": "audit",
+    "ua": "проводити аудит",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1836
+  },
+  {
+    "id": "w1837",
+    "en": "deregulate",
+    "ua": "дерегулювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1837
+  },
+  {
+    "id": "w1838",
+    "en": "liberalize",
+    "ua": "лібералізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1838
+  },
+  {
+    "id": "w1839",
+    "en": "decentralize",
+    "ua": "децентралізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1839
+  },
+  {
+    "id": "w1840",
+    "en": "democratize",
+    "ua": "демократизувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1840
+  },
+  {
+    "id": "w1841",
+    "en": "modernize",
+    "ua": "модернізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1841
+  },
+  {
+    "id": "w1842",
+    "en": "urbanize",
+    "ua": "урбанізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1842
+  },
+  {
+    "id": "w1843",
+    "en": "colonize",
+    "ua": "колонізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1843
+  },
+  {
+    "id": "w1844",
+    "en": "annexe",
+    "ua": "анексувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1844
+  },
+  {
+    "id": "w1845",
+    "en": "embargo",
+    "ua": "запроваджувати ембарго",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1845
+  },
+  {
+    "id": "w1846",
+    "en": "element",
+    "ua": "елемент",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1846
+  },
+  {
+    "id": "w1847",
+    "en": "structure",
+    "ua": "структура",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1847
+  },
+  {
+    "id": "w1848",
+    "en": "process",
+    "ua": "процес",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1848
+  },
+  {
+    "id": "w1849",
+    "en": "procedure",
+    "ua": "процедура",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1849
+  },
+  {
+    "id": "w1850",
+    "en": "impact",
+    "ua": "вплив",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1850
+  },
+  {
+    "id": "w1851",
+    "en": "effect",
+    "ua": "ефект",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1851
+  },
+  {
+    "id": "w1852",
+    "en": "objective",
+    "ua": "мета",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1852
+  },
+  {
+    "id": "w1853",
+    "en": "priority",
+    "ua": "пріоритет",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1853
+  },
+  {
+    "id": "w1854",
+    "en": "contribution",
+    "ua": "внесок",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1854
+  },
+  {
+    "id": "w1855",
+    "en": "obstacle",
+    "ua": "перешкода",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1855
+  },
+  {
+    "id": "w1856",
+    "en": "barrier",
+    "ua": "бар'єр",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1856
+  },
+  {
+    "id": "w1857",
+    "en": "threat",
+    "ua": "загроза",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1857
+  },
+  {
+    "id": "w1858",
+    "en": "conflict",
+    "ua": "конфлікт",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1858
+  },
+  {
+    "id": "w1859",
+    "en": "crisis",
+    "ua": "криза",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1859
+  },
+  {
+    "id": "w1860",
+    "en": "expenditure",
+    "ua": "витрати",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 1860
+  },
+  {
+    "id": "w1861",
+    "en": "funding",
+    "ua": "фінансування",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 1861
+  },
+  {
+    "id": "w1862",
+    "en": "grant",
+    "ua": "грант",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 1862
+  },
+  {
+    "id": "w1863",
+    "en": "executive",
+    "ua": "керівник",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1863
+  },
+  {
+    "id": "w1864",
+    "en": "consultant",
+    "ua": "консультант",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1864
+  },
+  {
+    "id": "w1865",
+    "en": "analyst",
+    "ua": "аналітик",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1865
+  },
+  {
+    "id": "w1866",
+    "en": "expert",
+    "ua": "експерт",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1866
+  },
+  {
+    "id": "w1867",
+    "en": "specialist",
+    "ua": "фахівець",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1867
+  },
+  {
+    "id": "w1868",
+    "en": "corporation",
+    "ua": "корпорація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1868
+  },
+  {
+    "id": "w1869",
+    "en": "headquarters",
+    "ua": "штаб-квартира",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1869
+  },
+  {
+    "id": "w1870",
+    "en": "reform",
+    "ua": "реформа",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1870
+  },
+  {
+    "id": "w1871",
+    "en": "welfare",
+    "ua": "добробут",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1871
+  },
+  {
+    "id": "w1872",
+    "en": "consciousness",
+    "ua": "свідомість",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1872
+  },
+  {
+    "id": "w1873",
+    "en": "ideology",
+    "ua": "ідеологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1873
+  },
+  {
+    "id": "w1874",
+    "en": "institution",
+    "ua": "інститут",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1874
+  },
+  {
+    "id": "w1875",
+    "en": "administration",
+    "ua": "адміністрація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1875
+  },
+  {
+    "id": "w1876",
+    "en": "diplomat",
+    "ua": "дипломат",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1876
+  },
+  {
+    "id": "w1877",
+    "en": "immunity",
+    "ua": "імунітет",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1877
+  },
+  {
+    "id": "w1878",
+    "en": "metabolism",
+    "ua": "метаболізм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1878
+  },
+  {
+    "id": "w1879",
+    "en": "obesity",
+    "ua": "ожиріння",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1879
+  },
+  {
+    "id": "w1880",
+    "en": "rehabilitation",
+    "ua": "реабілітація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1880
+  },
+  {
+    "id": "w1881",
+    "en": "counselling",
+    "ua": "консультування",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1881
+  },
+  {
+    "id": "w1882",
+    "en": "hormone",
+    "ua": "гормон",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1882
+  },
+  {
+    "id": "w1883",
+    "en": "gene",
+    "ua": "ген",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1883
+  },
+  {
+    "id": "w1884",
+    "en": "cell",
+    "ua": "клітина",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1884
+  },
+  {
+    "id": "w1885",
+    "en": "tissue",
+    "ua": "тканина",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1885
+  },
+  {
+    "id": "w1886",
+    "en": "organ",
+    "ua": "орган",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1886
+  },
+  {
+    "id": "w1887",
+    "en": "machine learning",
+    "ua": "машинне навчання",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology",
+    "freqRank": 1887
+  },
+  {
+    "id": "w1888",
+    "en": "prototype",
+    "ua": "прототип",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology",
+    "freqRank": 1888
+  },
+  {
+    "id": "w1889",
+    "en": "deployment",
+    "ua": "розгортання",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology",
+    "freqRank": 1889
+  },
+  {
+    "id": "w1890",
+    "en": "psychology",
+    "ua": "психологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1890
+  },
+  {
+    "id": "w1891",
+    "en": "sociology",
+    "ua": "соціологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1891
+  },
+  {
+    "id": "w1892",
+    "en": "economics",
+    "ua": "економіка",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1892
+  },
+  {
+    "id": "w1893",
+    "en": "linguistics",
+    "ua": "лінгвістика",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1893
+  },
+  {
+    "id": "w1894",
+    "en": "philosophy",
+    "ua": "філософія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1894
+  },
+  {
+    "id": "w1895",
+    "en": "ethics",
+    "ua": "етика",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1895
+  },
+  {
+    "id": "w1896",
+    "en": "methodology",
+    "ua": "методологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1896
+  },
+  {
+    "id": "w1897",
+    "en": "analysis",
+    "ua": "аналіз",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1897
+  },
+  {
+    "id": "w1898",
+    "en": "synthesis",
+    "ua": "синтез",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1898
+  },
+  {
+    "id": "w1899",
+    "en": "sample",
+    "ua": "вибірка",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1899
+  },
+  {
+    "id": "w1900",
+    "en": "statistic",
+    "ua": "статистика",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1900
+  },
+  {
+    "id": "w1901",
+    "en": "questionnaire",
+    "ua": "анкета",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1901
+  },
+  {
+    "id": "w1902",
+    "en": "bibliography",
+    "ua": "бібліографія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1902
+  },
+  {
+    "id": "w1903",
+    "en": "citation",
+    "ua": "цитата",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1903
+  },
+  {
+    "id": "w1904",
+    "en": "abstract",
+    "ua": "анотація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1904
+  },
+  {
+    "id": "w1905",
+    "en": "aesthetic",
+    "ua": "естетика",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 1905
+  },
+  {
+    "id": "w1906",
+    "en": "symbolism",
+    "ua": "символізм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 1906
+  },
+  {
+    "id": "w1907",
+    "en": "narrative",
+    "ua": "розповідь",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 1907
+  },
+  {
+    "id": "w1908",
+    "en": "genre",
+    "ua": "жанр",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 1908
+  },
+  {
+    "id": "w1909",
+    "en": "composition",
+    "ua": "композиція",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 1909
+  },
+  {
+    "id": "w1910",
+    "en": "installation",
+    "ua": "інсталяція",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 1910
+  },
+  {
+    "id": "w1911",
+    "en": "tolerance",
+    "ua": "толерантність",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1911
+  },
+  {
+    "id": "w1912",
+    "en": "privilege",
+    "ua": "привілей",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1912
+  },
+  {
+    "id": "w1913",
+    "en": "globalization",
+    "ua": "глобалізація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1913
+  },
+  {
+    "id": "w1914",
+    "en": "mentorship",
+    "ua": "наставництво",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1914
+  },
+  {
+    "id": "w1915",
+    "en": "redundancy",
+    "ua": "скорочення штату",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1915
+  },
+  {
+    "id": "w1916",
+    "en": "momentum",
+    "ua": "імпульс",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1916
+  },
+  {
+    "id": "w1917",
+    "en": "paradigm",
+    "ua": "парадигма",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1917
+  },
+  {
+    "id": "w1918",
+    "en": "folklore",
+    "ua": "фольклор",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1918
+  },
+  {
+    "id": "w1919",
+    "en": "mythology",
+    "ua": "міфологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1919
+  },
+  {
+    "id": "w1920",
+    "en": "metaphor",
+    "ua": "метафора",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1920
+  },
+  {
+    "id": "w1921",
+    "en": "irony",
+    "ua": "іронія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1921
+  },
+  {
+    "id": "w1922",
+    "en": "ambiguity",
+    "ua": "двозначність",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1922
+  },
+  {
+    "id": "w1923",
+    "en": "consensus",
+    "ua": "консенсус",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1923
+  },
+  {
+    "id": "w1924",
+    "en": "rhetoric",
+    "ua": "риторика",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1924
+  },
+  {
+    "id": "w1925",
+    "en": "urbanization",
+    "ua": "урбанізація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1925
+  },
+  {
+    "id": "w1926",
+    "en": "marginalization",
+    "ua": "маргіналізація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1926
+  },
+  {
+    "id": "w1927",
+    "en": "oligopoly",
+    "ua": "олігополія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1927
+  },
+  {
+    "id": "w1928",
+    "en": "cartel",
+    "ua": "картель",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1928
+  },
+  {
+    "id": "w1929",
+    "en": "conglomerate",
+    "ua": "конгломерат",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1929
+  },
+  {
+    "id": "w1930",
+    "en": "trademark",
+    "ua": "торговельна марка",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1930
+  },
+  {
+    "id": "w1931",
+    "en": "patent",
+    "ua": "патент",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1931
+  },
+  {
+    "id": "w1932",
+    "en": "copyright",
+    "ua": "авторське право",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1932
+  },
+  {
+    "id": "w1933",
+    "en": "subsidy",
+    "ua": "субсидія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 1933
+  },
+  {
+    "id": "w1934",
+    "en": "austerity",
+    "ua": "жорстка економія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 1934
+  },
+  {
+    "id": "w1935",
+    "en": "devaluation",
+    "ua": "девальвація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 1935
+  },
+  {
+    "id": "w1936",
+    "en": "cryptocurrency",
+    "ua": "криптовалюта",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology",
+    "freqRank": 1936
+  },
+  {
+    "id": "w1937",
+    "en": "blockchain",
+    "ua": "блокчейн",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology",
+    "freqRank": 1937
+  },
+  {
+    "id": "w1938",
+    "en": "mandate",
+    "ua": "мандат",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1938
+  },
+  {
+    "id": "w1939",
+    "en": "coalition",
+    "ua": "коаліція",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1939
+  },
+  {
+    "id": "w1940",
+    "en": "opposition",
+    "ua": "опозиція",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1940
+  },
+  {
+    "id": "w1941",
+    "en": "lobbyist",
+    "ua": "лобіст",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1941
+  },
+  {
+    "id": "w1942",
+    "en": "bureaucrat",
+    "ua": "бюрократ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1942
+  },
+  {
+    "id": "w1943",
+    "en": "treaty",
+    "ua": "договір",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1943
+  },
+  {
+    "id": "w1944",
+    "en": "alliance",
+    "ua": "альянс",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1944
+  },
+  {
+    "id": "w1945",
+    "en": "deterrence",
+    "ua": "стримування",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1945
+  },
+  {
+    "id": "w1946",
+    "en": "geopolitics",
+    "ua": "геополітика",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1946
+  },
+  {
+    "id": "w1947",
+    "en": "archipelago",
+    "ua": "архіпелаг",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature",
+    "freqRank": 1947
+  },
+  {
+    "id": "w1948",
+    "en": "peninsula",
+    "ua": "півострів",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature",
+    "freqRank": 1948
+  },
+  {
+    "id": "w1949",
+    "en": "plateau",
+    "ua": "плато",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature",
+    "freqRank": 1949
+  },
+  {
+    "id": "w1950",
+    "en": "glacier",
+    "ua": "льодовик",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature",
+    "freqRank": 1950
+  },
+  {
+    "id": "w1951",
+    "en": "tropics",
+    "ua": "тропіки",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature",
+    "freqRank": 1951
+  },
+  {
+    "id": "w1952",
+    "en": "hemisphere",
+    "ua": "півкуля",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature",
+    "freqRank": 1952
+  },
+  {
+    "id": "w1953",
+    "en": "latitude",
+    "ua": "широта",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature",
+    "freqRank": 1953
+  },
+  {
+    "id": "w1954",
+    "en": "longitude",
+    "ua": "довгота",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature",
+    "freqRank": 1954
+  },
+  {
+    "id": "w1955",
+    "en": "altitude",
+    "ua": "висота",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature",
+    "freqRank": 1955
+  },
+  {
+    "id": "w1956",
+    "en": "topography",
+    "ua": "топографія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature",
+    "freqRank": 1956
+  },
+  {
+    "id": "w1957",
+    "en": "magnetism",
+    "ua": "магнетизм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1957
+  },
+  {
+    "id": "w1958",
+    "en": "thermodynamics",
+    "ua": "термодинаміка",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1958
+  },
+  {
+    "id": "w1959",
+    "en": "quantum",
+    "ua": "квант",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1959
+  },
+  {
+    "id": "w1960",
+    "en": "neuroscience",
+    "ua": "нейронаука",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1960
+  },
+  {
+    "id": "w1961",
+    "en": "subconscious",
+    "ua": "підсвідомість",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1961
+  },
+  {
+    "id": "w1962",
+    "en": "psyche",
+    "ua": "психіка",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1962
+  },
+  {
+    "id": "w1963",
+    "en": "anxiety disorder",
+    "ua": "тривожний розлад",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1963
+  },
+  {
+    "id": "w1964",
+    "en": "schizophrenia",
+    "ua": "шизофренія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1964
+  },
+  {
+    "id": "w1965",
+    "en": "dementia",
+    "ua": "деменція",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1965
+  },
+  {
+    "id": "w1966",
+    "en": "prognosis",
+    "ua": "прогноз (медичний)",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1966
+  },
+  {
+    "id": "w1967",
+    "en": "pathology",
+    "ua": "патологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1967
+  },
+  {
+    "id": "w1968",
+    "en": "anatomy",
+    "ua": "анатомія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1968
+  },
+  {
+    "id": "w1969",
+    "en": "physiology",
+    "ua": "фізіологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1969
+  },
+  {
+    "id": "w1970",
+    "en": "embryo",
+    "ua": "ембріон",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1970
+  },
+  {
+    "id": "w1971",
+    "en": "chromosome",
+    "ua": "хромосома",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 1971
+  },
+  {
+    "id": "w1972",
+    "en": "considerable",
+    "ua": "суттєвий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1972
+  },
+  {
+    "id": "w1973",
+    "en": "inherent",
+    "ua": "притаманний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1973
+  },
+  {
+    "id": "w1974",
+    "en": "straightforward",
+    "ua": "зрозумілий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1974
+  },
+  {
+    "id": "w1975",
+    "en": "strategic",
+    "ua": "стратегічний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 1975
+  },
+  {
+    "id": "w1976",
+    "en": "sustainable",
+    "ua": "стійкий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "nature",
+    "freqRank": 1976
+  },
+  {
+    "id": "w1977",
+    "en": "renewable",
+    "ua": "відновлюваний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "nature",
+    "freqRank": 1977
+  },
+  {
+    "id": "w1978",
+    "en": "toxic",
+    "ua": "токсичний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "nature",
+    "freqRank": 1978
+  },
+  {
+    "id": "w1979",
+    "en": "proactive",
+    "ua": "проактивний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1979
+  },
+  {
+    "id": "w1980",
+    "en": "subjective",
+    "ua": "суб'єктивний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1980
+  },
+  {
+    "id": "w1981",
+    "en": "concrete",
+    "ua": "конкретний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1981
+  },
+  {
+    "id": "w1982",
+    "en": "empirical",
+    "ua": "емпіричний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1982
+  },
+  {
+    "id": "w1983",
+    "en": "quantitative",
+    "ua": "кількісний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1983
+  },
+  {
+    "id": "w1984",
+    "en": "qualitative",
+    "ua": "якісний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1984
+  },
+  {
+    "id": "w1985",
+    "en": "diverse",
+    "ua": "різноманітний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1985
+  },
+  {
+    "id": "w1986",
+    "en": "inclusive",
+    "ua": "інклюзивний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1986
+  },
+  {
+    "id": "w1987",
+    "en": "accountable",
+    "ua": "підзвітний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 1987
+  },
+  {
+    "id": "w1988",
+    "en": "ethical",
+    "ua": "етичний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1988
+  },
+  {
+    "id": "w1989",
+    "en": "biased",
+    "ua": "упереджений",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1989
+  },
+  {
+    "id": "w1990",
+    "en": "rigorous",
+    "ua": "ретельний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 1990
+  },
+  {
+    "id": "w1991",
+    "en": "insufficient",
+    "ua": "недостатній",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1991
+  },
+  {
+    "id": "w1992",
+    "en": "adequate",
+    "ua": "відповідний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1992
+  },
+  {
+    "id": "w1993",
+    "en": "cutting-edge",
+    "ua": "передовий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "technology",
+    "freqRank": 1993
+  },
+  {
+    "id": "w1994",
+    "en": "groundbreaking",
+    "ua": "новаторський",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1994
+  },
+  {
+    "id": "w1995",
+    "en": "mutual",
+    "ua": "взаємний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1995
+  },
+  {
+    "id": "w1996",
+    "en": "concurrent",
+    "ua": "одночасний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1996
+  },
+  {
+    "id": "w1997",
+    "en": "subsequent",
+    "ua": "наступний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1997
+  },
+  {
+    "id": "w1998",
+    "en": "preliminary",
+    "ua": "попередній",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1998
+  },
+  {
+    "id": "w1999",
+    "en": "integral",
+    "ua": "невід'ємний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 1999
+  },
+  {
+    "id": "w2000",
+    "en": "marginal",
+    "ua": "незначний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2000
+  },
+  {
+    "id": "w2001",
+    "en": "infectious",
+    "ua": "інфекційний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 2001
+  },
+  {
+    "id": "w2002",
+    "en": "cognitive",
+    "ua": "когнітивний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 2002
+  },
+  {
+    "id": "w2003",
+    "en": "genetic",
+    "ua": "генетичний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 2003
+  },
+  {
+    "id": "w2004",
+    "en": "innate",
+    "ua": "вроджений",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2004
+  },
+  {
+    "id": "w2005",
+    "en": "acquired",
+    "ua": "набутий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2005
+  },
+  {
+    "id": "w2006",
+    "en": "disposable",
+    "ua": "одноразовий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2006
+  },
+  {
+    "id": "w2007",
+    "en": "degradable",
+    "ua": "такий, що розкладається",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "nature",
+    "freqRank": 2007
+  },
+  {
+    "id": "w2008",
+    "en": "hazardous",
+    "ua": "небезпечний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2008
+  },
+  {
+    "id": "w2009",
+    "en": "opaque",
+    "ua": "непрозорий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2009
+  },
+  {
+    "id": "w2010",
+    "en": "provisional",
+    "ua": "тимчасовий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2010
+  },
+  {
+    "id": "w2011",
+    "en": "definitive",
+    "ua": "остаточний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2011
+  },
+  {
+    "id": "w2012",
+    "en": "autonomous",
+    "ua": "автономний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2012
+  },
+  {
+    "id": "w2013",
+    "en": "bilateral",
+    "ua": "двосторонній",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2013
+  },
+  {
+    "id": "w2014",
+    "en": "multilateral",
+    "ua": "багатосторонній",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2014
+  },
+  {
+    "id": "w2015",
+    "en": "imminent",
+    "ua": "неминучий (близький)",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2015
+  },
+  {
+    "id": "w2016",
+    "en": "redundant",
+    "ua": "зайвий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 2016
+  },
+  {
+    "id": "w2017",
+    "en": "contingent",
+    "ua": "залежний від умов",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2017
+  },
+  {
+    "id": "w2018",
+    "en": "cumulative",
+    "ua": "кумулятивний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2018
+  },
+  {
+    "id": "w2019",
+    "en": "aggregate",
+    "ua": "сукупний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2019
+  },
+  {
+    "id": "w2020",
+    "en": "overarching",
+    "ua": "всеохопний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2020
+  },
+  {
+    "id": "w2021",
+    "en": "underlying",
+    "ua": "основний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2021
+  },
+  {
+    "id": "w2022",
+    "en": "moreover",
+    "ua": "до того ж",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2022
+  },
+  {
+    "id": "w2023",
+    "en": "thus",
+    "ua": "таким чином",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2023
+  },
+  {
+    "id": "w2024",
+    "en": "hence",
+    "ua": "звідси",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2024
+  },
+  {
+    "id": "w2025",
+    "en": "likewise",
+    "ua": "так само",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2025
+  },
+  {
+    "id": "w2026",
+    "en": "conversely",
+    "ua": "навпаки",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2026
+  },
+  {
+    "id": "w2027",
+    "en": "extensively",
+    "ua": "широко",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2027
+  },
+  {
+    "id": "w2028",
+    "en": "substantially",
+    "ua": "суттєво",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2028
+  },
+  {
+    "id": "w2029",
+    "en": "consistently",
+    "ua": "послідовно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2029
+  },
+  {
+    "id": "w2030",
+    "en": "predominantly",
+    "ua": "переважно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2030
+  },
+  {
+    "id": "w2031",
+    "en": "explicitly",
+    "ua": "явно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2031
+  },
+  {
+    "id": "w2032",
+    "en": "inherently",
+    "ua": "по суті",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2032
+  },
+  {
+    "id": "w2033",
+    "en": "technically",
+    "ua": "технічно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2033
+  },
+  {
+    "id": "w2034",
+    "en": "systematically",
+    "ua": "систематично",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2034
+  },
+  {
+    "id": "w2035",
+    "en": "comprehensively",
+    "ua": "всебічно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2035
+  },
+  {
+    "id": "w2036",
+    "en": "retrospectively",
+    "ua": "ретроспективно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2036
+  },
+  {
+    "id": "w2037",
+    "en": "prospectively",
+    "ua": "перспективно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2037
+  },
+  {
+    "id": "w2038",
+    "en": "toy",
+    "ua": "іграшка",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "hobby",
+    "freqRank": 2038
+  },
+  {
+    "id": "w2039",
+    "en": "pet",
+    "ua": "домашній улюбленець",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "animals",
+    "freqRank": 2039
+  },
+  {
+    "id": "w2040",
+    "en": "seed",
+    "ua": "насіння",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "nature",
+    "freqRank": 2040
+  },
+  {
+    "id": "w2041",
+    "en": "root",
+    "ua": "корінь",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "nature",
+    "freqRank": 2041
+  },
+  {
+    "id": "w2042",
+    "en": "branch",
+    "ua": "гілка",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "nature",
+    "freqRank": 2042
+  },
+  {
+    "id": "w2043",
+    "en": "fruit",
+    "ua": "фрукт",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food",
+    "freqRank": 2043
+  },
+  {
+    "id": "w2044",
+    "en": "vegetable",
+    "ua": "овоч",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food",
+    "freqRank": 2044
+  },
+  {
+    "id": "w2045",
+    "en": "pocket money",
+    "ua": "кишенькові гроші",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "money",
+    "freqRank": 2045
+  },
+  {
+    "id": "w2046",
+    "en": "corner",
+    "ua": "кут",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2046
+  },
+  {
+    "id": "w2047",
+    "en": "edge",
+    "ua": "край",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2047
+  },
+  {
+    "id": "w2048",
+    "en": "middle",
+    "ua": "середина",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2048
+  },
+  {
+    "id": "w2049",
+    "en": "side",
+    "ua": "бік",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2049
+  },
+  {
+    "id": "w2050",
+    "en": "weight",
+    "ua": "вага",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2050
+  },
+  {
+    "id": "w2051",
+    "en": "height",
+    "ua": "зріст",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2051
+  },
+  {
+    "id": "w2052",
+    "en": "length",
+    "ua": "довжина",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2052
+  },
+  {
+    "id": "w2053",
+    "en": "speed",
+    "ua": "швидкість",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2053
+  },
+  {
+    "id": "w2054",
+    "en": "direction",
+    "ua": "напрямок",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2054
+  },
+  {
+    "id": "w2055",
+    "en": "distance",
+    "ua": "відстань",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2055
+  },
+  {
+    "id": "w2056",
+    "en": "shadow",
+    "ua": "тінь",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2056
+  },
+  {
+    "id": "w2057",
+    "en": "colour",
+    "ua": "колір",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2057
+  },
+  {
+    "id": "w2058",
+    "en": "spider",
+    "ua": "павук",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "animals",
+    "freqRank": 2058
+  },
+  {
+    "id": "w2059",
+    "en": "ant",
+    "ua": "мураха",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "animals",
+    "freqRank": 2059
+  },
+  {
+    "id": "w2060",
+    "en": "number",
+    "ua": "число",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "numbers",
+    "freqRank": 2060
+  },
+  {
+    "id": "w2061",
+    "en": "stairs",
+    "ua": "сходи",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home",
+    "freqRank": 2061
+  },
+  {
+    "id": "w2062",
+    "en": "put",
+    "ua": "класти",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2062
+  },
+  {
+    "id": "w2063",
+    "en": "get",
+    "ua": "отримувати",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2063
+  },
+  {
+    "id": "w2064",
+    "en": "make",
+    "ua": "робити",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2064
+  },
+  {
+    "id": "w2065",
+    "en": "do",
+    "ua": "виконувати",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2065
+  },
+  {
+    "id": "w2066",
+    "en": "feel",
+    "ua": "відчувати",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "emotions",
+    "freqRank": 2066
+  },
+  {
+    "id": "w2067",
+    "en": "hard",
+    "ua": "важкий",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2067
+  },
+  {
+    "id": "w2068",
+    "en": "soft",
+    "ua": "м'який",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2068
+  },
+  {
+    "id": "w2069",
+    "en": "sweet",
+    "ua": "солодкий",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "food",
+    "freqRank": 2069
+  },
+  {
+    "id": "w2070",
+    "en": "scared",
+    "ua": "наляканий",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "emotions",
+    "freqRank": 2070
+  },
+  {
+    "id": "w2071",
+    "en": "free",
+    "ua": "вільний",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2071
+  },
+  {
+    "id": "w2072",
+    "en": "wrong",
+    "ua": "неправильний",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2072
+  },
+  {
+    "id": "w2073",
+    "en": "true",
+    "ua": "правдивий",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2073
+  },
+  {
+    "id": "w2074",
+    "en": "false",
+    "ua": "хибний",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2074
+  },
+  {
+    "id": "w2075",
+    "en": "important",
+    "ua": "важливий",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2075
+  },
+  {
+    "id": "w2076",
+    "en": "then",
+    "ua": "потім",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "time",
+    "freqRank": 2076
+  },
+  {
+    "id": "w2077",
+    "en": "quite",
+    "ua": "досить",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2077
+  },
+  {
+    "id": "w2078",
+    "en": "seldom",
+    "ua": "рідко",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "time",
+    "freqRank": 2078
+  },
+  {
+    "id": "w2079",
+    "en": "perhaps",
+    "ua": "можливо",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2079
+  },
+  {
+    "id": "w2080",
+    "en": "too",
+    "ua": "занадто",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2080
+  },
+  {
+    "id": "w2081",
+    "en": "so",
+    "ua": "так",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2081
+  },
+  {
+    "id": "w2082",
+    "en": "well",
+    "ua": "добре",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2082
+  },
+  {
+    "id": "w2083",
+    "en": "far",
+    "ua": "далеко",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2083
+  },
+  {
+    "id": "w2084",
+    "en": "near",
+    "ua": "близько",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2084
+  },
+  {
+    "id": "w2085",
+    "en": "everywhere",
+    "ua": "скрізь",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2085
+  },
+  {
+    "id": "w2086",
+    "en": "somewhere",
+    "ua": "десь",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2086
+  },
+  {
+    "id": "w2087",
+    "en": "nowhere",
+    "ua": "ніде",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general",
+    "freqRank": 2087
+  },
+  {
+    "id": "w2088",
+    "en": "yet",
+    "ua": "ще (не)",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "time",
+    "freqRank": 2088
+  },
+  {
+    "id": "w2089",
+    "en": "penalty",
+    "ua": "штраф",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport",
+    "freqRank": 2089
+  },
+  {
+    "id": "w2090",
+    "en": "referee",
+    "ua": "суддя",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport",
+    "freqRank": 2090
+  },
+  {
+    "id": "w2091",
+    "en": "championship",
+    "ua": "чемпіонат",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport",
+    "freqRank": 2091
+  },
+  {
+    "id": "w2092",
+    "en": "tournament",
+    "ua": "турнір",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport",
+    "freqRank": 2092
+  },
+  {
+    "id": "w2093",
+    "en": "coach",
+    "ua": "тренер",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport",
+    "freqRank": 2093
+  },
+  {
+    "id": "w2094",
+    "en": "athlete",
+    "ua": "спортсмен",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport",
+    "freqRank": 2094
+  },
+  {
+    "id": "w2095",
+    "en": "marathon",
+    "ua": "марафон",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport",
+    "freqRank": 2095
+  },
+  {
+    "id": "w2096",
+    "en": "swimmer",
+    "ua": "плавець",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport",
+    "freqRank": 2096
+  },
+  {
+    "id": "w2097",
+    "en": "cyclist",
+    "ua": "велосипедист",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport",
+    "freqRank": 2097
+  },
+  {
+    "id": "w2098",
+    "en": "runner",
+    "ua": "бігун",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport",
+    "freqRank": 2098
+  },
+  {
+    "id": "w2099",
+    "en": "entrepreneurship",
+    "ua": "підприємництво",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 2099
+  },
+  {
+    "id": "w2100",
+    "en": "medium",
+    "ua": "засіб (мистецтва)",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 2100
+  },
+  {
+    "id": "w2101",
+    "en": "dialogue",
+    "ua": "діалог",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2101
+  },
+  {
+    "id": "w2102",
+    "en": "reciprocal",
+    "ua": "взаємозалежний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2102
+  },
+  {
+    "id": "w2103",
+    "en": "exclusively",
+    "ua": "виключно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2103
+  },
+  {
+    "id": "w2104",
+    "en": "precisely",
+    "ua": "точно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2104
+  },
+  {
+    "id": "w2105",
+    "en": "fundamentally",
+    "ua": "принципово",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2105
+  },
+  {
+    "id": "w2106",
+    "en": "slogan",
+    "ua": "слоган",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 2106
+  },
+  {
+    "id": "w2107",
+    "en": "column",
+    "ua": "колонка (у газеті)",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 2107
+  },
+  {
+    "id": "w2108",
+    "en": "editorial",
+    "ua": "передова стаття",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 2108
+  },
+  {
+    "id": "w2109",
+    "en": "anchor",
+    "ua": "ведучий новин",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 2109
+  },
+  {
+    "id": "w2110",
+    "en": "episode",
+    "ua": "епізод",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2110
+  },
+  {
+    "id": "w2111",
+    "en": "animation",
+    "ua": "мультиплікація",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2111
+  },
+  {
+    "id": "w2112",
+    "en": "rehearsal",
+    "ua": "репетиція",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2112
+  },
+  {
+    "id": "w2113",
+    "en": "backstage",
+    "ua": "закулісся",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2113
+  },
+  {
+    "id": "w2114",
+    "en": "sculpture",
+    "ua": "скульптура",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2114
+  },
+  {
+    "id": "w2115",
+    "en": "portrait",
+    "ua": "портрет",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2115
+  },
+  {
+    "id": "w2116",
+    "en": "thriller",
+    "ua": "трилер",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2116
+  },
+  {
+    "id": "w2117",
+    "en": "biography",
+    "ua": "біографія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2117
+  },
+  {
+    "id": "w2118",
+    "en": "poetry",
+    "ua": "поезія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2118
+  },
+  {
+    "id": "w2119",
+    "en": "stanza",
+    "ua": "строфа",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2119
+  },
+  {
+    "id": "w2120",
+    "en": "rhythm",
+    "ua": "ритм",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2120
+  },
+  {
+    "id": "w2121",
+    "en": "lyrics",
+    "ua": "слова пісні",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2121
+  },
+  {
+    "id": "w2122",
+    "en": "chorus",
+    "ua": "приспів",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2122
+  },
+  {
+    "id": "w2123",
+    "en": "orchestra",
+    "ua": "оркестр",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2123
+  },
+  {
+    "id": "w2124",
+    "en": "conductor",
+    "ua": "диригент",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2124
+  },
+  {
+    "id": "w2125",
+    "en": "rehearse",
+    "ua": "репетирувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2125
+  },
+  {
+    "id": "w2126",
+    "en": "applause",
+    "ua": "оплески",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2126
+  },
+  {
+    "id": "w2127",
+    "en": "spectator",
+    "ua": "глядач",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2127
+  },
+  {
+    "id": "w2128",
+    "en": "critic",
+    "ua": "критик",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2128
+  },
+  {
+    "id": "w2129",
+    "en": "masterpiece",
+    "ua": "шедевр",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2129
+  },
+  {
+    "id": "w2130",
+    "en": "sequel",
+    "ua": "продовження",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2130
+  },
+  {
+    "id": "w2131",
+    "en": "chapter",
+    "ua": "розділ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2131
+  },
+  {
+    "id": "w2132",
+    "en": "fantasy",
+    "ua": "фантастика",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2132
+  },
+  {
+    "id": "w2133",
+    "en": "graphic novel",
+    "ua": "графічний роман",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby",
+    "freqRank": 2133
+  },
+  {
+    "id": "w2134",
+    "en": "architect",
+    "ua": "архітектор",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2134
+  },
+  {
+    "id": "w2135",
+    "en": "surgeon",
+    "ua": "хірург",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2135
+  },
+  {
+    "id": "w2136",
+    "en": "pharmacist",
+    "ua": "фармацевт",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2136
+  },
+  {
+    "id": "w2137",
+    "en": "therapist",
+    "ua": "психотерапевт",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2137
+  },
+  {
+    "id": "w2138",
+    "en": "nutritionist",
+    "ua": "дієтолог",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2138
+  },
+  {
+    "id": "w2139",
+    "en": "paramedic",
+    "ua": "парамедик",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2139
+  },
+  {
+    "id": "w2140",
+    "en": "mechanic",
+    "ua": "механік",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2140
+  },
+  {
+    "id": "w2141",
+    "en": "plumber",
+    "ua": "сантехнік",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2141
+  },
+  {
+    "id": "w2142",
+    "en": "electrician",
+    "ua": "електрик",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2142
+  },
+  {
+    "id": "w2143",
+    "en": "carpenter",
+    "ua": "тесляр",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2143
+  },
+  {
+    "id": "w2144",
+    "en": "locksmith",
+    "ua": "слюсар",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2144
+  },
+  {
+    "id": "w2145",
+    "en": "cashier",
+    "ua": "касир",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2145
+  },
+  {
+    "id": "w2146",
+    "en": "receptionist",
+    "ua": "адміністратор",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2146
+  },
+  {
+    "id": "w2147",
+    "en": "secretary",
+    "ua": "секретар",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2147
+  },
+  {
+    "id": "w2148",
+    "en": "accountant",
+    "ua": "бухгалтер",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2148
+  },
+  {
+    "id": "w2149",
+    "en": "librarian",
+    "ua": "бібліотекар",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2149
+  },
+  {
+    "id": "w2150",
+    "en": "security guard",
+    "ua": "охоронець",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2150
+  },
+  {
+    "id": "w2151",
+    "en": "postman",
+    "ua": "листоноша",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2151
+  },
+  {
+    "id": "w2152",
+    "en": "firefighter",
+    "ua": "пожежник",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2152
+  },
+  {
+    "id": "w2153",
+    "en": "siren",
+    "ua": "сирена",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 2153
+  },
+  {
+    "id": "w2154",
+    "en": "vaccination",
+    "ua": "вакцинація",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2154
+  },
+  {
+    "id": "w2155",
+    "en": "dose",
+    "ua": "доза",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2155
+  },
+  {
+    "id": "w2156",
+    "en": "capsule",
+    "ua": "капсула",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2156
+  },
+  {
+    "id": "w2157",
+    "en": "injection",
+    "ua": "ін'єкція",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2157
+  },
+  {
+    "id": "w2158",
+    "en": "anaesthetic",
+    "ua": "анестезія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2158
+  },
+  {
+    "id": "w2159",
+    "en": "ward",
+    "ua": "палата",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2159
+  },
+  {
+    "id": "w2160",
+    "en": "operation",
+    "ua": "операція",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2160
+  },
+  {
+    "id": "w2161",
+    "en": "bandage",
+    "ua": "бинт",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2161
+  },
+  {
+    "id": "w2162",
+    "en": "syringe",
+    "ua": "шприц",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2162
+  },
+  {
+    "id": "w2163",
+    "en": "thermometer",
+    "ua": "термометр",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2163
+  },
+  {
+    "id": "w2164",
+    "en": "clinic",
+    "ua": "клініка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2164
+  },
+  {
+    "id": "w2165",
+    "en": "rash",
+    "ua": "висип",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2165
+  },
+  {
+    "id": "w2166",
+    "en": "bruise",
+    "ua": "синяк",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2166
+  },
+  {
+    "id": "w2167",
+    "en": "blister",
+    "ua": "мозоля",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2167
+  },
+  {
+    "id": "w2168",
+    "en": "fracture",
+    "ua": "перелом",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2168
+  },
+  {
+    "id": "w2169",
+    "en": "sprain",
+    "ua": "розтягнення",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2169
+  },
+  {
+    "id": "w2170",
+    "en": "concussion",
+    "ua": "струс мозку",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2170
+  },
+  {
+    "id": "w2171",
+    "en": "insomnia",
+    "ua": "безсоння",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2171
+  },
+  {
+    "id": "w2172",
+    "en": "migraine",
+    "ua": "мігрень",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2172
+  },
+  {
+    "id": "w2173",
+    "en": "cholesterol",
+    "ua": "холестерин",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2173
+  },
+  {
+    "id": "w2174",
+    "en": "enzyme",
+    "ua": "фермент",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2174
+  },
+  {
+    "id": "w2175",
+    "en": "mineral",
+    "ua": "мінерал",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2175
+  },
+  {
+    "id": "w2176",
+    "en": "protein",
+    "ua": "білок",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2176
+  },
+  {
+    "id": "w2177",
+    "en": "carbohydrate",
+    "ua": "вуглевод",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2177
+  },
+  {
+    "id": "w2178",
+    "en": "fibre",
+    "ua": "клітковина",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2178
+  },
+  {
+    "id": "w2179",
+    "en": "nutrient",
+    "ua": "поживна речовина",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2179
+  },
+  {
+    "id": "w2180",
+    "en": "antibody",
+    "ua": "антитіло",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2180
+  },
+  {
+    "id": "w2181",
+    "en": "bacteria",
+    "ua": "бактерія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2181
+  },
+  {
+    "id": "w2182",
+    "en": "infection",
+    "ua": "інфекція",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2182
+  },
+  {
+    "id": "w2183",
+    "en": "inflammation",
+    "ua": "запалення",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2183
+  },
+  {
+    "id": "w2184",
+    "en": "flu",
+    "ua": "грип",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2184
+  },
+  {
+    "id": "w2185",
+    "en": "processor",
+    "ua": "процесор",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2185
+  },
+  {
+    "id": "w2186",
+    "en": "memory",
+    "ua": "пам'ять (RAM)",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2186
+  },
+  {
+    "id": "w2187",
+    "en": "storage",
+    "ua": "сховище даних",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2187
+  },
+  {
+    "id": "w2188",
+    "en": "router",
+    "ua": "маршрутизатор",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2188
+  },
+  {
+    "id": "w2189",
+    "en": "modem",
+    "ua": "модем",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2189
+  },
+  {
+    "id": "w2190",
+    "en": "code",
+    "ua": "код",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2190
+  },
+  {
+    "id": "w2191",
+    "en": "bug",
+    "ua": "помилка (програмна)",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2191
+  },
+  {
+    "id": "w2192",
+    "en": "firewall",
+    "ua": "брандмауер",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2192
+  },
+  {
+    "id": "w2193",
+    "en": "browser",
+    "ua": "браузер",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2193
+  },
+  {
+    "id": "w2194",
+    "en": "cursor",
+    "ua": "курсор",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2194
+  },
+  {
+    "id": "w2195",
+    "en": "pixel",
+    "ua": "піксель",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2195
+  },
+  {
+    "id": "w2196",
+    "en": "resolution",
+    "ua": "роздільна здатність",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2196
+  },
+  {
+    "id": "w2197",
+    "en": "icon",
+    "ua": "іконка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2197
+  },
+  {
+    "id": "w2198",
+    "en": "extension",
+    "ua": "розширення (файлу)",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2198
+  },
+  {
+    "id": "w2199",
+    "en": "reforestation",
+    "ua": "відновлення лісів",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2199
+  },
+  {
+    "id": "w2200",
+    "en": "solar panel",
+    "ua": "сонячна панель",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2200
+  },
+  {
+    "id": "w2201",
+    "en": "turbine",
+    "ua": "турбіна",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2201
+  },
+  {
+    "id": "w2202",
+    "en": "reservoir",
+    "ua": "водосховище",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2202
+  },
+  {
+    "id": "w2203",
+    "en": "hurricane",
+    "ua": "ураган",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2203
+  },
+  {
+    "id": "w2204",
+    "en": "tornado",
+    "ua": "торнадо",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2204
+  },
+  {
+    "id": "w2205",
+    "en": "avalanche",
+    "ua": "лавина",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2205
+  },
+  {
+    "id": "w2206",
+    "en": "wildlife",
+    "ua": "дика природа",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2206
+  },
+  {
+    "id": "w2207",
+    "en": "predator",
+    "ua": "хижак",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2207
+  },
+  {
+    "id": "w2208",
+    "en": "prey",
+    "ua": "здобич",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2208
+  },
+  {
+    "id": "w2209",
+    "en": "nest",
+    "ua": "гніздо",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2209
+  },
+  {
+    "id": "w2210",
+    "en": "burrow",
+    "ua": "нора",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2210
+  },
+  {
+    "id": "w2211",
+    "en": "thorn",
+    "ua": "колючка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2211
+  },
+  {
+    "id": "w2212",
+    "en": "petal",
+    "ua": "пелюстка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2212
+  },
+  {
+    "id": "w2213",
+    "en": "pollen",
+    "ua": "пилок",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2213
+  },
+  {
+    "id": "w2214",
+    "en": "bark",
+    "ua": "кора дерева",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2214
+  },
+  {
+    "id": "w2215",
+    "en": "moss",
+    "ua": "мох",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2215
+  },
+  {
+    "id": "w2216",
+    "en": "algae",
+    "ua": "водорості",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2216
+  },
+  {
+    "id": "w2217",
+    "en": "plankton",
+    "ua": "планктон",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2217
+  },
+  {
+    "id": "w2218",
+    "en": "coral",
+    "ua": "корал",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2218
+  },
+  {
+    "id": "w2219",
+    "en": "swamp",
+    "ua": "болото",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2219
+  },
+  {
+    "id": "w2220",
+    "en": "marsh",
+    "ua": "трясовина",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2220
+  },
+  {
+    "id": "w2221",
+    "en": "departure",
+    "ua": "відправлення",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 2221
+  },
+  {
+    "id": "w2222",
+    "en": "arrival",
+    "ua": "прибуття",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 2222
+  },
+  {
+    "id": "w2223",
+    "en": "check-in",
+    "ua": "реєстрація (авіа)",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 2223
+  },
+  {
+    "id": "w2224",
+    "en": "boarding",
+    "ua": "посадка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 2224
+  },
+  {
+    "id": "w2225",
+    "en": "runway",
+    "ua": "злітно-посадкова смуга",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 2225
+  },
+  {
+    "id": "w2226",
+    "en": "baggage",
+    "ua": "багаж",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 2226
+  },
+  {
+    "id": "w2227",
+    "en": "cabin",
+    "ua": "салон літака",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 2227
+  },
+  {
+    "id": "w2228",
+    "en": "turbulence",
+    "ua": "турбулентність",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 2228
+  },
+  {
+    "id": "w2229",
+    "en": "navigation",
+    "ua": "навігація",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 2229
+  },
+  {
+    "id": "w2230",
+    "en": "route",
+    "ua": "маршрут",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 2230
+  },
+  {
+    "id": "w2231",
+    "en": "hostel",
+    "ua": "хостел",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 2231
+  },
+  {
+    "id": "w2232",
+    "en": "campsite",
+    "ua": "кемпінг",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 2232
+  },
+  {
+    "id": "w2233",
+    "en": "brochure",
+    "ua": "брошура",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 2233
+  },
+  {
+    "id": "w2234",
+    "en": "exchange rate",
+    "ua": "обмінний курс",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money",
+    "freqRank": 2234
+  },
+  {
+    "id": "w2235",
+    "en": "guidebook",
+    "ua": "путівник",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel",
+    "freqRank": 2235
+  },
+  {
+    "id": "w2236",
+    "en": "transaction",
+    "ua": "транзакція",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money",
+    "freqRank": 2236
+  },
+  {
+    "id": "w2237",
+    "en": "invoice",
+    "ua": "рахунок-фактура",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money",
+    "freqRank": 2237
+  },
+  {
+    "id": "w2238",
+    "en": "installment",
+    "ua": "розстрочка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money",
+    "freqRank": 2238
+  },
+  {
+    "id": "w2239",
+    "en": "commission",
+    "ua": "комісія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money",
+    "freqRank": 2239
+  },
+  {
+    "id": "w2240",
+    "en": "bonus",
+    "ua": "бонус",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money",
+    "freqRank": 2240
+  },
+  {
+    "id": "w2241",
+    "en": "interest",
+    "ua": "відсотки",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money",
+    "freqRank": 2241
+  },
+  {
+    "id": "w2242",
+    "en": "repayment",
+    "ua": "погашення боргу",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money",
+    "freqRank": 2242
+  },
+  {
+    "id": "w2243",
+    "en": "capital",
+    "ua": "капітал",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money",
+    "freqRank": 2243
+  },
+  {
+    "id": "w2244",
+    "en": "competitor",
+    "ua": "конкурент",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business",
+    "freqRank": 2244
+  },
+  {
+    "id": "w2245",
+    "en": "market share",
+    "ua": "частка ринку",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business",
+    "freqRank": 2245
+  },
+  {
+    "id": "w2246",
+    "en": "retailer",
+    "ua": "роздрібний продавець",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business",
+    "freqRank": 2246
+  },
+  {
+    "id": "w2247",
+    "en": "wholesaler",
+    "ua": "оптовий торговець",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business",
+    "freqRank": 2247
+  },
+  {
+    "id": "w2248",
+    "en": "supplier",
+    "ua": "постачальник",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business",
+    "freqRank": 2248
+  },
+  {
+    "id": "w2249",
+    "en": "distribution",
+    "ua": "розподіл",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business",
+    "freqRank": 2249
+  },
+  {
+    "id": "w2250",
+    "en": "warehouse",
+    "ua": "склад",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business",
+    "freqRank": 2250
+  },
+  {
+    "id": "w2251",
+    "en": "inventory",
+    "ua": "інвентар",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business",
+    "freqRank": 2251
+  },
+  {
+    "id": "w2252",
+    "en": "shipment",
+    "ua": "поставка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "business",
+    "freqRank": 2252
+  },
+  {
+    "id": "w2253",
+    "en": "seasoning",
+    "ua": "приправа",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2253
+  },
+  {
+    "id": "w2254",
+    "en": "condiment",
+    "ua": "приправа (за смаком)",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2254
+  },
+  {
+    "id": "w2255",
+    "en": "marinade",
+    "ua": "маринад",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2255
+  },
+  {
+    "id": "w2256",
+    "en": "batter",
+    "ua": "тісто (рідке)",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2256
+  },
+  {
+    "id": "w2257",
+    "en": "dough",
+    "ua": "тісто",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2257
+  },
+  {
+    "id": "w2258",
+    "en": "crust",
+    "ua": "скоринка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2258
+  },
+  {
+    "id": "w2259",
+    "en": "filling",
+    "ua": "начинка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2259
+  },
+  {
+    "id": "w2260",
+    "en": "sauce",
+    "ua": "соус",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2260
+  },
+  {
+    "id": "w2261",
+    "en": "broth",
+    "ua": "бульйон",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2261
+  },
+  {
+    "id": "w2262",
+    "en": "stew",
+    "ua": "рагу",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2262
+  },
+  {
+    "id": "w2263",
+    "en": "roast",
+    "ua": "смажене м'ясо",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2263
+  },
+  {
+    "id": "w2264",
+    "en": "grill",
+    "ua": "решітка для гриля",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2264
+  },
+  {
+    "id": "w2265",
+    "en": "pastry",
+    "ua": "здобна випічка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2265
+  },
+  {
+    "id": "w2266",
+    "en": "muffin",
+    "ua": "кекс",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2266
+  },
+  {
+    "id": "w2267",
+    "en": "waffle",
+    "ua": "вафля",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2267
+  },
+  {
+    "id": "w2268",
+    "en": "pudding",
+    "ua": "пудинг",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2268
+  },
+  {
+    "id": "w2269",
+    "en": "cookie",
+    "ua": "печиво",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2269
+  },
+  {
+    "id": "w2270",
+    "en": "brownie",
+    "ua": "брауні",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2270
+  },
+  {
+    "id": "w2271",
+    "en": "smoothie",
+    "ua": "смузі",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2271
+  },
+  {
+    "id": "w2272",
+    "en": "latte",
+    "ua": "лате",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2272
+  },
+  {
+    "id": "w2273",
+    "en": "cappuccino",
+    "ua": "капучино",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2273
+  },
+  {
+    "id": "w2274",
+    "en": "espresso",
+    "ua": "еспресо",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2274
+  },
+  {
+    "id": "w2275",
+    "en": "herbal tea",
+    "ua": "трав'яний чай",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2275
+  },
+  {
+    "id": "w2276",
+    "en": "sparkling water",
+    "ua": "газована вода",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2276
+  },
+  {
+    "id": "w2277",
+    "en": "lemonade",
+    "ua": "лимонад",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2277
+  },
+  {
+    "id": "w2278",
+    "en": "milkshake",
+    "ua": "молочний коктейль",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2278
+  },
+  {
+    "id": "w2279",
+    "en": "leftovers",
+    "ua": "залишки їжі",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2279
+  },
+  {
+    "id": "w2280",
+    "en": "takeaway",
+    "ua": "їжа на виніс",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2280
+  },
+  {
+    "id": "w2281",
+    "en": "tip",
+    "ua": "чайові",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2281
+  },
+  {
+    "id": "w2282",
+    "en": "buffet",
+    "ua": "шведський стіл",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2282
+  },
+  {
+    "id": "w2283",
+    "en": "chef",
+    "ua": "шеф-кухар",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2283
+  },
+  {
+    "id": "w2284",
+    "en": "cuisine",
+    "ua": "кухня (тип)",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2284
+  },
+  {
+    "id": "w2285",
+    "en": "cafeteria",
+    "ua": "кафетерій",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food",
+    "freqRank": 2285
+  },
+  {
+    "id": "w2286",
+    "en": "vaccinate",
+    "ua": "вакцинувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2286
+  },
+  {
+    "id": "w2287",
+    "en": "operate",
+    "ua": "проводити операцію",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2287
+  },
+  {
+    "id": "w2288",
+    "en": "reboot",
+    "ua": "перезавантажувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2288
+  },
+  {
+    "id": "w2289",
+    "en": "scroll",
+    "ua": "прокручувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2289
+  },
+  {
+    "id": "w2290",
+    "en": "zoom",
+    "ua": "збільшувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2290
+  },
+  {
+    "id": "w2291",
+    "en": "crop",
+    "ua": "обрізати (фото)",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2291
+  },
+  {
+    "id": "w2292",
+    "en": "filter",
+    "ua": "фільтрувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2292
+  },
+  {
+    "id": "w2293",
+    "en": "tag",
+    "ua": "позначати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2293
+  },
+  {
+    "id": "w2294",
+    "en": "block",
+    "ua": "блокувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 2294
+  },
+  {
+    "id": "w2295",
+    "en": "forward",
+    "ua": "пересилати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 2295
+  },
+  {
+    "id": "w2296",
+    "en": "reply",
+    "ua": "відповідати на повідомлення",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 2296
+  },
+  {
+    "id": "w2297",
+    "en": "mute",
+    "ua": "вимкнути звук",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication",
+    "freqRank": 2297
+  },
+  {
+    "id": "w2298",
+    "en": "swap",
+    "ua": "обмінювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 2298
+  },
+  {
+    "id": "w2299",
+    "en": "merge",
+    "ua": "об'єднувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "business",
+    "freqRank": 2299
+  },
+  {
+    "id": "w2300",
+    "en": "draft",
+    "ua": "складати чернетку",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2300
+  },
+  {
+    "id": "w2301",
+    "en": "proofread",
+    "ua": "перевіряти (текст)",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 2301
+  },
+  {
+    "id": "w2302",
+    "en": "supervise",
+    "ua": "контролювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2302
+  },
+  {
+    "id": "w2303",
+    "en": "deploy",
+    "ua": "розгортати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2303
+  },
+  {
+    "id": "w2304",
+    "en": "debug",
+    "ua": "налагоджувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2304
+  },
+  {
+    "id": "w2305",
+    "en": "independent",
+    "ua": "самостійний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 2305
+  },
+  {
+    "id": "w2306",
+    "en": "productive",
+    "ua": "продуктивний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "work",
+    "freqRank": 2306
+  },
+  {
+    "id": "w2307",
+    "en": "profitable",
+    "ua": "прибутковий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "business",
+    "freqRank": 2307
+  },
+  {
+    "id": "w2308",
+    "en": "recyclable",
+    "ua": "придатний до переробки",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2308
+  },
+  {
+    "id": "w2309",
+    "en": "biodegradable",
+    "ua": "біорозкладний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "nature",
+    "freqRank": 2309
+  },
+  {
+    "id": "w2310",
+    "en": "nutritious",
+    "ua": "поживний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2310
+  },
+  {
+    "id": "w2311",
+    "en": "balanced",
+    "ua": "збалансований",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2311
+  },
+  {
+    "id": "w2312",
+    "en": "active",
+    "ua": "активний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "sport",
+    "freqRank": 2312
+  },
+  {
+    "id": "w2313",
+    "en": "fit",
+    "ua": "у формі",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "sport",
+    "freqRank": 2313
+  },
+  {
+    "id": "w2314",
+    "en": "athletic",
+    "ua": "атлетичний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "sport",
+    "freqRank": 2314
+  },
+  {
+    "id": "w2315",
+    "en": "injured",
+    "ua": "травмований",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "sport",
+    "freqRank": 2315
+  },
+  {
+    "id": "w2316",
+    "en": "disabled",
+    "ua": "з обмеженими можливостями",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2316
+  },
+  {
+    "id": "w2317",
+    "en": "mild",
+    "ua": "легкий (симптом)",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "health",
+    "freqRank": 2317
+  },
+  {
+    "id": "w2318",
+    "en": "accurate",
+    "ua": "точний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 2318
+  },
+  {
+    "id": "w2319",
+    "en": "fluent",
+    "ua": "вільний (мова)",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "school",
+    "freqRank": 2319
+  },
+  {
+    "id": "w2320",
+    "en": "virtual",
+    "ua": "віртуальний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2320
+  },
+  {
+    "id": "w2321",
+    "en": "wireless",
+    "ua": "бездротовий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2321
+  },
+  {
+    "id": "w2322",
+    "en": "compatible",
+    "ua": "сумісний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2322
+  },
+  {
+    "id": "w2323",
+    "en": "portable",
+    "ua": "портативний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "technology",
+    "freqRank": 2323
+  },
+  {
+    "id": "w2324",
+    "en": "durable",
+    "ua": "міцний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 2324
+  },
+  {
+    "id": "w2325",
+    "en": "suitable",
+    "ua": "підходящий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 2325
+  },
+  {
+    "id": "w2326",
+    "en": "continuously",
+    "ua": "безперервно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "time",
+    "freqRank": 2326
+  },
+  {
+    "id": "w2327",
+    "en": "permanently",
+    "ua": "постійно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "time",
+    "freqRank": 2327
+  },
+  {
+    "id": "w2328",
+    "en": "temporarily",
+    "ua": "тимчасово",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "time",
+    "freqRank": 2328
+  },
+  {
+    "id": "w2329",
+    "en": "rapidly",
+    "ua": "швидко",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 2329
+  },
+  {
+    "id": "w2330",
+    "en": "typically",
+    "ua": "зазвичай",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general",
+    "freqRank": 2330
+  },
+  {
+    "id": "w2331",
+    "en": "consortium",
+    "ua": "консорціум",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 2331
+  },
+  {
+    "id": "w2332",
+    "en": "procurement",
+    "ua": "закупівля",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 2332
+  },
+  {
+    "id": "w2333",
+    "en": "collateral",
+    "ua": "застава",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2333
+  },
+  {
+    "id": "w2334",
+    "en": "arbitrage",
+    "ua": "арбітраж",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2334
+  },
+  {
+    "id": "w2335",
+    "en": "liquidity",
+    "ua": "ліквідність",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2335
+  },
+  {
+    "id": "w2336",
+    "en": "solvency",
+    "ua": "платоспроможність",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2336
+  },
+  {
+    "id": "w2337",
+    "en": "depreciation",
+    "ua": "амортизація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2337
+  },
+  {
+    "id": "w2338",
+    "en": "amortization",
+    "ua": "погашення (боргу)",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2338
+  },
+  {
+    "id": "w2339",
+    "en": "volatility",
+    "ua": "волатильність",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2339
+  },
+  {
+    "id": "w2340",
+    "en": "speculation",
+    "ua": "спекуляція",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2340
+  },
+  {
+    "id": "w2341",
+    "en": "hedge",
+    "ua": "хеджування",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2341
+  },
+  {
+    "id": "w2342",
+    "en": "securities",
+    "ua": "цінні папери",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2342
+  },
+  {
+    "id": "w2343",
+    "en": "derivatives",
+    "ua": "деривативи",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2343
+  },
+  {
+    "id": "w2344",
+    "en": "microeconomics",
+    "ua": "мікроекономіка",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2344
+  },
+  {
+    "id": "w2345",
+    "en": "macroeconomics",
+    "ua": "макроекономіка",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2345
+  },
+  {
+    "id": "w2346",
+    "en": "keynesianism",
+    "ua": "кейнсіанство",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2346
+  },
+  {
+    "id": "w2347",
+    "en": "monetarism",
+    "ua": "монетаризм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2347
+  },
+  {
+    "id": "w2348",
+    "en": "duopoly",
+    "ua": "дуополія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 2348
+  },
+  {
+    "id": "w2349",
+    "en": "dissertation",
+    "ua": "дисертація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2349
+  },
+  {
+    "id": "w2350",
+    "en": "symposium",
+    "ua": "симпозіум",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2350
+  },
+  {
+    "id": "w2351",
+    "en": "anthology",
+    "ua": "антологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 2351
+  },
+  {
+    "id": "w2352",
+    "en": "manuscript",
+    "ua": "рукопис",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 2352
+  },
+  {
+    "id": "w2353",
+    "en": "allegory",
+    "ua": "алегорія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 2353
+  },
+  {
+    "id": "w2354",
+    "en": "satire",
+    "ua": "сатира",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 2354
+  },
+  {
+    "id": "w2355",
+    "en": "protagonist",
+    "ua": "протагоніст",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 2355
+  },
+  {
+    "id": "w2356",
+    "en": "antagonist",
+    "ua": "антагоніст",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 2356
+  },
+  {
+    "id": "w2357",
+    "en": "archetype",
+    "ua": "архетип",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby",
+    "freqRank": 2357
+  },
+  {
+    "id": "w2358",
+    "en": "nuance",
+    "ua": "нюанс",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2358
+  },
+  {
+    "id": "w2359",
+    "en": "inconsistency",
+    "ua": "непослідовність",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2359
+  },
+  {
+    "id": "w2360",
+    "en": "manifesto",
+    "ua": "маніфест",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2360
+  },
+  {
+    "id": "w2361",
+    "en": "jurisdiction",
+    "ua": "юрисдикція",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2361
+  },
+  {
+    "id": "w2362",
+    "en": "tribunal",
+    "ua": "трибунал",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2362
+  },
+  {
+    "id": "w2363",
+    "en": "statute",
+    "ua": "статут",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2363
+  },
+  {
+    "id": "w2364",
+    "en": "ambassador",
+    "ua": "посол",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2364
+  },
+  {
+    "id": "w2365",
+    "en": "embassy",
+    "ua": "посольство",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2365
+  },
+  {
+    "id": "w2366",
+    "en": "asylum",
+    "ua": "притулок",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2366
+  },
+  {
+    "id": "w2367",
+    "en": "humanitarian",
+    "ua": "гуманітарний",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2367
+  },
+  {
+    "id": "w2368",
+    "en": "genocide",
+    "ua": "геноцид",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2368
+  },
+  {
+    "id": "w2369",
+    "en": "colonialism",
+    "ua": "колоніалізм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2369
+  },
+  {
+    "id": "w2370",
+    "en": "imperialism",
+    "ua": "імперіалізм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2370
+  },
+  {
+    "id": "w2371",
+    "en": "totalitarianism",
+    "ua": "тоталітаризм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2371
+  },
+  {
+    "id": "w2372",
+    "en": "utopia",
+    "ua": "утопія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2372
+  },
+  {
+    "id": "w2373",
+    "en": "dystopia",
+    "ua": "дистопія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2373
+  },
+  {
+    "id": "w2374",
+    "en": "cynicism",
+    "ua": "цинізм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2374
+  },
+  {
+    "id": "w2375",
+    "en": "nihilism",
+    "ua": "нігілізм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2375
+  },
+  {
+    "id": "w2376",
+    "en": "existentialism",
+    "ua": "екзистенціалізм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2376
+  },
+  {
+    "id": "w2377",
+    "en": "pragmatism",
+    "ua": "прагматизм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2377
+  },
+  {
+    "id": "w2378",
+    "en": "relativism",
+    "ua": "релятивізм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2378
+  },
+  {
+    "id": "w2379",
+    "en": "empiricism",
+    "ua": "емпіризм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2379
+  },
+  {
+    "id": "w2380",
+    "en": "rationalism",
+    "ua": "раціоналізм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2380
+  },
+  {
+    "id": "w2381",
+    "en": "scepticism",
+    "ua": "скептицизм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2381
+  },
+  {
+    "id": "w2382",
+    "en": "intuition",
+    "ua": "інтуїція",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2382
+  },
+  {
+    "id": "w2383",
+    "en": "subjectivity",
+    "ua": "суб'єктивність",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2383
+  },
+  {
+    "id": "w2384",
+    "en": "objectivity",
+    "ua": "об'єктивність",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2384
+  },
+  {
+    "id": "w2385",
+    "en": "epistemology",
+    "ua": "гносеологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2385
+  },
+  {
+    "id": "w2386",
+    "en": "ontology",
+    "ua": "онтологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2386
+  },
+  {
+    "id": "w2387",
+    "en": "aesthetics",
+    "ua": "естетика",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2387
+  },
+  {
+    "id": "w2388",
+    "en": "neuroplasticity",
+    "ua": "нейропластичність",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 2388
+  },
+  {
+    "id": "w2389",
+    "en": "genome",
+    "ua": "геном",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 2389
+  },
+  {
+    "id": "w2390",
+    "en": "epigenetics",
+    "ua": "епігенетика",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 2390
+  },
+  {
+    "id": "w2391",
+    "en": "microbiome",
+    "ua": "мікробіом",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 2391
+  },
+  {
+    "id": "w2392",
+    "en": "cortisol",
+    "ua": "кортизол",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 2392
+  },
+  {
+    "id": "w2393",
+    "en": "serotonin",
+    "ua": "серотонін",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 2393
+  },
+  {
+    "id": "w2394",
+    "en": "dopamine",
+    "ua": "дофамін",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 2394
+  },
+  {
+    "id": "w2395",
+    "en": "adrenaline",
+    "ua": "адреналін",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 2395
+  },
+  {
+    "id": "w2396",
+    "en": "homeostasis",
+    "ua": "гомеостаз",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health",
+    "freqRank": 2396
+  },
+  {
+    "id": "w2397",
+    "en": "gaslighting",
+    "ua": "газлайтинг",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "emotions",
+    "freqRank": 2397
+  },
+  {
+    "id": "w2398",
+    "en": "narcissism",
+    "ua": "нарцисизм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "emotions",
+    "freqRank": 2398
+  },
+  {
+    "id": "w2399",
+    "en": "altruism",
+    "ua": "альтруїзм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "emotions",
+    "freqRank": 2399
+  },
+  {
+    "id": "w2400",
+    "en": "stoicism",
+    "ua": "стоїцизм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "emotions",
+    "freqRank": 2400
+  },
+  {
+    "id": "w2401",
+    "en": "misogyny",
+    "ua": "мізогінія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "emotions",
+    "freqRank": 2401
+  },
+  {
+    "id": "w2402",
+    "en": "stigma",
+    "ua": "стигма",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2402
+  },
+  {
+    "id": "w2403",
+    "en": "tokenism",
+    "ua": "формальне включення меншин",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2403
+  },
+  {
+    "id": "w2404",
+    "en": "intersectionality",
+    "ua": "перетин соціальних факторів",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2404
+  },
+  {
+    "id": "w2405",
+    "en": "gentrification",
+    "ua": "джентрифікація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2405
+  },
+  {
+    "id": "w2406",
+    "en": "segregation",
+    "ua": "сегрегація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2406
+  },
+  {
+    "id": "w2407",
+    "en": "multiculturalism",
+    "ua": "мультикультуралізм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2407
+  },
+  {
+    "id": "w2408",
+    "en": "cosmopolitanism",
+    "ua": "космополітизм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2408
+  },
+  {
+    "id": "w2409",
+    "en": "nationalism",
+    "ua": "націоналізм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2409
+  },
+  {
+    "id": "w2410",
+    "en": "neoliberalism",
+    "ua": "неолібералізм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2410
+  },
+  {
+    "id": "w2411",
+    "en": "conceptualize",
+    "ua": "концептуалізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2411
+  },
+  {
+    "id": "w2412",
+    "en": "operationalize",
+    "ua": "операціоналізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2412
+  },
+  {
+    "id": "w2413",
+    "en": "hypothesize",
+    "ua": "висувати гіпотезу",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2413
+  },
+  {
+    "id": "w2414",
+    "en": "postulate",
+    "ua": "постулювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2414
+  },
+  {
+    "id": "w2415",
+    "en": "extrapolate",
+    "ua": "екстраполювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2415
+  },
+  {
+    "id": "w2416",
+    "en": "interpolate",
+    "ua": "інтерполювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2416
+  },
+  {
+    "id": "w2417",
+    "en": "corroborate",
+    "ua": "підтверджувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2417
+  },
+  {
+    "id": "w2418",
+    "en": "substantiate",
+    "ua": "обгрунтовувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2418
+  },
+  {
+    "id": "w2419",
+    "en": "circumvent",
+    "ua": "обходити",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2419
+  },
+  {
+    "id": "w2420",
+    "en": "exacerbate",
+    "ua": "погіршувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2420
+  },
+  {
+    "id": "w2421",
+    "en": "alleviate",
+    "ua": "полегшувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2421
+  },
+  {
+    "id": "w2422",
+    "en": "perpetuate",
+    "ua": "увічнювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2422
+  },
+  {
+    "id": "w2423",
+    "en": "propagate",
+    "ua": "поширювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2423
+  },
+  {
+    "id": "w2424",
+    "en": "disseminate",
+    "ua": "поширювати знання",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "communication",
+    "freqRank": 2424
+  },
+  {
+    "id": "w2425",
+    "en": "impede",
+    "ua": "перешкоджати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2425
+  },
+  {
+    "id": "w2426",
+    "en": "obstruct",
+    "ua": "блокувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2426
+  },
+  {
+    "id": "w2427",
+    "en": "catalyze",
+    "ua": "каталізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2427
+  },
+  {
+    "id": "w2428",
+    "en": "polarize",
+    "ua": "поляризувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2428
+  },
+  {
+    "id": "w2429",
+    "en": "marginalize",
+    "ua": "маргіналізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2429
+  },
+  {
+    "id": "w2430",
+    "en": "disenfranchise",
+    "ua": "позбавляти прав",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2430
+  },
+  {
+    "id": "w2431",
+    "en": "vilify",
+    "ua": "очорнювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2431
+  },
+  {
+    "id": "w2432",
+    "en": "demonize",
+    "ua": "демонізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2432
+  },
+  {
+    "id": "w2433",
+    "en": "legitimize",
+    "ua": "легітимізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2433
+  },
+  {
+    "id": "w2434",
+    "en": "rationalize",
+    "ua": "раціоналізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2434
+  },
+  {
+    "id": "w2435",
+    "en": "stipulate",
+    "ua": "передбачати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2435
+  },
+  {
+    "id": "w2436",
+    "en": "mediate",
+    "ua": "виступати посередником",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2436
+  },
+  {
+    "id": "w2437",
+    "en": "speculate",
+    "ua": "спекулювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2437
+  },
+  {
+    "id": "w2438",
+    "en": "liquidate",
+    "ua": "ліквідовувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business",
+    "freqRank": 2438
+  },
+  {
+    "id": "w2439",
+    "en": "default",
+    "ua": "не виконувати зобов'язань",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2439
+  },
+  {
+    "id": "w2440",
+    "en": "devalue",
+    "ua": "девальвувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "money",
+    "freqRank": 2440
+  },
+  {
+    "id": "w2441",
+    "en": "multifaceted",
+    "ua": "багатогранний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2441
+  },
+  {
+    "id": "w2442",
+    "en": "far-reaching",
+    "ua": "далекосяжний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2442
+  },
+  {
+    "id": "w2443",
+    "en": "thought-provoking",
+    "ua": "що змушує задуматися",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2443
+  },
+  {
+    "id": "w2444",
+    "en": "self-evident",
+    "ua": "очевидний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2444
+  },
+  {
+    "id": "w2445",
+    "en": "counterintuitive",
+    "ua": "контрінтуїтивний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2445
+  },
+  {
+    "id": "w2446",
+    "en": "disproportionate",
+    "ua": "непропорційний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2446
+  },
+  {
+    "id": "w2447",
+    "en": "incoherent",
+    "ua": "незв'язний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2447
+  },
+  {
+    "id": "w2448",
+    "en": "tangible",
+    "ua": "відчутний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2448
+  },
+  {
+    "id": "w2449",
+    "en": "intangible",
+    "ua": "нематеріальний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2449
+  },
+  {
+    "id": "w2450",
+    "en": "quantifiable",
+    "ua": "вимірюваний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2450
+  },
+  {
+    "id": "w2451",
+    "en": "hypothetical",
+    "ua": "гіпотетичний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2451
+  },
+  {
+    "id": "w2452",
+    "en": "speculative",
+    "ua": "умоглядний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2452
+  },
+  {
+    "id": "w2453",
+    "en": "inconclusive",
+    "ua": "без остаточних висновків",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2453
+  },
+  {
+    "id": "w2454",
+    "en": "replicable",
+    "ua": "відтворний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2454
+  },
+  {
+    "id": "w2455",
+    "en": "longitudinal",
+    "ua": "поздовжній",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2455
+  },
+  {
+    "id": "w2456",
+    "en": "statistically significant",
+    "ua": "статистично значущий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2456
+  },
+  {
+    "id": "w2457",
+    "en": "peer-reviewed",
+    "ua": "рецензований",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2457
+  },
+  {
+    "id": "w2458",
+    "en": "tenure",
+    "ua": "безстроковий (посада)",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "work",
+    "freqRank": 2458
+  },
+  {
+    "id": "w2459",
+    "en": "contentious",
+    "ua": "суперечливий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2459
+  },
+  {
+    "id": "w2460",
+    "en": "divisive",
+    "ua": "що вносить розкол",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2460
+  },
+  {
+    "id": "w2461",
+    "en": "polarizing",
+    "ua": "поляризуючий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2461
+  },
+  {
+    "id": "w2462",
+    "en": "reactionary",
+    "ua": "реакційний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2462
+  },
+  {
+    "id": "w2463",
+    "en": "progressive",
+    "ua": "прогресивний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2463
+  },
+  {
+    "id": "w2464",
+    "en": "conservative",
+    "ua": "консервативний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2464
+  },
+  {
+    "id": "w2465",
+    "en": "liberal",
+    "ua": "ліберальний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2465
+  },
+  {
+    "id": "w2466",
+    "en": "authoritarian",
+    "ua": "авторитарний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2466
+  },
+  {
+    "id": "w2467",
+    "en": "egalitarian",
+    "ua": "егалітарний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2467
+  },
+  {
+    "id": "w2468",
+    "en": "secular",
+    "ua": "світський",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2468
+  },
+  {
+    "id": "w2469",
+    "en": "theocratic",
+    "ua": "теократичний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2469
+  },
+  {
+    "id": "w2470",
+    "en": "bureaucratic",
+    "ua": "бюрократичний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2470
+  },
+  {
+    "id": "w2471",
+    "en": "oligarchic",
+    "ua": "олігархічний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2471
+  },
+  {
+    "id": "w2472",
+    "en": "despotic",
+    "ua": "деспотичний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2472
+  },
+  {
+    "id": "w2473",
+    "en": "systemic",
+    "ua": "системний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2473
+  },
+  {
+    "id": "w2474",
+    "en": "structural",
+    "ua": "структурний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2474
+  },
+  {
+    "id": "w2475",
+    "en": "institutional",
+    "ua": "інституційний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2475
+  },
+  {
+    "id": "w2476",
+    "en": "hierarchical",
+    "ua": "ієрархічний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2476
+  },
+  {
+    "id": "w2477",
+    "en": "decentralized",
+    "ua": "децентралізований",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2477
+  },
+  {
+    "id": "w2478",
+    "en": "asymmetric",
+    "ua": "асиметричний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2478
+  },
+  {
+    "id": "w2479",
+    "en": "synergistic",
+    "ua": "синергетичний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2479
+  },
+  {
+    "id": "w2480",
+    "en": "transformative",
+    "ua": "трансформаційний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2480
+  },
+  {
+    "id": "w2481",
+    "en": "disruptive",
+    "ua": "руйнівний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "technology",
+    "freqRank": 2481
+  },
+  {
+    "id": "w2482",
+    "en": "exponential",
+    "ua": "експоненційний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2482
+  },
+  {
+    "id": "w2483",
+    "en": "holistic",
+    "ua": "цілісний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2483
+  },
+  {
+    "id": "w2484",
+    "en": "nuanced",
+    "ua": "тонкий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2484
+  },
+  {
+    "id": "w2485",
+    "en": "polarized",
+    "ua": "поляризований",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2485
+  },
+  {
+    "id": "w2486",
+    "en": "entrenched",
+    "ua": "укорінений",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2486
+  },
+  {
+    "id": "w2487",
+    "en": "paradoxically",
+    "ua": "парадоксально",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2487
+  },
+  {
+    "id": "w2488",
+    "en": "rhetorically",
+    "ua": "риторично",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2488
+  },
+  {
+    "id": "w2489",
+    "en": "ideologically",
+    "ua": "ідеологічно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2489
+  },
+  {
+    "id": "w2490",
+    "en": "diplomatically",
+    "ua": "дипломатично",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2490
+  },
+  {
+    "id": "w2491",
+    "en": "constitutionally",
+    "ua": "конституційно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2491
+  },
+  {
+    "id": "w2492",
+    "en": "institutionally",
+    "ua": "інституційно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2492
+  },
+  {
+    "id": "w2493",
+    "en": "empirically",
+    "ua": "емпірично",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2493
+  },
+  {
+    "id": "w2494",
+    "en": "theoretically",
+    "ua": "теоретично",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2494
+  },
+  {
+    "id": "w2495",
+    "en": "conceptually",
+    "ua": "концептуально",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2495
+  },
+  {
+    "id": "w2496",
+    "en": "statistically",
+    "ua": "статистично",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "school",
+    "freqRank": 2496
+  },
+  {
+    "id": "w2497",
+    "en": "disproportionately",
+    "ua": "непропорційно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2497
+  },
+  {
+    "id": "w2498",
+    "en": "overwhelmingly",
+    "ua": "переважно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2498
+  },
+  {
+    "id": "w2499",
+    "en": "unanimously",
+    "ua": "одностайно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2499
+  },
+  {
+    "id": "w2500",
+    "en": "intrinsically",
+    "ua": "властиво",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2500
+  },
+  {
+    "id": "w2501",
+    "en": "extrinsically",
+    "ua": "зовнішньо",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2501
+  },
+  {
+    "id": "w2502",
+    "en": "sequentially",
+    "ua": "послідовно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2502
+  },
+  {
+    "id": "w2503",
+    "en": "alternatively",
+    "ua": "альтернативно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2503
+  },
+  {
+    "id": "w2504",
+    "en": "notwithstanding",
+    "ua": "незважаючи на",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2504
+  },
+  {
+    "id": "w2505",
+    "en": "implicitly",
+    "ua": "неявно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2505
+  },
+  {
+    "id": "w2506",
+    "en": "incidentally",
+    "ua": "між іншим",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general",
+    "freqRank": 2506
   }
 ]

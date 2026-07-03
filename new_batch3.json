@@ -1,0 +1,478 @@
+[
+  {
+    "en": "toy",
+    "ua": "іграшка",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "hobby"
+  },
+  {
+    "en": "pet",
+    "ua": "домашній улюбленець",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "animals"
+  },
+  {
+    "en": "seed",
+    "ua": "насіння",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "nature"
+  },
+  {
+    "en": "root",
+    "ua": "корінь",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "nature"
+  },
+  {
+    "en": "branch",
+    "ua": "гілка",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "nature"
+  },
+  {
+    "en": "fruit",
+    "ua": "фрукт",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food"
+  },
+  {
+    "en": "vegetable",
+    "ua": "овоч",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "food"
+  },
+  {
+    "en": "pocket money",
+    "ua": "кишенькові гроші",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "money"
+  },
+  {
+    "en": "corner",
+    "ua": "кут",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "edge",
+    "ua": "край",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "middle",
+    "ua": "середина",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "side",
+    "ua": "бік",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "weight",
+    "ua": "вага",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "height",
+    "ua": "зріст",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "length",
+    "ua": "довжина",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "speed",
+    "ua": "швидкість",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "direction",
+    "ua": "напрямок",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "distance",
+    "ua": "відстань",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "shadow",
+    "ua": "тінь",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "colour",
+    "ua": "колір",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "spider",
+    "ua": "павук",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "animals"
+  },
+  {
+    "en": "ant",
+    "ua": "мураха",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "animals"
+  },
+  {
+    "en": "number",
+    "ua": "число",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "numbers"
+  },
+  {
+    "en": "stairs",
+    "ua": "сходи",
+    "pos": "noun",
+    "level": "A2",
+    "topic": "home"
+  },
+  {
+    "en": "put",
+    "ua": "класти",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "get",
+    "ua": "отримувати",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "make",
+    "ua": "робити",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "do",
+    "ua": "виконувати",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "feel",
+    "ua": "відчувати",
+    "pos": "verb",
+    "level": "A2",
+    "topic": "emotions"
+  },
+  {
+    "en": "hard",
+    "ua": "важкий",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "soft",
+    "ua": "м'який",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "sweet",
+    "ua": "солодкий",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "food"
+  },
+  {
+    "en": "scared",
+    "ua": "наляканий",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "emotions"
+  },
+  {
+    "en": "free",
+    "ua": "вільний",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "wrong",
+    "ua": "неправильний",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "true",
+    "ua": "правдивий",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "false",
+    "ua": "хибний",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "important",
+    "ua": "важливий",
+    "pos": "adjective",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "then",
+    "ua": "потім",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "time"
+  },
+  {
+    "en": "quite",
+    "ua": "досить",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "seldom",
+    "ua": "рідко",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "time"
+  },
+  {
+    "en": "perhaps",
+    "ua": "можливо",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "too",
+    "ua": "занадто",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "so",
+    "ua": "так",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "well",
+    "ua": "добре",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "far",
+    "ua": "далеко",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "near",
+    "ua": "близько",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "everywhere",
+    "ua": "скрізь",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "somewhere",
+    "ua": "десь",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "nowhere",
+    "ua": "ніде",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "general"
+  },
+  {
+    "en": "yet",
+    "ua": "ще (не)",
+    "pos": "adverb",
+    "level": "A2",
+    "topic": "time"
+  },
+  {
+    "en": "penalty",
+    "ua": "штраф",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport"
+  },
+  {
+    "en": "referee",
+    "ua": "суддя",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport"
+  },
+  {
+    "en": "championship",
+    "ua": "чемпіонат",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport"
+  },
+  {
+    "en": "tournament",
+    "ua": "турнір",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport"
+  },
+  {
+    "en": "coach",
+    "ua": "тренер",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport"
+  },
+  {
+    "en": "athlete",
+    "ua": "спортсмен",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport"
+  },
+  {
+    "en": "marathon",
+    "ua": "марафон",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport"
+  },
+  {
+    "en": "swimmer",
+    "ua": "плавець",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport"
+  },
+  {
+    "en": "cyclist",
+    "ua": "велосипедист",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport"
+  },
+  {
+    "en": "runner",
+    "ua": "бігун",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "sport"
+  },
+  {
+    "en": "entrepreneurship",
+    "ua": "підприємництво",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "medium",
+    "ua": "засіб (мистецтва)",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby"
+  },
+  {
+    "en": "dialogue",
+    "ua": "діалог",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "reciprocal",
+    "ua": "взаємозалежний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "exclusively",
+    "ua": "виключно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "precisely",
+    "ua": "точно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "fundamentally",
+    "ua": "принципово",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  }
+]

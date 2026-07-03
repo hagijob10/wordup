@@ -1,0 +1,3761 @@
+[
+  {
+    "en": "raise",
+    "ua": "підвищувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "lower",
+    "ua": "знижувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "consider",
+    "ua": "розглядати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "prepare",
+    "ua": "готуватися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "contact",
+    "ua": "зв'язуватися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication"
+  },
+  {
+    "en": "communicate",
+    "ua": "спілкуватися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication"
+  },
+  {
+    "en": "express",
+    "ua": "висловлювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication"
+  },
+  {
+    "en": "present",
+    "ua": "представляти",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "lead",
+    "ua": "очолювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "design",
+    "ua": "проектувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "analyse",
+    "ua": "аналізувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "measure",
+    "ua": "вимірювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "test",
+    "ua": "тестувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "collaborate",
+    "ua": "співпрацювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "approve",
+    "ua": "схвалювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "pollute",
+    "ua": "забруднювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "nature"
+  },
+  {
+    "en": "bother",
+    "ua": "турбувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "emotions"
+  },
+  {
+    "en": "forgive",
+    "ua": "прощати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "emotions"
+  },
+  {
+    "en": "inspire",
+    "ua": "надихати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "emotions"
+  },
+  {
+    "en": "publish",
+    "ua": "публікувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "edit",
+    "ua": "редагувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "access",
+    "ua": "отримувати доступ",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "stream",
+    "ua": "транслювати онлайн",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "register",
+    "ua": "реєструватися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "tour",
+    "ua": "їздити на екскурсію",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "travel"
+  },
+  {
+    "en": "respond",
+    "ua": "відповідати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication"
+  },
+  {
+    "en": "react",
+    "ua": "реагувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "found",
+    "ua": "засновувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "transfer",
+    "ua": "передавати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "exchange",
+    "ua": "обмінювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "separate",
+    "ua": "роз'єднувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "replace",
+    "ua": "замінювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "remove",
+    "ua": "усувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "relate",
+    "ua": "відноситися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "claim",
+    "ua": "стверджувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication"
+  },
+  {
+    "en": "prove",
+    "ua": "доводити",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "represent",
+    "ua": "представляти",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "reflect",
+    "ua": "відображати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "display",
+    "ua": "показувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "observe",
+    "ua": "спостерігати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "collect",
+    "ua": "збирати (дані)",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "categorize",
+    "ua": "класифікувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "summarize",
+    "ua": "підсумовувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "quote",
+    "ua": "цитувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "refer",
+    "ua": "посилатися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "practise",
+    "ua": "практикувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "intend",
+    "ua": "мати намір",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "aim",
+    "ua": "прагнути",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "attempt",
+    "ua": "намагатися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "complete",
+    "ua": "завершувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "launch",
+    "ua": "запускати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "business"
+  },
+  {
+    "en": "proceed",
+    "ua": "продовжувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "hurry",
+    "ua": "поспішати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "daily life"
+  },
+  {
+    "en": "rush",
+    "ua": "мчати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "daily life"
+  },
+  {
+    "en": "suppose",
+    "ua": "припускати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "realise",
+    "ua": "усвідомлювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "recognise",
+    "ua": "впізнавати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "admire",
+    "ua": "захоплюватися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "emotions"
+  },
+  {
+    "en": "worship",
+    "ua": "боготворити",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "emotions"
+  },
+  {
+    "en": "compete",
+    "ua": "змагатися",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "sport"
+  },
+  {
+    "en": "entertain",
+    "ua": "розважати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "amuse",
+    "ua": "бавити",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "photograph",
+    "ua": "фотографувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "debate",
+    "ua": "дискутувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication"
+  },
+  {
+    "en": "interrupt",
+    "ua": "перебивати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication"
+  },
+  {
+    "en": "repeat",
+    "ua": "повторювати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication"
+  },
+  {
+    "en": "rephrase",
+    "ua": "перефразовувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "communication"
+  },
+  {
+    "en": "simplify",
+    "ua": "спрощувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "compromise",
+    "ua": "йти на компроміс",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "protest",
+    "ua": "протестувати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "elect",
+    "ua": "обирати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "appoint",
+    "ua": "призначати",
+    "pos": "verb",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "profession",
+    "ua": "професія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "payment",
+    "ua": "платіж",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money"
+  },
+  {
+    "en": "price",
+    "ua": "ціна",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "shopping"
+  },
+  {
+    "en": "dentist",
+    "ua": "стоматолог",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "health"
+  },
+  {
+    "en": "hardware",
+    "ua": "обладнання",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "folder",
+    "ua": "папка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "document",
+    "ua": "документ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "database",
+    "ua": "база даних",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "virus",
+    "ua": "вірус",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "error",
+    "ua": "помилка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "smartphone",
+    "ua": "смартфон",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "tablet",
+    "ua": "планшет",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "laptop",
+    "ua": "ноутбук",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "printer",
+    "ua": "принтер",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "ability",
+    "ua": "здатність",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "method",
+    "ua": "метод",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "solution",
+    "ua": "розв'язання",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "development",
+    "ua": "розвиток",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "improvement",
+    "ua": "поліпшення",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "mistake",
+    "ua": "помилка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "argument",
+    "ua": "аргумент",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "communication"
+  },
+  {
+    "en": "conversation",
+    "ua": "розмова",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "communication"
+  },
+  {
+    "en": "speech",
+    "ua": "промова",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "communication"
+  },
+  {
+    "en": "discussion",
+    "ua": "обговорення",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "communication"
+  },
+  {
+    "en": "survey",
+    "ua": "опитування",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "communication"
+  },
+  {
+    "en": "report",
+    "ua": "звіт",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "presentation",
+    "ua": "презентація",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "language",
+    "ua": "мова",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "history",
+    "ua": "історія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "politics",
+    "ua": "політика",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "souvenir",
+    "ua": "сувенір",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel"
+  },
+  {
+    "en": "currency",
+    "ua": "валюта",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money"
+  },
+  {
+    "en": "attraction",
+    "ua": "визначна пам'ятка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "travel"
+  },
+  {
+    "en": "landscape",
+    "ua": "краєвид",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature"
+  },
+  {
+    "en": "coast",
+    "ua": "узбережжя",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature"
+  },
+  {
+    "en": "harbour",
+    "ua": "гавань",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "nature"
+  },
+  {
+    "en": "temperature",
+    "ua": "температура",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "weather"
+  },
+  {
+    "en": "humidity",
+    "ua": "вологість",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "weather"
+  },
+  {
+    "en": "calorie",
+    "ua": "калорія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food"
+  },
+  {
+    "en": "vegetarian",
+    "ua": "вегетаріанець",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food"
+  },
+  {
+    "en": "flavour",
+    "ua": "смак",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food"
+  },
+  {
+    "en": "appetite",
+    "ua": "апетит",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food"
+  },
+  {
+    "en": "exhibition",
+    "ua": "виставка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "gallery",
+    "ua": "галерея",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "concert",
+    "ua": "концерт",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "performance",
+    "ua": "вистава",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "novel",
+    "ua": "роман",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "poet",
+    "ua": "поет",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "fiction",
+    "ua": "художня литература",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "documentary",
+    "ua": "документальний фільм",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "cartoon",
+    "ua": "мультфільм",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "theatre",
+    "ua": "театр",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "plot",
+    "ua": "сюжет",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "scene",
+    "ua": "сцена",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "excitement",
+    "ua": "хвилювання",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "emotions"
+  },
+  {
+    "en": "overtime",
+    "ua": "понаднормовий час",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "internship",
+    "ua": "стажування",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "promotion",
+    "ua": "підвищення",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "resignation",
+    "ua": "відставка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "retirement",
+    "ua": "вихід на пенсію",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "cooperation",
+    "ua": "співпраця",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "reference",
+    "ua": "рекомендація",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "benefit",
+    "ua": "пільга",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "pension",
+    "ua": "пенсія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money"
+  },
+  {
+    "en": "saving",
+    "ua": "заощадження",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "money"
+  },
+  {
+    "en": "demonstration",
+    "ua": "демонстрація",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "petition",
+    "ua": "петиція",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "activist",
+    "ua": "активіст",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "value",
+    "ua": "цінність",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "norm",
+    "ua": "норма",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "custom",
+    "ua": "звичай",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "lifestyle",
+    "ua": "спосіб життя",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "daily life"
+  },
+  {
+    "en": "hobby",
+    "ua": "хобі",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "talent",
+    "ua": "талант",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "passion",
+    "ua": "пристрасть",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "emotions"
+  },
+  {
+    "en": "effort",
+    "ua": "зусилля",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "advantage",
+    "ua": "перевага",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "disadvantage",
+    "ua": "недолік",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "complaint",
+    "ua": "скарга",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "compliment",
+    "ua": "компліменти",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "criticism",
+    "ua": "критика",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "praise",
+    "ua": "похвала",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "reward",
+    "ua": "винагорода",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "punishment",
+    "ua": "покарання",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "permission",
+    "ua": "дозвіл",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "responsibility",
+    "ua": "відповідальність",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "duty",
+    "ua": "обов'язок",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "obligation",
+    "ua": "зобов'язання",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "partnership",
+    "ua": "партнерство",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "anniversary",
+    "ua": "річниця",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "family"
+  },
+  {
+    "en": "ceremony",
+    "ua": "церемонія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "festival",
+    "ua": "фестиваль",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "hobby"
+  },
+  {
+    "en": "celebration",
+    "ua": "святкування",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "daily life"
+  },
+  {
+    "en": "invitation",
+    "ua": "запрошення",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "daily life"
+  },
+  {
+    "en": "decoration",
+    "ua": "прикраса",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "home"
+  },
+  {
+    "en": "equipment",
+    "ua": "обладнання",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "tool",
+    "ua": "інструмент",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "machine",
+    "ua": "машина",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "system",
+    "ua": "система",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "option",
+    "ua": "варіант",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "setting",
+    "ua": "налаштування",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "mode",
+    "ua": "режим",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "version",
+    "ua": "версія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "model",
+    "ua": "модель",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "format",
+    "ua": "формат",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "link",
+    "ua": "посилання",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "profile",
+    "ua": "профіль",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "notification",
+    "ua": "сповіщення",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "subscription",
+    "ua": "підписка",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "rating",
+    "ua": "рейтинг",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "feedback",
+    "ua": "зворотній зв'язок",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "skill set",
+    "ua": "набір навичок",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "workshop",
+    "ua": "майстер-клас",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "seminar",
+    "ua": "семінар",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "conference",
+    "ua": "конференція",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "course",
+    "ua": "курс",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "award",
+    "ua": "нагорода",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "prize",
+    "ua": "приз",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "admission",
+    "ua": "вступ",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "graduation",
+    "ua": "випуск",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "quiz",
+    "ua": "вікторина",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "essay",
+    "ua": "есе",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "corridor",
+    "ua": "коридор",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "canteen",
+    "ua": "їдальня",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "food"
+  },
+  {
+    "en": "term",
+    "ua": "семестр",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "timetable",
+    "ua": "розклад занять",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "geography",
+    "ua": "географія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "chemistry",
+    "ua": "хімія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "physics",
+    "ua": "фізика",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "biology",
+    "ua": "біологія",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "mathematics",
+    "ua": "математика",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "literature",
+    "ua": "литература",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "grammar",
+    "ua": "граматика",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "vocabulary",
+    "ua": "словниковий запас",
+    "pos": "noun",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "reasonable",
+    "ua": "розумний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "effective",
+    "ua": "дієвий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "professional",
+    "ua": "професійний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "experienced",
+    "ua": "досвідчений",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "qualified",
+    "ua": "кваліфікований",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "motivated",
+    "ua": "мотивований",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "talented",
+    "ua": "талановитий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "intelligent",
+    "ua": "інтелектуальний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "ambitious",
+    "ua": "амбіційний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "determined",
+    "ua": "рішучий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "loyal",
+    "ua": "відданий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "cheerful",
+    "ua": "радісний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "emotions"
+  },
+  {
+    "en": "stressed",
+    "ua": "у стресі",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "emotions"
+  },
+  {
+    "en": "depressed",
+    "ua": "пригнічений",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "emotions"
+  },
+  {
+    "en": "embarrassed",
+    "ua": "збентежений",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "emotions"
+  },
+  {
+    "en": "available",
+    "ua": "доступний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "popular",
+    "ua": "популярний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "harmful",
+    "ua": "шкідливий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "health"
+  },
+  {
+    "en": "natural",
+    "ua": "природний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "nature"
+  },
+  {
+    "en": "organic",
+    "ua": "органічний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "food"
+  },
+  {
+    "en": "affordable",
+    "ua": "доступний за ціною",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "shopping"
+  },
+  {
+    "en": "urgent",
+    "ua": "терміновий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "formal",
+    "ua": "офіційний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "informal",
+    "ua": "неофіційний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "surprising",
+    "ua": "дивовижний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "optional",
+    "ua": "необов'язковий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "permanent",
+    "ua": "постійний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "daily",
+    "ua": "щоденний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "time"
+  },
+  {
+    "en": "weekly",
+    "ua": "щотижневий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "time"
+  },
+  {
+    "en": "monthly",
+    "ua": "щомісячний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "time"
+  },
+  {
+    "en": "annual",
+    "ua": "щорічний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "time"
+  },
+  {
+    "en": "average",
+    "ua": "середній",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "typical",
+    "ua": "типовий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "unusual",
+    "ua": "незвичний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "identical",
+    "ua": "ідентичний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "opposite",
+    "ua": "протилежний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "financial",
+    "ua": "фінансовий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "money"
+  },
+  {
+    "en": "economic",
+    "ua": "економічний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "political",
+    "ua": "політичний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "social",
+    "ua": "соціальний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "cultural",
+    "ua": "культурний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "educational",
+    "ua": "освітній",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "physical",
+    "ua": "фізичний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "health"
+  },
+  {
+    "en": "mental",
+    "ua": "психічний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "health"
+  },
+  {
+    "en": "emotional",
+    "ua": "емоційний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "emotions"
+  },
+  {
+    "en": "digital",
+    "ua": "цифровий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "technical",
+    "ua": "технічний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "automatic",
+    "ua": "автоматичний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "technology"
+  },
+  {
+    "en": "manual",
+    "ua": "ручний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "work"
+  },
+  {
+    "en": "theoretical",
+    "ua": "теоретичний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "school"
+  },
+  {
+    "en": "positive",
+    "ua": "позитивний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "negative",
+    "ua": "негативний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "neutral",
+    "ua": "нейтральний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "fair",
+    "ua": "справедливий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "unfair",
+    "ua": "несправедливий",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "legal",
+    "ua": "законний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "illegal",
+    "ua": "незаконний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "safe",
+    "ua": "безпечний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "dangerous",
+    "ua": "небезпечний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "competitive",
+    "ua": "конкурентний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "business"
+  },
+  {
+    "en": "environmental",
+    "ua": "екологічний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "nature"
+  },
+  {
+    "en": "critical",
+    "ua": "критичний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "logical",
+    "ua": "логічний",
+    "pos": "adjective",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "gradually",
+    "ua": "поступово",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "constantly",
+    "ua": "постійно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "frequently",
+    "ua": "часто",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "time"
+  },
+  {
+    "en": "briefly",
+    "ua": "коротко",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "exactly",
+    "ua": "саме",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "directly",
+    "ua": "безпосередньо",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "properly",
+    "ua": "правильно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "clearly",
+    "ua": "чітко",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "officially",
+    "ua": "офіційно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "initially",
+    "ua": "спочатку",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "time"
+  },
+  {
+    "en": "otherwise",
+    "ua": "інакше",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "surprisingly",
+    "ua": "дивовижно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "normally",
+    "ua": "зазвичай",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "especially",
+    "ua": "особливо",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "literally",
+    "ua": "буквально",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "roughly",
+    "ua": "приблизно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "approximately",
+    "ua": "приблизно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "significantly",
+    "ua": "значно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "entirely",
+    "ua": "повністю",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "equally",
+    "ua": "рівномірно",
+    "pos": "adverb",
+    "level": "B1",
+    "topic": "general"
+  },
+  {
+    "en": "execute",
+    "ua": "виконувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "utilise",
+    "ua": "використовувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "optimise",
+    "ua": "оптимізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "oversee",
+    "ua": "наглядати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "forecast",
+    "ua": "прогнозувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "accelerate",
+    "ua": "прискорювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "contradict",
+    "ua": "суперечити",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "communication"
+  },
+  {
+    "en": "regulate",
+    "ua": "регулювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "prohibit",
+    "ua": "забороняти",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "quantify",
+    "ua": "кількісно вимірювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "validate",
+    "ua": "підтверджувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "address",
+    "ua": "розглядати (проблему)",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "outsource",
+    "ua": "аутсорсити",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "monetize",
+    "ua": "монетизувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "scale",
+    "ua": "масштабувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "pivot",
+    "ua": "змінювати напрямок",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "rebrand",
+    "ua": "ребрендувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "incentivize",
+    "ua": "стимулювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "empower",
+    "ua": "надавати повноваження",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "portray",
+    "ua": "описувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "hobby"
+  },
+  {
+    "en": "symbolise",
+    "ua": "символізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "hobby"
+  },
+  {
+    "en": "characterise",
+    "ua": "характеризувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "supplement",
+    "ua": "доповнювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "compensate",
+    "ua": "компенсувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "arbitrate",
+    "ua": "виступати арбітром",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "restructure",
+    "ua": "реструктуризувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "benchmark",
+    "ua": "зіставляти з еталоном",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "infer",
+    "ua": "робити висновок",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "deduce",
+    "ua": "виводити логічно",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "formulate",
+    "ua": "формулювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "propose",
+    "ua": "пропонувати (план)",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "conceptualise",
+    "ua": "концептуалізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "operationalise",
+    "ua": "операціоналізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "contextualise",
+    "ua": "контекстуалізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "synthesise",
+    "ua": "синтезувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "critique",
+    "ua": "критикувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "hobby"
+  },
+  {
+    "en": "articulate",
+    "ua": "чітко висловлювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "communication"
+  },
+  {
+    "en": "convey",
+    "ua": "передавати (ідею)",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "communication"
+  },
+  {
+    "en": "coerce",
+    "ua": "примушувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "intimidate",
+    "ua": "залякувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "denounce",
+    "ua": "засуджувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "condemn",
+    "ua": "засуджувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "subsidize",
+    "ua": "субсидувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "money"
+  },
+  {
+    "en": "depreciate",
+    "ua": "знецінюватися",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "money"
+  },
+  {
+    "en": "franchise",
+    "ua": "продавати франшизу",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "tender",
+    "ua": "подавати тендер",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "audit",
+    "ua": "проводити аудит",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "deregulate",
+    "ua": "дерегулювати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "liberalize",
+    "ua": "лібералізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "decentralize",
+    "ua": "децентралізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "democratize",
+    "ua": "демократизувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "modernize",
+    "ua": "модернізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "urbanize",
+    "ua": "урбанізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "colonize",
+    "ua": "колонізувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "annexe",
+    "ua": "анексувати",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "embargo",
+    "ua": "запроваджувати ембарго",
+    "pos": "verb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "element",
+    "ua": "елемент",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "structure",
+    "ua": "структура",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "process",
+    "ua": "процес",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "procedure",
+    "ua": "процедура",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "impact",
+    "ua": "вплив",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "effect",
+    "ua": "ефект",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "objective",
+    "ua": "мета",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "priority",
+    "ua": "пріоритет",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "contribution",
+    "ua": "внесок",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "obstacle",
+    "ua": "перешкода",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "barrier",
+    "ua": "бар'єр",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "threat",
+    "ua": "загроза",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "conflict",
+    "ua": "конфлікт",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "crisis",
+    "ua": "криза",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "expenditure",
+    "ua": "витрати",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money"
+  },
+  {
+    "en": "funding",
+    "ua": "фінансування",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money"
+  },
+  {
+    "en": "grant",
+    "ua": "грант",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money"
+  },
+  {
+    "en": "executive",
+    "ua": "керівник",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "consultant",
+    "ua": "консультант",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "analyst",
+    "ua": "аналітик",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "expert",
+    "ua": "експерт",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "specialist",
+    "ua": "фахівець",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "corporation",
+    "ua": "корпорація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "headquarters",
+    "ua": "штаб-квартира",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "reform",
+    "ua": "реформа",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "welfare",
+    "ua": "добробут",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "consciousness",
+    "ua": "свідомість",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "ideology",
+    "ua": "ідеологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "institution",
+    "ua": "інститут",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "administration",
+    "ua": "адміністрація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "diplomat",
+    "ua": "дипломат",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "immunity",
+    "ua": "імунітет",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "metabolism",
+    "ua": "метаболізм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "obesity",
+    "ua": "ожиріння",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "rehabilitation",
+    "ua": "реабілітація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "counselling",
+    "ua": "консультування",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "hormone",
+    "ua": "гормон",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "gene",
+    "ua": "ген",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "cell",
+    "ua": "клітина",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "tissue",
+    "ua": "тканина",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "organ",
+    "ua": "орган",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "machine learning",
+    "ua": "машинне навчання",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology"
+  },
+  {
+    "en": "prototype",
+    "ua": "прототип",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology"
+  },
+  {
+    "en": "deployment",
+    "ua": "розгортання",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology"
+  },
+  {
+    "en": "psychology",
+    "ua": "психологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "sociology",
+    "ua": "соціологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "economics",
+    "ua": "економіка",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "linguistics",
+    "ua": "лінгвістика",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "philosophy",
+    "ua": "філософія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "ethics",
+    "ua": "етика",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "methodology",
+    "ua": "методологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "analysis",
+    "ua": "аналіз",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "synthesis",
+    "ua": "синтез",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "sample",
+    "ua": "вибірка",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "statistic",
+    "ua": "статистика",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "questionnaire",
+    "ua": "анкета",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "bibliography",
+    "ua": "бібліографія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "citation",
+    "ua": "цитата",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "abstract",
+    "ua": "анотація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "aesthetic",
+    "ua": "естетика",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby"
+  },
+  {
+    "en": "symbolism",
+    "ua": "символізм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby"
+  },
+  {
+    "en": "narrative",
+    "ua": "розповідь",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby"
+  },
+  {
+    "en": "genre",
+    "ua": "жанр",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby"
+  },
+  {
+    "en": "composition",
+    "ua": "композиція",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby"
+  },
+  {
+    "en": "installation",
+    "ua": "інсталяція",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "hobby"
+  },
+  {
+    "en": "tolerance",
+    "ua": "толерантність",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "privilege",
+    "ua": "привілей",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "globalization",
+    "ua": "глобалізація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "mentorship",
+    "ua": "наставництво",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "redundancy",
+    "ua": "скорочення штату",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "momentum",
+    "ua": "імпульс",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "paradigm",
+    "ua": "парадигма",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "folklore",
+    "ua": "фольклор",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "mythology",
+    "ua": "міфологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "metaphor",
+    "ua": "метафора",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "irony",
+    "ua": "іронія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "ambiguity",
+    "ua": "двозначність",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "consensus",
+    "ua": "консенсус",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "rhetoric",
+    "ua": "риторика",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "urbanization",
+    "ua": "урбанізація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "marginalization",
+    "ua": "маргіналізація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "oligopoly",
+    "ua": "олігополія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "cartel",
+    "ua": "картель",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "conglomerate",
+    "ua": "конгломерат",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "trademark",
+    "ua": "торговельна марка",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "patent",
+    "ua": "патент",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "copyright",
+    "ua": "авторське право",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "subsidy",
+    "ua": "субсидія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money"
+  },
+  {
+    "en": "austerity",
+    "ua": "жорстка економія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money"
+  },
+  {
+    "en": "devaluation",
+    "ua": "девальвація",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "money"
+  },
+  {
+    "en": "cryptocurrency",
+    "ua": "криптовалюта",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology"
+  },
+  {
+    "en": "blockchain",
+    "ua": "блокчейн",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "technology"
+  },
+  {
+    "en": "mandate",
+    "ua": "мандат",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "coalition",
+    "ua": "коаліція",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "opposition",
+    "ua": "опозиція",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "lobbyist",
+    "ua": "лобіст",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "bureaucrat",
+    "ua": "бюрократ",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "treaty",
+    "ua": "договір",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "alliance",
+    "ua": "альянс",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "deterrence",
+    "ua": "стримування",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "geopolitics",
+    "ua": "геополітика",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "archipelago",
+    "ua": "архіпелаг",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature"
+  },
+  {
+    "en": "peninsula",
+    "ua": "півострів",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature"
+  },
+  {
+    "en": "plateau",
+    "ua": "плато",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature"
+  },
+  {
+    "en": "glacier",
+    "ua": "льодовик",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature"
+  },
+  {
+    "en": "tropics",
+    "ua": "тропіки",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature"
+  },
+  {
+    "en": "hemisphere",
+    "ua": "півкуля",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature"
+  },
+  {
+    "en": "latitude",
+    "ua": "широта",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature"
+  },
+  {
+    "en": "longitude",
+    "ua": "довгота",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature"
+  },
+  {
+    "en": "altitude",
+    "ua": "висота",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature"
+  },
+  {
+    "en": "topography",
+    "ua": "топографія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "nature"
+  },
+  {
+    "en": "magnetism",
+    "ua": "магнетизм",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "thermodynamics",
+    "ua": "термодинаміка",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "quantum",
+    "ua": "квант",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "neuroscience",
+    "ua": "нейронаука",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "subconscious",
+    "ua": "підсвідомість",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "psyche",
+    "ua": "психіка",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "anxiety disorder",
+    "ua": "тривожний розлад",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "schizophrenia",
+    "ua": "шизофренія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "dementia",
+    "ua": "деменція",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "prognosis",
+    "ua": "прогноз (медичний)",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "pathology",
+    "ua": "патологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "anatomy",
+    "ua": "анатомія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "physiology",
+    "ua": "фізіологія",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "embryo",
+    "ua": "ембріон",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "chromosome",
+    "ua": "хромосома",
+    "pos": "noun",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "considerable",
+    "ua": "суттєвий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "inherent",
+    "ua": "притаманний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "straightforward",
+    "ua": "зрозумілий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "strategic",
+    "ua": "стратегічний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "business"
+  },
+  {
+    "en": "sustainable",
+    "ua": "стійкий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "nature"
+  },
+  {
+    "en": "renewable",
+    "ua": "відновлюваний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "nature"
+  },
+  {
+    "en": "toxic",
+    "ua": "токсичний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "nature"
+  },
+  {
+    "en": "proactive",
+    "ua": "проактивний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "subjective",
+    "ua": "суб'єктивний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "concrete",
+    "ua": "конкретний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "empirical",
+    "ua": "емпіричний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "quantitative",
+    "ua": "кількісний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "qualitative",
+    "ua": "якісний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "diverse",
+    "ua": "різноманітний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "inclusive",
+    "ua": "інклюзивний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "accountable",
+    "ua": "підзвітний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "ethical",
+    "ua": "етичний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "biased",
+    "ua": "упереджений",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "rigorous",
+    "ua": "ретельний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "school"
+  },
+  {
+    "en": "insufficient",
+    "ua": "недостатній",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "adequate",
+    "ua": "відповідний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "cutting-edge",
+    "ua": "передовий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "technology"
+  },
+  {
+    "en": "groundbreaking",
+    "ua": "новаторський",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "mutual",
+    "ua": "взаємний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "concurrent",
+    "ua": "одночасний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "subsequent",
+    "ua": "наступний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "preliminary",
+    "ua": "попередній",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "integral",
+    "ua": "невід'ємний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "marginal",
+    "ua": "незначний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "infectious",
+    "ua": "інфекційний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "cognitive",
+    "ua": "когнітивний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "genetic",
+    "ua": "генетичний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "health"
+  },
+  {
+    "en": "innate",
+    "ua": "вроджений",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "acquired",
+    "ua": "набутий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "disposable",
+    "ua": "одноразовий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "degradable",
+    "ua": "такий, що розкладається",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "nature"
+  },
+  {
+    "en": "hazardous",
+    "ua": "небезпечний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "opaque",
+    "ua": "непрозорий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "provisional",
+    "ua": "тимчасовий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "definitive",
+    "ua": "остаточний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "autonomous",
+    "ua": "автономний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "bilateral",
+    "ua": "двосторонній",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "multilateral",
+    "ua": "багатосторонній",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "imminent",
+    "ua": "неминучий (близький)",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "redundant",
+    "ua": "зайвий",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "work"
+  },
+  {
+    "en": "contingent",
+    "ua": "залежний від умов",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "cumulative",
+    "ua": "кумулятивний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "aggregate",
+    "ua": "сукупний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "overarching",
+    "ua": "всеохопний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "underlying",
+    "ua": "основний",
+    "pos": "adjective",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "moreover",
+    "ua": "до того ж",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "thus",
+    "ua": "таким чином",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "hence",
+    "ua": "звідси",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "likewise",
+    "ua": "так само",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "conversely",
+    "ua": "навпаки",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "extensively",
+    "ua": "широко",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "substantially",
+    "ua": "суттєво",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "consistently",
+    "ua": "послідовно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "predominantly",
+    "ua": "переважно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "explicitly",
+    "ua": "явно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "inherently",
+    "ua": "по суті",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "technically",
+    "ua": "технічно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "systematically",
+    "ua": "систематично",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "comprehensively",
+    "ua": "всебічно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "retrospectively",
+    "ua": "ретроспективно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  },
+  {
+    "en": "prospectively",
+    "ua": "перспективно",
+    "pos": "adverb",
+    "level": "B2",
+    "topic": "general"
+  }
+]
