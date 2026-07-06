@@ -638,6 +638,111 @@
       line-height: 1.45;
       font-style: italic;
     }
+    /* ── НЕ ЗНАЮ BUTTON ── */
+    .dontknow-wrap {
+      display: flex;
+      justify-content: center;
+      padding: 4px 20px 20px;
+      max-width: 520px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .btn-dontknow {
+      background: none;
+      border: none;
+      color: var(--text2);
+      font-size: 14px;
+      font-weight: 500;
+      padding: 12px 28px;
+      min-height: 44px;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      font-family: var(--font);
+      transition: color 140ms;
+      border-radius: var(--radius-btn);
+      letter-spacing: .2px;
+    }
+    .btn-dontknow:active:not(:disabled) { color: var(--text); }
+    .btn-dontknow:disabled { opacity: 0; pointer-events: none; }
+
+    /* ── TOPIC FILTER ── */
+    .topic-section { margin-top: 4px; }
+    .topic-section-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text3);
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-bottom: 10px;
+    }
+    .topic-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .topic-chip {
+      background: var(--card);
+      border: 1.5px solid var(--border);
+      border-radius: 20px;
+      padding: 7px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text2);
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transition: background 140ms, border-color 140ms, color 140ms;
+      font-family: var(--font);
+    }
+    .topic-chip:active { transform: scale(.95); }
+    .topic-chip.active {
+      background: rgba(108,92,231,.2);
+      border-color: var(--accent1);
+      color: var(--accent1);
+    }
+
+    /* ── SPEAK BUTTON ── */
+    .speak-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text2);
+      font-size: 20px;
+      padding: 6px;
+      min-width: 32px;
+      min-height: 32px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      -webkit-tap-highlight-color: transparent;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+    .speak-btn:active { opacity: 0.5; }
+    .speak-hidden { display: none !important; }
+
+    /* ── AUTOSPEAK TOGGLE ── */
+    .autospeak-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 14px;
+    }
+    .autospeak-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      color: var(--text2);
+      font-size: 14px;
+      user-select: none;
+    }
+    #autoSpeakToggle {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--accent1);
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -692,6 +797,16 @@
           <div class="mode-card-arrow">›</div>
         </div>
 
+        <!-- Навпаки mode card -->
+        <div class="mode-card" id="cardReverse" role="button" tabindex="0">
+          <div class="mode-card-icon">🔄</div>
+          <div class="mode-card-body">
+            <div class="mode-card-title">Навпаки</div>
+            <div class="mode-card-desc">Вибери слово — UA → EN</div>
+          </div>
+          <div class="mode-card-arrow">›</div>
+        </div>
+
         <!-- Повторення (SRS) mode card -->
         <div class="mode-card" id="cardSRS" role="button" tabindex="0">
           <div class="mode-card-icon">🔁</div>
@@ -717,6 +832,12 @@
           <div class="stat-value" id="statWords">…</div>
           <div class="stat-label">Слів у базі</div>
         </div>
+      </div>
+      <div class="autospeak-row" id="autoSpeakRow">
+        <label class="autospeak-label">
+          <input type="checkbox" id="autoSpeakToggle">
+          🔊 Автовимова
+        </label>
       </div>
     </div>
   </div>
@@ -769,6 +890,11 @@
         <div class="level-arrow">›</div>
       </div>
 
+      <div id="topicSection" class="topic-section" style="display:none;">
+        <div class="topic-section-label">Тема</div>
+        <div class="topic-chips" id="topicChips"></div>
+      </div>
+
     </div>
   </div>
 
@@ -790,11 +916,17 @@
       <span class="heart-item" id="heart3">❤️</span>
     </div>
     <div class="word-card">
-      <div class="word-en" id="wordEn">—</div>
+      <div style="display:flex;align-items:center;justify-content:center;gap:10px;">
+        <div class="word-en" id="wordEn">—</div>
+        <button class="speak-btn" id="speakGame" aria-label="Вимовити">🔊</button>
+      </div>
       <div class="pos-badge" id="posBadge">іменник</div>
     </div>
     <div class="answers-area" id="answersArea">
-      <!-- 3 answer buttons injected by JS -->
+      <!-- answer buttons injected by JS -->
+    </div>
+    <div class="dontknow-wrap">
+      <button class="btn-dontknow" id="btnDontKnow">Не знаю</button>
     </div>
   </div>
 
@@ -821,8 +953,8 @@
           <div class="result-stat-lbl">Помилок</div>
         </div>
         <div class="result-stat">
-          <div class="result-stat-val" id="rTotal">15</div>
-          <div class="result-stat-lbl">Всього</div>
+          <div class="result-stat-val" style="color:var(--text2);" id="rSkip">0</div>
+          <div class="result-stat-lbl">Не знав</div>
         </div>
       </div>
 
@@ -875,7 +1007,10 @@
 
       <div class="word-card">
         <div class="srs-learn-label" id="srsLearnLabel" style="display:none;">Запам'ятай</div>
-        <div class="word-en" id="srsWordEn">—</div>
+        <div style="display:flex;align-items:center;justify-content:center;gap:10px;">
+          <div class="word-en" id="srsWordEn">—</div>
+          <button class="speak-btn" id="speakSrs" aria-label="Вимовити">🔊</button>
+        </div>
         <div class="pos-badge" id="srsPosBadge">—</div>
         <div class="srs-translation" id="srsTranslation" style="display:none;">—</div>
         <div class="example-block" id="srsExampleBlock" style="display:none;">
@@ -946,9 +1081,10 @@
 ═══════════════════════════════════════════════ */
 const SESSION_SIZE = 15;
 const STORAGE_PREFIX = 'wordup_';
-const STORAGE_WORDS_KEY  = STORAGE_PREFIX + 'words_v1';    // per-word history
-const STORAGE_LEVELS_KEY = STORAGE_PREFIX + 'levels_v1';   // classic per-level aggregates
-const STORAGE_BEST_KEY   = STORAGE_PREFIX + 'best_v1';     // per-mode+level best scores
+const STORAGE_WORDS_KEY    = STORAGE_PREFIX + 'words_v1';      // per-word history
+const STORAGE_LEVELS_KEY   = STORAGE_PREFIX + 'levels_v1';     // classic per-level aggregates
+const STORAGE_REVLEVELS_KEY = STORAGE_PREFIX + 'revlevels_v1'; // reverse per-level aggregates
+const STORAGE_BEST_KEY     = STORAGE_PREFIX + 'best_v1';       // per-mode+level best scores
 
 const SRS_KEY          = STORAGE_PREFIX + 'srs';
 const SRS_LEARNED_KEY  = STORAGE_PREFIX + 'learned';
@@ -1014,6 +1150,15 @@ const MODES = {
     direction: 'en_to_ua',
     distractorCount: 2,
   },
+  reverse: {
+    id: 'reverse',
+    label: 'Навпаки',
+    sessionSize: 15,
+    timerEnabled: false,
+    livesEnabled: false,
+    direction: 'ua_to_en',
+    distractorCount: 3,      // 4 options total (correct EN + 3 distractors)
+  },
 };
 
 /* ═══════════════════════════════════════════════
@@ -1022,8 +1167,11 @@ const MODES = {
 let allWords = [];
 let wordsByLevel = {};      // { A2: [...], B1: [...], B2: [...] }
 let wordsByPos   = {};      // { verb: [...], noun: [...], ... }
+let wordsByTopic = {};      // { topic: [...] }
+let topicList    = [];      // topic strings with count >= 20, sorted
 
-let pendingMode = 'classic';   // which mode card was tapped last
+let pendingMode  = 'classic';  // which mode card was tapped last
+let pendingTopic = null;       // null = all topics; session-only (resets on mode-card tap)
 let session = null;
 /*  session shape:
     {
@@ -1108,6 +1256,18 @@ function recordLevelResult(level, correct, total) {
   h[level].seen    += total;
   h[level].correct += correct;
   saveLevelHistory(h);
+}
+
+function loadReverseLevelHistory() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_REVLEVELS_KEY) || '{}'); } catch { return {}; }
+}
+function saveReverseLevelHistory(h) { localStorage.setItem(STORAGE_REVLEVELS_KEY, JSON.stringify(h)); }
+function recordReverseLevelResult(level, correct, total) {
+  const h = loadReverseLevelHistory();
+  if (!h[level]) h[level] = { seen: 0, correct: 0 };
+  h[level].seen    += total;
+  h[level].correct += correct;
+  saveReverseLevelHistory(h);
 }
 
 /* accuracy string helper */
@@ -1357,6 +1517,7 @@ function renderSrsLearnStep(item) {
   document.getElementById('srsLearnLabel').style.display   = 'block';
   document.getElementById('srsWordEn').textContent         = item.word.en;
   document.getElementById('srsPosBadge').textContent       = posUa(item.word.pos);
+  if (loadAutoSpeak()) { unlockAudio(); speak(item.word.en); }
   document.getElementById('srsTranslation').textContent    = item.word.ua;
   document.getElementById('srsTranslation').style.display  = 'block';
 
@@ -1471,25 +1632,31 @@ function finishSrsSession() {
 /* ═══════════════════════════════════════════════
    DISTRACTOR GENERATION
 ═══════════════════════════════════════════════ */
-function getDistractors(targetWord, count) {
+function getDistractors(targetWord, count, topicHint) {
   const correctUa = targetWord.ua.trim().toLowerCase();
   const targetPos = targetWord.pos;
   const targetLevelIdx = LEVEL_ORDER.indexOf(targetWord.level);
 
-  // Build candidate pool: same pos, different id, different ua text
-  let candidates = (wordsByPos[targetPos] || []).filter(w =>
-    w.id !== targetWord.id &&
-    w.ua.trim().toLowerCase() !== correctUa
-  );
+  // Prefer same topic when specified
+  let candidates = topicHint
+    ? (wordsByTopic[topicHint] || []).filter(w =>
+        w.id !== targetWord.id && w.ua.trim().toLowerCase() !== correctUa)
+    : [];
+
+  // Fall back to same pos globally
+  if (candidates.length < count) {
+    candidates = (wordsByPos[targetPos] || []).filter(w =>
+      w.id !== targetWord.id &&
+      w.ua.trim().toLowerCase() !== correctUa
+    );
+  }
 
   if (candidates.length < count) {
-    // Widen to adjacent levels from full list, same pos still
-    const wider = allWords.filter(w =>
+    candidates = allWords.filter(w =>
       w.id !== targetWord.id &&
       w.ua.trim().toLowerCase() !== correctUa &&
       w.pos === targetPos
     );
-    candidates = wider;
   }
 
   if (candidates.length < count) {
@@ -1521,6 +1688,65 @@ function getDistractors(targetWord, count) {
     const ua = w.ua.trim().toLowerCase();
     if (!seen.has(ua)) {
       seen.add(ua);
+      result.push(w);
+    }
+    if (result.length === count) break;
+  }
+  return result;
+}
+
+function getDistractorsReverse(targetWord, count, topicHint) {
+  const correctEn = targetWord.en.trim().toLowerCase();
+  const correctUa = targetWord.ua.trim().toLowerCase();
+  const targetPos = targetWord.pos;
+  const targetLevelIdx = LEVEL_ORDER.indexOf(targetWord.level);
+
+  // Prefer same topic when specified
+  let candidates = topicHint
+    ? (wordsByTopic[topicHint] || []).filter(w =>
+        w.id !== targetWord.id &&
+        w.en.trim().toLowerCase() !== correctEn &&
+        w.ua.trim().toLowerCase() !== correctUa)
+    : [];
+
+  // Fall back to same pos globally
+  if (candidates.length < count) {
+    candidates = (wordsByPos[targetPos] || []).filter(w =>
+      w.id !== targetWord.id &&
+      w.en.trim().toLowerCase() !== correctEn &&
+      w.ua.trim().toLowerCase() !== correctUa
+    );
+  }
+
+  if (candidates.length < count) {
+    // Last resort: any word regardless of pos
+    candidates = allWords.filter(w =>
+      w.id !== targetWord.id &&
+      w.en.trim().toLowerCase() !== correctEn &&
+      w.ua.trim().toLowerCase() !== correctUa
+    );
+  }
+
+  // Prefer same level, then adjacent
+  const sameLevel = candidates.filter(w => w.level === targetWord.level);
+  const adjLevel  = candidates.filter(w => {
+    const li = LEVEL_ORDER.indexOf(w.level);
+    return Math.abs(li - targetLevelIdx) === 1;
+  });
+  const rest = candidates.filter(w =>
+    w.level !== targetWord.level &&
+    Math.abs(LEVEL_ORDER.indexOf(w.level) - targetLevelIdx) > 1
+  );
+
+  const ordered = [...shuffle(sameLevel), ...shuffle(adjLevel), ...shuffle(rest)];
+
+  // Deduplicate by en text
+  const seen = new Set([correctEn]);
+  const result = [];
+  for (const w of ordered) {
+    const en = w.en.trim().toLowerCase();
+    if (!seen.has(en)) {
+      seen.add(en);
       result.push(w);
     }
     if (result.length === count) break;
@@ -1599,14 +1825,15 @@ function renderHearts() {
 /* ═══════════════════════════════════════════════
    SESSION RUNNER  (shared core, mode-configurable)
 ═══════════════════════════════════════════════ */
-function buildPool(level) {
-  if (level === 'ALL') return allWords.slice();
-  return (wordsByLevel[level] || []).slice();
+function buildPool(level, topic) {
+  let pool = level === 'ALL' ? allWords.slice() : (wordsByLevel[level] || []).slice();
+  if (topic) pool = pool.filter(w => w.topic === topic);
+  return pool;
 }
 
-function startSession(mode, level) {
+function startSession(mode, level, topic) {
   const cfg = MODES[mode];
-  const pool = buildPool(level);
+  const pool = buildPool(level, topic || null);
   if (pool.length === 0) return;
 
   const queueSize = cfg.sessionSize === Infinity ? pool.length : Math.min(cfg.sessionSize, pool.length);
@@ -1615,11 +1842,13 @@ function startSession(mode, level) {
   session = {
     mode,
     level,
+    topic: topic || null,
     pool,
     queue,
     idx: 0,
     correct: 0,
     incorrect: 0,
+    skip: 0,
     streak: 0,
     locked: false,
     finished: false,
@@ -1688,12 +1917,19 @@ function renderQuestion() {
     document.getElementById('progressFill').style.width = `${(s.idx / total) * 100}%`;
   }
 
-  // Word display
-  document.getElementById('wordEn').textContent = word.en;
+  // Word display — direction-aware
+  const isReverse = MODES[s.mode].direction === 'ua_to_en';
+  document.getElementById('wordEn').textContent = isReverse ? word.ua : word.en;
   document.getElementById('posBadge').textContent = posUa(word.pos);
 
+  const speakBtn = document.getElementById('speakGame');
+  if (speakBtn) speakBtn.classList.toggle('speak-hidden', isReverse);
+  if (!isReverse && loadAutoSpeak()) { unlockAudio(); speak(word.en); }
+
   // Build options
-  const distractors = getDistractors(word, MODES[s.mode].distractorCount);
+  const distractors = isReverse
+    ? getDistractorsReverse(word, MODES[s.mode].distractorCount, s.topic)
+    : getDistractors(word, MODES[s.mode].distractorCount, s.topic);
   const options = shuffle([word, ...distractors]);
 
   // Render buttons
@@ -1702,12 +1938,14 @@ function renderQuestion() {
   options.forEach(opt => {
     const btn = document.createElement('button');
     btn.className = 'answer-btn';
-    btn.textContent = opt.ua;
+    btn.textContent = isReverse ? opt.en : opt.ua;
     btn.dataset.id = opt.id;
     btn.addEventListener('click', () => handleAnswer(btn, opt.id === word.id, word));
     area.appendChild(btn);
   });
 
+  const dkBtn = document.getElementById('btnDontKnow');
+  if (dkBtn) dkBtn.disabled = false;
   s.locked = false;
 }
 
@@ -1716,18 +1954,40 @@ function handleAnswer(btn, isCorrect, targetWord) {
   if (s.locked || s.finished) return;
   s.locked = true;
 
+  const dkBtn = document.getElementById('btnDontKnow');
+  if (dkBtn) dkBtn.disabled = true;
+
   haptic(isCorrect ? 'success' : 'error');
 
   btn.classList.add(isCorrect ? 'correct' : 'wrong');
   btn.classList.add('locked');
 
+  const isReverse = MODES[s.mode].direction === 'ua_to_en';
+
   if (!isCorrect) {
-    document.querySelectorAll('.answer-btn').forEach(b => {
-      if (b.textContent === s.queue[s.idx].ua) b.classList.add('correct');
+    document.querySelectorAll('#answersArea .answer-btn').forEach(b => {
+      const isCorrectBtn = isReverse
+        ? b.dataset.id === targetWord.id
+        : b.textContent === s.queue[s.idx].ua;
+      if (isCorrectBtn) b.classList.add('correct');
       b.classList.add('locked');
     });
   } else {
-    document.querySelectorAll('.answer-btn').forEach(b => b.classList.add('locked'));
+    document.querySelectorAll('#answersArea .answer-btn').forEach(b => b.classList.add('locked'));
+  }
+
+  // Навпаки reveal: inject 🔊 on the correct EN button; auto-speak if enabled
+  if (isReverse && hasSpeech) {
+    const correctBtn = document.querySelector(`#answersArea .answer-btn[data-id="${targetWord.id}"]`);
+    if (correctBtn) {
+      const sp = document.createElement('button');
+      sp.className = 'speak-btn';
+      sp.textContent = '🔊';
+      sp.addEventListener('click', e => { e.stopPropagation(); unlockAudio(); speak(targetWord.en); });
+      correctBtn.style.cssText += ';display:flex;align-items:center;justify-content:center;gap:6px;';
+      correctBtn.appendChild(sp);
+    }
+    if (loadAutoSpeak()) { unlockAudio(); speak(targetWord.en); }
   }
 
   if (isCorrect) { s.correct++; s.streak++; }
@@ -1761,6 +2021,70 @@ function handleAnswer(btn, isCorrect, targetWord) {
   }, delay);
 }
 
+function handleDontKnow(targetWord) {
+  const s = session;
+  if (s.locked || s.finished) return;
+  s.locked = true;
+
+  const dkBtn = document.getElementById('btnDontKnow');
+  if (dkBtn) dkBtn.disabled = true;
+
+  haptic('error');
+
+  // Reveal the correct answer — same reveal logic as a wrong answer
+  const isReverse = MODES[s.mode].direction === 'ua_to_en';
+  document.querySelectorAll('#answersArea .answer-btn').forEach(b => {
+    const isCorrectBtn = isReverse
+      ? b.dataset.id === targetWord.id
+      : b.textContent === s.queue[s.idx].ua;
+    if (isCorrectBtn) b.classList.add('correct');
+    b.classList.add('locked');
+  });
+
+  // Навпаки: inject 🔊 on correct EN button; auto-speak if Автовимова is ON
+  if (isReverse && hasSpeech) {
+    const correctBtn = document.querySelector(`#answersArea .answer-btn[data-id="${targetWord.id}"]`);
+    if (correctBtn) {
+      const sp = document.createElement('button');
+      sp.className = 'speak-btn';
+      sp.textContent = '🔊';
+      sp.addEventListener('click', e => { e.stopPropagation(); unlockAudio(); speak(targetWord.en); });
+      correctBtn.style.cssText += ';display:flex;align-items:center;justify-content:center;gap:6px;';
+      correctBtn.appendChild(sp);
+    }
+    if (loadAutoSpeak()) { unlockAudio(); speak(targetWord.en); }
+  }
+
+  // Scoring: skip counter increments; streak resets; not correct
+  s.skip++;
+  s.streak = 0;
+
+  // SRS: reuse the exact same code path as a wrong answer
+  srsAddWord(targetWord.id);
+  recordWordResult(targetWord.id, false);
+
+  // Survival: costs a life, same as a wrong answer
+  if (s.mode === 'survival') {
+    s.lives--;
+    renderHearts();
+    if (s.lives <= 0) {
+      setTimeout(() => { if (session === s && !s.finished) finishSession(); }, 900);
+      return;
+    }
+  }
+
+  // Advance after 700ms — same pause as a wrong answer
+  setTimeout(() => {
+    if (session !== s || s.finished) return;
+    s.idx++;
+    if (s.mode !== 'blitz' && s.idx >= s.queue.length) {
+      finishSession();
+    } else {
+      renderQuestion();
+    }
+  }, 700);
+}
+
 /* ═══════════════════════════════════════════════
    SESSION FINISH
 ═══════════════════════════════════════════════ */
@@ -1774,10 +2098,11 @@ function finishSession() {
   let stars, scoreBigText, scorePctText, msg;
   const correct   = s.correct;
   const incorrect = s.incorrect;
+  const skip      = s.skip;
   let total;
 
   if (s.mode === 'blitz') {
-    total = correct + incorrect;
+    total = correct + incorrect + skip;
     const pct = total > 0 ? Math.round(correct / total * 100) : 0;
     // Thresholds assume ~1.5-2s avg per question; may need tuning after real playtesting
     stars = correct >= 25 ? 3 : correct >= 15 ? 2 : 1;
@@ -1787,7 +2112,7 @@ function finishSession() {
     updateBestScore('blitz', s.level, correct);
 
   } else if (s.mode === 'survival') {
-    total = correct + incorrect;
+    total = correct + incorrect + skip;
     // Thresholds approximate; may need tuning after real playtesting
     stars = correct >= 20 ? 3 : correct >= 10 ? 2 : 1;
     scoreBigText = `${correct}`;
@@ -1795,6 +2120,15 @@ function finishSession() {
     msg = correct >= 20 ? 'Виживець! 🏆' : correct >= 10 ? 'Добрий результат! 👍' : 'Тренуйся ще! 💪';
     updateBestScore('survival', s.level, correct);
 
+  } else if (s.mode === 'reverse') {
+    total = s.queue.length;
+    const pct = Math.round(correct / total * 100);
+    stars = pct >= 90 ? 3 : pct >= 70 ? 2 : 1;
+    scoreBigText = `${correct}/${total}`;
+    scorePctText = `${pct}%`;
+    const msgs = [[90,'Відмінно! 🎉'],[70,'Добре! 👍'],[50,'Непогано 🙂'],[0,'Потрібно більше практики 💪']];
+    msg = msgs.find(([t]) => pct >= t)[1];
+    recordReverseLevelResult(s.level, correct, total);
   } else {
     // classic — unchanged behavior
     total = s.queue.length;
@@ -1816,7 +2150,7 @@ function finishSession() {
   document.getElementById('scoreMsg').textContent = msg;
   document.getElementById('rCorrect').textContent = correct;
   document.getElementById('rWrong').textContent   = incorrect;
-  document.getElementById('rTotal').textContent   = total;
+  document.getElementById('rSkip').textContent    = skip;
 
   showScreen('screenResult');
   updateGlobalStats();
@@ -1857,6 +2191,11 @@ function updateLevelStats(mode) {
     } else if (mode === 'survival') {
       const best = getBestScore('survival', lvl);
       if (best > 0) meta += ` · рекорд: ${best} слів`;
+    } else if (mode === 'reverse') {
+      const h = loadReverseLevelHistory();
+      const lh = h[lvl];
+      const acc = lh ? pctStr(lh.correct, lh.seen) : null;
+      if (acc) meta += ` · точність ${acc}`;
     }
     document.getElementById(`meta${lvl}`).textContent = meta;
   });
@@ -1873,35 +2212,84 @@ function updateLevelStats(mode) {
   } else if (mode === 'survival') {
     const best = getBestScore('survival', 'ALL');
     if (best > 0) allMeta += ` · рекорд: ${best} слів`;
+  } else if (mode === 'reverse') {
+    const h = loadReverseLevelHistory();
+    const allH = h['ALL'];
+    const acc = allH ? pctStr(allH.correct, allH.seen) : null;
+    if (acc) allMeta += ` · точність ${acc}`;
   }
   document.getElementById('metaAll').textContent = allMeta;
+}
+
+/* ═══════════════════════════════════════════════
+   TOPIC CHIPS
+═══════════════════════════════════════════════ */
+function renderTopicChips() {
+  const section   = document.getElementById('topicSection');
+  const container = document.getElementById('topicChips');
+  if (!container) return;
+
+  if (!topicList.length) {
+    if (section) section.style.display = 'none';
+    return;
+  }
+  if (section) section.style.display = '';
+
+  container.innerHTML = '';
+
+  const makeChip = (label, topic) => {
+    const chip = document.createElement('button');
+    chip.className = 'topic-chip' + (pendingTopic === topic ? ' active' : '');
+    chip.textContent = label;
+    chip.addEventListener('click', () => {
+      pendingTopic = topic;
+      renderTopicChips();
+    });
+    return chip;
+  };
+
+  container.appendChild(makeChip('Усі теми', null));
+  topicList.forEach(t => {
+    const label = t.charAt(0).toUpperCase() + t.slice(1) + ' (' + (wordsByTopic[t] || []).length + ')';
+    container.appendChild(makeChip(label, t));
+  });
 }
 
 /* ═══════════════════════════════════════════════
    EVENT BINDING
 ═══════════════════════════════════════════════ */
 function bindEvents() {
-  // Main menu → level select (all three mode cards share the same level-select screen)
+  // Main menu → level select (all four mode cards share the same level-select screen)
   [
     { id: 'cardClassic',  mode: 'classic'  },
     { id: 'cardBlitz',    mode: 'blitz'    },
     { id: 'cardSurvival', mode: 'survival' },
+    { id: 'cardReverse',  mode: 'reverse'  },
   ].forEach(({ id, mode }) => {
     document.getElementById(id).addEventListener('click', () => {
       haptic('light');
-      pendingMode = mode;
+      pendingMode  = mode;
+      pendingTopic = null;
       document.getElementById('levelScreenTitle').textContent = MODES[mode].label;
       updateLevelStats(mode);
+      renderTopicChips();
       showScreen('screenLevel');
     });
   });
 
-  // Level select → game (uses pendingMode set by whichever card was tapped)
+  // Level select → game (uses pendingMode / pendingTopic set by whichever card was tapped)
   document.querySelectorAll('.level-card').forEach(card => {
     card.addEventListener('click', () => {
       haptic('light');
-      startSession(pendingMode, card.dataset.level);
+      unlockAudio();
+      startSession(pendingMode, card.dataset.level, pendingTopic);
     });
+  });
+
+  // "Не знаю" button
+  document.getElementById('btnDontKnow').addEventListener('click', () => {
+    if (!session || session.locked || session.finished) return;
+    handleDontKnow(session.queue[session.idx]);
   });
 
   // Back from level select
@@ -1915,13 +2303,14 @@ function bindEvents() {
     haptic('light');
     if (session) { session.finished = true; session.locked = true; }
     stopBlitzTimer();
+    renderTopicChips();
     showScreen('screenLevel');
   });
 
-  // Result: play again with same mode+level
+  // Result: play again with same mode+level+topic
   document.getElementById('btnPlayAgain').addEventListener('click', () => {
     haptic('medium');
-    if (session) startSession(session.mode, session.level);
+    if (session) startSession(session.mode, session.level, session.topic);
   });
 
   // Result: back to menu
@@ -1934,6 +2323,7 @@ function bindEvents() {
   // ── SRS events ──
   document.getElementById('cardSRS').addEventListener('click', () => {
     haptic('light');
+    unlockAudio();
     startSrsSession();
   });
 
@@ -1977,6 +2367,7 @@ function indexWords(words) {
 
   wordsByLevel = {};
   wordsByPos   = {};
+  wordsByTopic = {};
 
   words.forEach(w => {
     if (!wordsByLevel[w.level]) wordsByLevel[w.level] = [];
@@ -1984,6 +2375,86 @@ function indexWords(words) {
 
     if (!wordsByPos[w.pos]) wordsByPos[w.pos] = [];
     wordsByPos[w.pos].push(w);
+
+    if (w.topic) {
+      if (!wordsByTopic[w.topic]) wordsByTopic[w.topic] = [];
+      wordsByTopic[w.topic].push(w);
+    }
+  });
+
+  topicList = Object.entries(wordsByTopic)
+    .filter(([, ws]) => ws.length >= 20)
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([t]) => t);
+}
+
+/* ═══════════════════════════════════════════════
+   SPEECH / PRONUNCIATION
+═══════════════════════════════════════════════ */
+const STORAGE_AUTOSPEAK_KEY = STORAGE_PREFIX + 'autospeak';
+const hasSpeech = typeof speechSynthesis !== 'undefined';
+let _audioUnlocked = false;
+
+function unlockAudio() {
+  if (_audioUnlocked || !hasSpeech) return;
+  const u = new SpeechSynthesisUtterance('');
+  u.volume = 0;
+  speechSynthesis.speak(u);
+  _audioUnlocked = true;
+}
+
+function speak(text) {
+  if (!hasSpeech) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'en-US';
+  u.rate = 0.9;
+  const voices = speechSynthesis.getVoices();
+  if (voices.length) {
+    const enVoice = voices.find(v => v.lang.startsWith('en-') && v.localService) ||
+                    voices.find(v => v.lang.startsWith('en'));
+    if (enVoice) u.voice = enVoice;
+  }
+  speechSynthesis.speak(u);
+}
+
+function loadAutoSpeak() {
+  return localStorage.getItem(STORAGE_AUTOSPEAK_KEY) === 'true';
+}
+
+function saveAutoSpeak(val) {
+  localStorage.setItem(STORAGE_AUTOSPEAK_KEY, val ? 'true' : 'false');
+}
+
+function initSpeech() {
+  if (!hasSpeech) {
+    document.querySelectorAll('.speak-btn').forEach(b => b.classList.add('speak-hidden'));
+    const row = document.getElementById('autoSpeakRow');
+    if (row) row.style.display = 'none';
+    return;
+  }
+
+  const toggle = document.getElementById('autoSpeakToggle');
+  if (toggle) {
+    toggle.checked = loadAutoSpeak();
+    toggle.addEventListener('change', () => {
+      unlockAudio();
+      saveAutoSpeak(toggle.checked);
+    });
+  }
+
+  document.getElementById('speakGame').addEventListener('click', e => {
+    e.stopPropagation();
+    unlockAudio();
+    const word = document.getElementById('wordEn').textContent;
+    if (word && word !== '—') speak(word);
+  });
+
+  document.getElementById('speakSrs').addEventListener('click', e => {
+    e.stopPropagation();
+    unlockAudio();
+    const word = document.getElementById('srsWordEn').textContent;
+    if (word && word !== '—') speak(word);
   });
 }
 
@@ -2011,6 +2482,7 @@ async function boot() {
 
   updateGlobalStats();
   bindEvents();
+  initSpeech();
   showScreen('screenMenu');
 }
 
