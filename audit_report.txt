@@ -1,0 +1,143 @@
+
+══════════════════════════════════════════════════════════════════════
+  0. BATCH FILE PRE-CHECK (before merge assessment)
+══════════════════════════════════════════════════════════════════════
+  ✓ examples_batch_0.json  entries=251  w0001–w0251
+  ✓ examples_batch_1.json  entries=251  w0252–w0502
+  ✓ examples_batch_2.json  entries=251  w0503–w0753
+  ✓ examples_batch_3.json  entries=251  w0754–w1004
+  ✓ examples_batch_4.json  entries=251  w1005–w1255
+  ✓ examples_batch_5.json  entries=251  w1256–w1506
+  ✓ examples_batch_6.json  entries=251  w1507–w1757
+  ✓ examples_batch_7.json  entries=251  w1758–w2008
+  ✓ examples_batch_8.json  entries=251  w2009–w2259
+  ✓ examples_batch_9.json  entries=247  w2260–w2506
+
+  10/10 batch files present  (2506 entries with examples available)
+  0 batch files MISSING — max possible coverage: 2506/2506 (100.0%)
+
+══════════════════════════════════════════════════════════════════════
+  1. JSON INTEGRITY
+══════════════════════════════════════════════════════════════════════
+Total entries: 2506  (expected ~2506)
+  ✓ Count matches expected.
+  ✓ All IDs are unique.
+  ✓ No gaps in ID sequence.
+
+── Batch seam check (off-by-one risk)
+  Seam b0→b1: w0251 → w0252  ✓
+  Seam b1→b2: w0502 → w0503  ✓
+  Seam b2→b3: w0753 → w0754  ✓
+  Seam b3→b4: w1004 → w1005  ✓
+  Seam b4→b5: w1255 → w1256  ✓
+  Seam b5→b6: w1506 → w1507  ✓
+  Seam b6→b7: w1757 → w1758  ✓
+  Seam b7→b8: w2008 → w2009  ✓
+  Seam b8→b9: w2259 → w2260  ✓
+
+══════════════════════════════════════════════════════════════════════
+  2. COVERAGE
+══════════════════════════════════════════════════════════════════════
+  With example   : 2506
+  Without example: 0
+  Coverage       : 100.0%
+
+══════════════════════════════════════════════════════════════════════
+  3. QUALITY: example.en
+══════════════════════════════════════════════════════════════════════
+  ✓ Stem mismatch (word absent from sentence): 0
+  ✓ Too short (<4 words): 0
+  ✓ Too long (>14 words): 0
+  ✓ Does not start with capital: 0
+  ✓ Does not end with . ! ?: 0
+  ✓ Contains placeholder text: 0
+  ✓ Duplicate sentences across words: 0
+
+══════════════════════════════════════════════════════════════════════
+  4. QUALITY: example.ua
+══════════════════════════════════════════════════════════════════════
+  ✓ No Cyrillic characters in UA: 0
+  ✓ UA is identical to EN (not translated): 0
+  ✓ Potential mojibake / encoding artifacts: 0
+
+══════════════════════════════════════════════════════════════════════
+  5. CROSS-BATCH CONSISTENCY (10 equal segments)
+══════════════════════════════════════════════════════════════════════
+  Global avg sentence length: 8.42 words  (σ = 0.94)
+
+  Seg  ID range                  Count  Avg len  .    !    ?   Anomaly?
+  ──────────────────────────────────────────────────────────────────
+  0    w0001–w0251              251    6.63     248  0    3   
+  1    w0252–w0502              251    7.11     244  0    7   
+  2    w0503–w0753              251    8.10     247  0    4   
+  3    w0754–w1004              251    8.65     249  0    2   
+  4    w1005–w1255              251    8.00     244  0    7   
+  5    w1256–w1506              251    9.38     248  0    3   
+  6    w1507–w1757              251    8.48     250  0    1   
+  7    w1758–w2008              251    8.75     251  0    0   
+  8    w2009–w2259              251    9.43     250  0    1   
+  9    w2260–w2506              247    9.63     247  0    0   
+
+══════════════════════════════════════════════════════════════════════
+  6. ENTRY STRUCTURE
+══════════════════════════════════════════════════════════════════════
+  ✓ Missing required fields: 0
+  ✓ Wrong field types: 0
+  ✓ Unexpected extra fields: 0
+
+══════════════════════════════════════════════════════════════════════
+  SUMMARY TABLE
+══════════════════════════════════════════════════════════════════════
+
+  Check                                  Status   Issues
+  ────────────────────────────────────────────────────────
+  ✓ JSON parses OK                       PASS     
+  ✓ Entry count matches ~2506            PASS     
+  ✓ No duplicate IDs                     PASS     
+  ✓ No gaps in ID sequence               PASS     
+  ✓ Batch seams intact                   PASS     
+  ✓ Coverage: all entries have ex.       PASS     
+  ✓ Stem match                           PASS     
+  ✓ Sentence length 4–14 words           PASS     
+  ✓ Starts capital                       PASS     
+  ✓ Ends . ! ?                           PASS     
+  ✓ No placeholders                      PASS     
+  ✓ No duplicate sentences               PASS     
+  ✓ UA has Cyrillic                      PASS     
+  ✓ UA ≠ EN copy                         PASS     
+  ✓ No mojibake                          PASS     
+  ✓ Required fields present              PASS     
+  ✓ Field types correct                  PASS     
+  ✓ No extra fields injected             PASS     
+
+══════════════════════════════════════════════════════════════════════
+  VERDICT
+══════════════════════════════════════════════════════════════════════
+  Total issues found : 0
+  Blocking           : 0  (data integrity, wrong structure, untranslated)
+  Non-blocking       : 0  (style, coverage, length)
+
+  ✅  READY FOR PHASE 2 — all structural checks pass.
+
+
+══════════════════════════════════════════════════════════════════════
+  BONUS: QUALITY CHECK ON AVAILABLE BATCH FILES (0, 4, 5)
+══════════════════════════════════════════════════════════════════════
+  (These have not been merged into words.json yet; checking raw batch content.)
+  Entries checked: 753 (batches 0, 4, 5)
+
+  ✓ Stem mismatch: 0
+  ✓ Too short (<4 words): 0
+  ✓ Too long (>14 words): 0
+  ✓ Does not start with capital: 0
+  ✓ Does not end with . ! ?: 0
+  ✓ UA has no Cyrillic: 0
+  ✓ UA is copy of EN: 0
+  ✓ Duplicate sentences: 0
+
+── Segment stats for available batches
+  Batch  Count  Avg len  .    !    ?
+  ──────────────────────────────────────
+  0      251    6.63     248  0    3
+  4      251    8.00     244  0    7
+  5      251    9.38     248  0    3

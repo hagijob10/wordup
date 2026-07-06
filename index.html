@@ -609,6 +609,35 @@
 
     /* ── SRS CONTENT AREA ── */
     #srsContent { flex-direction: column; flex: 1; }
+
+    /* ── EXAMPLE BLOCK (learn step only) ── */
+    .example-block {
+      margin-top: 16px;
+      padding: 12px 18px;
+      background: rgba(108,92,231,.08);
+      border: 1px solid rgba(108,92,231,.22);
+      border-radius: 14px;
+      text-align: center;
+      max-width: 360px;
+      width: 100%;
+    }
+    .example-en {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text);
+      line-height: 1.55;
+    }
+    .example-en strong {
+      color: #6c5ce7;
+      font-weight: 700;
+    }
+    .example-ua {
+      font-size: 13px;
+      color: var(--text2);
+      margin-top: 7px;
+      line-height: 1.45;
+      font-style: italic;
+    }
   </style>
 </head>
 <body>
@@ -849,6 +878,10 @@
         <div class="word-en" id="srsWordEn">—</div>
         <div class="pos-badge" id="srsPosBadge">—</div>
         <div class="srs-translation" id="srsTranslation" style="display:none;">—</div>
+        <div class="example-block" id="srsExampleBlock" style="display:none;">
+          <div class="example-en" id="srsExampleEn"></div>
+          <div class="example-ua" id="srsExampleUa"></div>
+        </div>
       </div>
 
       <div style="text-align:center;padding:0 20px 8px;">
@@ -1307,6 +1340,18 @@ function renderSrsQuestion() {
   }
 }
 
+function highlightWord(sentence, targetWord) {
+  // Build a stem from the target word for matching inflected forms.
+  // Use at least 4 chars or 70% of the word length, whichever is larger.
+  const base = targetWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // Try exact match first; fall back to a stem match.
+  const stem = targetWord.length > 5
+    ? targetWord.slice(0, Math.max(4, Math.floor(targetWord.length * 0.7))).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    : base;
+  const pattern = new RegExp(`\\b(${base}\\w*|${stem}\\w*)`, 'gi');
+  return sentence.replace(pattern, '<strong>$1</strong>');
+}
+
 function renderSrsLearnStep(item) {
   const ss = srsSession;
   document.getElementById('srsLearnLabel').style.display   = 'block';
@@ -1314,6 +1359,17 @@ function renderSrsLearnStep(item) {
   document.getElementById('srsPosBadge').textContent       = posUa(item.word.pos);
   document.getElementById('srsTranslation').textContent    = item.word.ua;
   document.getElementById('srsTranslation').style.display  = 'block';
+
+  // Example block — only when data is present
+  const ex     = item.word.example;
+  const exBlock = document.getElementById('srsExampleBlock');
+  if (ex && ex.en && ex.ua) {
+    document.getElementById('srsExampleEn').innerHTML = highlightWord(ex.en, item.word.en);
+    document.getElementById('srsExampleUa').textContent = ex.ua;
+    exBlock.style.display = 'block';
+  } else {
+    exBlock.style.display = 'none';
+  }
 
   const area = document.getElementById('srsAnswersArea');
   area.innerHTML = '';
@@ -1332,10 +1388,11 @@ function renderSrsLearnStep(item) {
 
 function renderSrsTestStep(item) {
   const ss = srsSession;
-  document.getElementById('srsLearnLabel').style.display   = 'none';
-  document.getElementById('srsWordEn').textContent         = item.word.en;
-  document.getElementById('srsPosBadge').textContent       = posUa(item.word.pos);
-  document.getElementById('srsTranslation').style.display  = 'none';
+  document.getElementById('srsLearnLabel').style.display    = 'none';
+  document.getElementById('srsWordEn').textContent          = item.word.en;
+  document.getElementById('srsPosBadge').textContent        = posUa(item.word.pos);
+  document.getElementById('srsTranslation').style.display   = 'none';
+  document.getElementById('srsExampleBlock').style.display  = 'none';
 
   const distractors = getDistractors(item.word, 3); // 4-option quiz
   const options     = shuffle([item.word, ...distractors]);
