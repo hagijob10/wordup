@@ -743,6 +743,336 @@
       accent-color: var(--accent1);
       cursor: pointer;
     }
+
+    /* ── STATS NAV BUTTON ── */
+    .btn-stats-nav {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-card);
+      padding: 16px 20px;
+      cursor: pointer;
+      color: var(--text);
+      font-family: var(--font);
+      width: 100%;
+      -webkit-tap-highlight-color: transparent;
+      transition: transform 160ms, background 160ms;
+      text-align: left;
+    }
+    .btn-stats-nav:active { transform: scale(.97); background: var(--card2); }
+    .btn-stats-nav-icon  { font-size: 28px; flex-shrink: 0; }
+    .btn-stats-nav-label { font-size: 16px; font-weight: 700; flex: 1; }
+    .btn-stats-nav-sub   { font-size: 12px; color: var(--text2); font-weight: 500; margin-top: 2px; }
+    .btn-stats-nav-arrow { color: var(--text3); font-size: 20px; flex-shrink: 0; }
+
+    /* ── STATS SCREEN ── */
+    .stats-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-card);
+      padding: 16px 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 11px;
+    }
+    .stats-section-title {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text3);
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+    .stats-headline {
+      font-size: 38px;
+      font-weight: 800;
+      letter-spacing: -1px;
+      line-height: 1;
+    }
+    .stats-headline span { font-size: 20px; font-weight: 600; color: var(--text2); }
+    .stacked-bar {
+      height: 10px;
+      border-radius: 5px;
+      overflow: hidden;
+      display: flex;
+      background: rgba(255,255,255,.06);
+    }
+    .stacked-segment { height: 100%; }
+    .stacked-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 14px;
+      font-size: 12px;
+      color: var(--text2);
+      font-weight: 500;
+    }
+    .legend-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+    .bar-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .bar-row-label {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text2);
+      flex-shrink: 0;
+      width: 72px;
+    }
+    .bar-track {
+      flex: 1;
+      height: 8px;
+      background: rgba(255,255,255,.07);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%;
+      border-radius: 4px;
+    }
+    .bar-row-value {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text3);
+      flex-shrink: 0;
+      width: 32px;
+      text-align: right;
+    }
+    .activity-chart {
+      display: flex;
+      gap: 3px;
+    }
+    .activity-col {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+    .activity-bar-area {
+      height: 68px;
+      width: 100%;
+      position: relative;
+    }
+    .activity-day-label {
+      font-size: 9px;
+      color: var(--text3);
+      font-weight: 500;
+      line-height: 1;
+    }
+    .activity-placeholder {
+      font-size: 13px;
+      color: var(--text2);
+      text-align: center;
+      font-weight: 500;
+      line-height: 1.55;
+      padding: 4px 0 2px;
+    }
+    .hard-word-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transition: opacity 140ms;
+    }
+    .hard-word-row:last-child { border-bottom: none; padding-bottom: 0; }
+    .hard-word-row:active { opacity: .55; }
+    .hard-word-en {
+      font-size: 15px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .hard-word-ua {
+      font-size: 13px;
+      color: var(--text2);
+      flex: 1;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .hard-word-pct {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--danger);
+      flex-shrink: 0;
+    }
+    .stats-empty-msg {
+      font-size: 13px;
+      color: var(--text2);
+      text-align: center;
+      font-weight: 500;
+      line-height: 1.5;
+      padding: 4px 0;
+    }
+    .topic-expander-btn {
+      background: none;
+      border: none;
+      color: var(--accent1);
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      padding: 4px 0 0;
+      font-family: var(--font);
+      -webkit-tap-highlight-color: transparent;
+      text-align: left;
+    }
+
+    /* ── BACKUP SECTION ── */
+    .backup-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      margin-top: 10px;
+      padding-bottom: 12px;
+    }
+    .backup-caption {
+      font-size: 12px;
+      color: var(--text3);
+      text-align: center;
+      font-weight: 500;
+      letter-spacing: .1px;
+    }
+    .backup-btns {
+      display: flex;
+      gap: 10px;
+      width: 100%;
+      max-width: 340px;
+    }
+    .btn-backup {
+      flex: 1;
+      background: var(--card);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-btn);
+      padding: 11px 6px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text2);
+      cursor: pointer;
+      text-align: center;
+      transition: transform 140ms, background 140ms, color 140ms;
+      -webkit-tap-highlight-color: transparent;
+      font-family: var(--font);
+      white-space: nowrap;
+    }
+    .btn-backup:active { transform: scale(.96); background: var(--card2); color: var(--text); }
+
+    /* ── TOAST ── */
+    #toast {
+      position: fixed;
+      bottom: calc(28px + var(--safe-bottom));
+      left: 50%;
+      transform: translateX(-50%) translateY(12px);
+      background: rgba(20,20,30,.97);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 22px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      white-space: nowrap;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 220ms, transform 220ms;
+      display: flex;
+      align-items: center;
+      gap: 0;
+    }
+    #toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+    .toast-undo {
+      pointer-events: auto;
+      background: none;
+      border: none;
+      color: var(--accent1);
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      padding: 0 0 0 14px;
+      font-family: var(--font);
+      -webkit-tap-highlight-color: transparent;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+
+    /* ── IMPORT CONFIRM MODAL ── */
+    .import-confirm-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.65);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      z-index: 10000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 20px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 200ms;
+    }
+    .import-confirm-overlay.active {
+      opacity: 1;
+      pointer-events: all;
+    }
+    .import-confirm-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px 20px 20px;
+      max-width: 340px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .import-confirm-msg {
+      font-size: 15px;
+      color: var(--text);
+      font-weight: 500;
+      line-height: 1.55;
+      text-align: center;
+      white-space: pre-line;
+    }
+    .import-confirm-btns {
+      display: flex;
+      gap: 10px;
+    }
+    .import-confirm-btns .btn-secondary,
+    .import-confirm-btns .btn-primary { flex: 1; }
+    .btn-danger {
+      background: linear-gradient(135deg, #ff3b30, #d63229);
+      border: none;
+      border-radius: var(--radius-btn);
+      padding: 15px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      cursor: pointer;
+      text-align: center;
+      transition: transform 140ms, opacity 140ms;
+      -webkit-tap-highlight-color: transparent;
+      font-family: var(--font);
+      width: 100%;
+    }
+    .btn-danger:active { transform: scale(.96); opacity: .9; }
   </style>
 </head>
 <body>
@@ -752,6 +1082,18 @@
   <div style="font-size:52px">📚</div>
   <div class="spinner"></div>
   <div class="loading-text">Завантаження слів…</div>
+</div>
+
+<div id="toast"><span id="toastMsg"></span><button class="toast-undo" id="toastUndoBtn" style="display:none">Скасувати</button></div>
+
+<div id="importConfirmOverlay" class="import-confirm-overlay">
+  <div class="import-confirm-card">
+    <p class="import-confirm-msg" id="importConfirmMsg"></p>
+    <div class="import-confirm-btns">
+      <button class="btn-secondary" id="importConfirmCancel">Скасувати</button>
+      <button class="btn-danger" id="importConfirmOk">Замінити</button>
+    </div>
+  </div>
 </div>
 
 <div id="app">
@@ -807,6 +1149,16 @@
           <div class="mode-card-arrow">›</div>
         </div>
 
+        <!-- Фразові дієслова mode card -->
+        <div class="mode-card" id="cardPhrasa" role="button" tabindex="0">
+          <div class="mode-card-icon">🔗</div>
+          <div class="mode-card-body">
+            <div class="mode-card-title">Фразові дієслова</div>
+            <div class="mode-card-desc">EN → UA · <span id="phrasalWordCount">…</span> слів</div>
+          </div>
+          <div class="mode-card-arrow">›</div>
+        </div>
+
         <!-- Повторення (SRS) mode card -->
         <div class="mode-card" id="cardSRS" role="button" tabindex="0">
           <div class="mode-card-icon">🔁</div>
@@ -818,6 +1170,15 @@
         </div>
 
       </div>
+
+      <button class="btn-stats-nav" id="btnStats">
+        <div class="btn-stats-nav-icon">📊</div>
+        <div style="flex:1;min-width:0;">
+          <div class="btn-stats-nav-label">Статистика</div>
+          <div class="btn-stats-nav-sub">Прогрес, активність, складні слова</div>
+        </div>
+        <div class="btn-stats-nav-arrow">›</div>
+      </button>
 
       <div class="stats-bar" id="globalStatsBar">
         <div class="stat-item">
@@ -838,6 +1199,19 @@
           <input type="checkbox" id="autoSpeakToggle">
           🔊 Автовимова
         </label>
+      </div>
+
+      <div class="backup-section" id="backupSection">
+        <p class="backup-caption">Прогрес зберігається лише на цьому пристрої</p>
+        <div class="backup-btns">
+          <button class="btn-backup" id="btnExport">Зберегти копію</button>
+          <button class="btn-backup" id="btnCopyExport">Скопіювати в буфер</button>
+        </div>
+        <div class="backup-btns">
+          <button class="btn-backup" id="btnImportOpen">Відновити</button>
+          <button class="btn-backup" id="btnPasteImport">Вставити з буфера</button>
+        </div>
+        <input type="file" id="importFileInput" accept=".json,application/json" style="display:none">
       </div>
     </div>
   </div>
@@ -1071,6 +1445,17 @@
     </div>
   </div>
 
+  <!-- ══ SCREEN: STATISTICS ══ -->
+  <div class="screen" id="screenStats">
+    <div class="top-nav">
+      <button class="btn-back" id="btnBackFromStats">‹ Назад</button>
+      <div class="nav-title">Статистика</div>
+    </div>
+    <div class="screen-inner" id="statsInner" style="gap:14px;padding-bottom:28px;">
+      <!-- rendered dynamically by renderStatsScreen() -->
+    </div>
+  </div>
+
 </div><!-- #app -->
 
 <script>
@@ -1088,6 +1473,7 @@ const STORAGE_BEST_KEY     = STORAGE_PREFIX + 'best_v1';       // per-mode+level
 
 const SRS_KEY          = STORAGE_PREFIX + 'srs';
 const SRS_LEARNED_KEY  = STORAGE_PREFIX + 'learned';
+const STORAGE_DAILY_KEY = STORAGE_PREFIX + 'daily_v1';
 const SRS_SESSION_SIZE = 15;
 // Days to next review after a CORRECT answer FROM each box (index = current box 1-4)
 const SRS_BOX_DAYS = [0, 1, 2, 4, 7]; // index 0 unused; box5→graduate
@@ -1115,6 +1501,7 @@ const POS_UA = {
   article:     'артикль',
   interjection:'вигук',
   phrase:      'фраза',
+  phrasal:     'фразове дієслово',
 };
 
 /* ═══════════════════════════════════════════════
@@ -1129,6 +1516,7 @@ const MODES = {
     livesEnabled: false,
     direction: 'en_to_ua',
     distractorCount: 2,
+    posFilter: 'non-phrasal',
   },
   blitz: {
     id: 'blitz',
@@ -1139,6 +1527,7 @@ const MODES = {
     livesEnabled: false,
     direction: 'en_to_ua',
     distractorCount: 2,
+    posFilter: 'non-phrasal',
   },
   survival: {
     id: 'survival',
@@ -1149,6 +1538,7 @@ const MODES = {
     startLives: 3,
     direction: 'en_to_ua',
     distractorCount: 2,
+    posFilter: 'non-phrasal',
   },
   reverse: {
     id: 'reverse',
@@ -1158,6 +1548,17 @@ const MODES = {
     livesEnabled: false,
     direction: 'ua_to_en',
     distractorCount: 3,      // 4 options total (correct EN + 3 distractors)
+    posFilter: 'non-phrasal',
+  },
+  phrasal: {
+    id: 'phrasal',
+    label: 'Фразові дієслова',
+    sessionSize: 15,
+    timerEnabled: false,
+    livesEnabled: false,
+    direction: 'en_to_ua',
+    distractorCount: 2,
+    posFilter: 'phrasal',
   },
 };
 
@@ -1231,13 +1632,14 @@ function saveWordHistory(history) {
   localStorage.setItem(STORAGE_WORDS_KEY, JSON.stringify(history));
 }
 
-function recordWordResult(wordId, correct) {
+function recordWordResult(wordId, correct, mode) {
   const h = loadWordHistory();
   if (!h[wordId]) h[wordId] = { seen: 0, correct: 0, lastSeen: 0 };
   h[wordId].seen++;
   if (correct) h[wordId].correct++;
   h[wordId].lastSeen = Date.now();
   saveWordHistory(h);
+  recordDailyActivity(correct, mode);
 }
 
 function loadLevelHistory() {
@@ -1285,6 +1687,35 @@ function updateBestScore(mode, level, score) {
   const h = loadBestScores();
   const key = `${mode}_${level}`;
   if (!h[key] || score > h[key]) { h[key] = score; saveBestScores(h); }
+}
+
+/* ═══════════════════════════════════════════════
+   DAILY ACTIVITY LOG  (wordup_daily_v1)
+   Structure: { "YYYY-MM-DD": { answers, correct, byMode: { mode: { answers, correct } } } }
+   Date format matches SRS todayStr() — local calendar date.
+═══════════════════════════════════════════════ */
+function loadDailyLog() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_DAILY_KEY) || '{}'); } catch { return {}; }
+}
+
+function saveDailyLog(log) {
+  localStorage.setItem(STORAGE_DAILY_KEY, JSON.stringify(log));
+}
+
+function recordDailyActivity(correct, mode) {
+  const log   = loadDailyLog();
+  const today = todayStr();
+  if (!log[today]) log[today] = { answers: 0, correct: 0, byMode: {} };
+  const day = log[today];
+  day.answers++;
+  if (correct) day.correct++;
+  if (!day.byMode[mode]) day.byMode[mode] = { answers: 0, correct: 0 };
+  day.byMode[mode].answers++;
+  if (correct) day.byMode[mode].correct++;
+  // Prune entries older than 90 days
+  const cutoff = addDays(today, -90);
+  for (const d in log) { if (d < cutoff) delete log[d]; }
+  saveDailyLog(log);
 }
 
 /* ═══════════════════════════════════════════════
@@ -1593,7 +2024,7 @@ function handleSrsAnswer(btn, isCorrect, item) {
     srsDemote(item.id);
   }
 
-  recordWordResult(item.id, isCorrect);
+  recordWordResult(item.id, isCorrect, 'srs');
   updateSrsBoxStrip();
 
   setTimeout(() => {
@@ -1637,10 +2068,12 @@ function getDistractors(targetWord, count, topicHint) {
   const targetPos = targetWord.pos;
   const targetLevelIdx = LEVEL_ORDER.indexOf(targetWord.level);
 
-  // Prefer same topic when specified
+  // Prefer same topic when specified — pos-filtered to prevent cross-contamination
   let candidates = topicHint
     ? (wordsByTopic[topicHint] || []).filter(w =>
-        w.id !== targetWord.id && w.ua.trim().toLowerCase() !== correctUa)
+        w.id !== targetWord.id &&
+        w.ua.trim().toLowerCase() !== correctUa &&
+        w.pos === targetPos)
     : [];
 
   // Fall back to same pos globally
@@ -1701,12 +2134,13 @@ function getDistractorsReverse(targetWord, count, topicHint) {
   const targetPos = targetWord.pos;
   const targetLevelIdx = LEVEL_ORDER.indexOf(targetWord.level);
 
-  // Prefer same topic when specified
+  // Prefer same topic when specified — pos-filtered to prevent cross-contamination
   let candidates = topicHint
     ? (wordsByTopic[topicHint] || []).filter(w =>
         w.id !== targetWord.id &&
         w.en.trim().toLowerCase() !== correctEn &&
-        w.ua.trim().toLowerCase() !== correctUa)
+        w.ua.trim().toLowerCase() !== correctUa &&
+        w.pos === targetPos)
     : [];
 
   // Fall back to same pos globally
@@ -1825,15 +2259,17 @@ function renderHearts() {
 /* ═══════════════════════════════════════════════
    SESSION RUNNER  (shared core, mode-configurable)
 ═══════════════════════════════════════════════ */
-function buildPool(level, topic) {
+function buildPool(level, topic, posFilter) {
   let pool = level === 'ALL' ? allWords.slice() : (wordsByLevel[level] || []).slice();
+  if (posFilter === 'phrasal')     pool = pool.filter(w => w.pos === 'phrasal');
+  else if (posFilter === 'non-phrasal') pool = pool.filter(w => w.pos !== 'phrasal');
   if (topic) pool = pool.filter(w => w.topic === topic);
   return pool;
 }
 
 function startSession(mode, level, topic) {
   const cfg = MODES[mode];
-  const pool = buildPool(level, topic || null);
+  const pool = buildPool(level, topic || null, cfg.posFilter);
   if (pool.length === 0) return;
 
   const queueSize = cfg.sessionSize === Infinity ? pool.length : Math.min(cfg.sessionSize, pool.length);
@@ -1993,7 +2429,7 @@ function handleAnswer(btn, isCorrect, targetWord) {
   if (isCorrect) { s.correct++; s.streak++; }
   else           { s.incorrect++; s.streak = 0; }
 
-  recordWordResult(targetWord.id, isCorrect);
+  recordWordResult(targetWord.id, isCorrect, s.mode);
   if (!isCorrect) srsAddWord(targetWord.id); // SRS hook — additive, does not affect existing flow
 
   // Survival: lose a life on wrong answer
@@ -2061,7 +2497,7 @@ function handleDontKnow(targetWord) {
 
   // SRS: reuse the exact same code path as a wrong answer
   srsAddWord(targetWord.id);
-  recordWordResult(targetWord.id, false);
+  recordWordResult(targetWord.id, false, s.mode);
 
   // Survival: costs a life, same as a wrong answer
   if (s.mode === 'survival') {
@@ -2169,14 +2605,21 @@ function updateGlobalStats() {
   document.getElementById('statTotalSeen').textContent = totalSeen;
   document.getElementById('statAccuracy').textContent  = pctStr(totalCorrect, totalSeen) || '—';
   document.getElementById('statWords').textContent     = allWords.length;
+  const pcEl = document.getElementById('phrasalWordCount');
+  if (pcEl) pcEl.textContent = (wordsByPos['phrasal'] || []).length;
   updateSrsBadge();
 }
 
 function updateLevelStats(mode) {
   mode = mode || pendingMode || 'classic';
 
+  const posFilter = (MODES[mode] && MODES[mode].posFilter) || null;
+  const poolWords = posFilter === 'phrasal'     ? allWords.filter(w => w.pos === 'phrasal')
+                  : posFilter === 'non-phrasal' ? allWords.filter(w => w.pos !== 'phrasal')
+                  : allWords;
+
   const countMap = { A2: 0, B1: 0, B2: 0 };
-  allWords.forEach(w => { if (countMap[w.level] !== undefined) countMap[w.level]++; });
+  poolWords.forEach(w => { if (countMap[w.level] !== undefined) countMap[w.level]++; });
 
   ['A2','B1','B2'].forEach(lvl => {
     let meta = `${countMap[lvl]} слів`;
@@ -2200,7 +2643,7 @@ function updateLevelStats(mode) {
     document.getElementById(`meta${lvl}`).textContent = meta;
   });
 
-  let allMeta = `${allWords.length} слів`;
+  let allMeta = `${poolWords.length} слів`;
   if (mode === 'classic') {
     const h = loadLevelHistory();
     const allH = h['ALL'];
@@ -2459,6 +2902,591 @@ function initSpeech() {
 }
 
 /* ═══════════════════════════════════════════════
+   STATISTICS SCREEN
+   All values computed fresh on every open.
+═══════════════════════════════════════════════ */
+function renderStatsScreen() {
+  const container = document.getElementById('statsInner');
+  container.innerHTML = '';
+
+  const wordHistory = loadWordHistory();
+  const srsData     = srsLoad();
+  const learnedArr  = learnedLoad();
+  const learnedSet  = new Set(learnedArr);
+  const dailyLog    = loadDailyLog();
+  const today       = todayStr();
+  const totalWords  = allWords.length;
+  const wordMap     = new Map(allWords.map(w => [w.id, w]));
+
+  // ── Section 1: Загальний прогрес ─────────────────
+  const learnedCount  = learnedSet.size;
+  const inProgressSet = new Set();
+  for (const id in wordHistory) { if (!learnedSet.has(id)) inProgressSet.add(id); }
+  for (const id in srsData)     { if (!learnedSet.has(id)) inProgressSet.add(id); }
+  const orphanedIds = [...inProgressSet].filter(id => !wordMap.has(id));
+  if (orphanedIds.length > 0) {
+    console.warn('WordUp: ' + orphanedIds.length + ' orphaned ID(s) in history/SRS not found in words.json:', orphanedIds);
+  }
+  const inProgressCount = inProgressSet.size;
+  const untouchedCount  = Math.max(0, totalWords - learnedCount - inProgressCount);
+
+  let totalAnswers = 0, totalCorrect = 0;
+  for (const h of Object.values(wordHistory)) {
+    totalAnswers += h.seen    || 0;
+    totalCorrect += h.correct || 0;
+  }
+
+  const sec1 = mkCard();
+  sec1.appendChild(mkTitle('Загальний прогрес'));
+
+  const headEl = document.createElement('div');
+  headEl.className = 'stats-headline';
+  headEl.innerHTML = learnedCount + ' <span>/ ' + totalWords + '</span>';
+  sec1.appendChild(headEl);
+
+  if (totalWords > 0) {
+    const barEl = document.createElement('div');
+    barEl.className = 'stacked-bar';
+    const lp = learnedCount    / totalWords * 100;
+    const ip = inProgressCount / totalWords * 100;
+    const up = Math.max(0, 100 - lp - ip);
+    [[lp,'var(--success)'],[ip,'var(--accent1)'],[up,'rgba(255,255,255,.08)']].forEach(([w,c]) => {
+      if (w < 0.01) return;
+      const seg = document.createElement('div');
+      seg.className = 'stacked-segment';
+      seg.style.cssText = 'width:' + w.toFixed(2) + '%;background:' + c + ';';
+      barEl.appendChild(seg);
+    });
+    sec1.appendChild(barEl);
+  }
+
+  const legEl = document.createElement('div');
+  legEl.className = 'stacked-legend';
+  [['var(--success)','Вивчено',learnedCount],['var(--accent1)','В процесі',inProgressCount],['rgba(255,255,255,.18)','Не торкалися',untouchedCount]].forEach(([c,l,n]) => {
+    const s = document.createElement('span');
+    s.innerHTML = '<span class="legend-dot" style="background:'+c+'"></span>'+l+': '+n;
+    legEl.appendChild(s);
+  });
+  sec1.appendChild(legEl);
+
+  const accEl = document.createElement('div');
+  accEl.style.cssText = 'font-size:13px;color:var(--text2);font-weight:500;';
+  accEl.textContent = totalAnswers > 0
+    ? 'Точність: ' + Math.round(totalCorrect / totalAnswers * 100) + '% (' + totalAnswers + ' відповідей)'
+    : 'Ще немає відповідей';
+  sec1.appendChild(accEl);
+  container.appendChild(sec1);
+
+  // ── Section 2: Повторення (Leitner) ──────────────
+  const boxCounts = [0,0,0,0,0];
+  let dueToday = 0;
+  for (const e of Object.values(srsData)) {
+    if (e.box >= 1 && e.box <= 5) { boxCounts[e.box-1]++; if (e.due <= today) dueToday++; }
+  }
+  const maxBox = Math.max(1, ...boxCounts);
+  const BOX_COLORS = ['var(--danger)','#ff9500','var(--warning)','var(--cyan)','var(--success)'];
+
+  const sec2 = mkCard();
+  sec2.appendChild(mkTitle('Повторення (Leitner)'));
+  if (!Object.keys(srsData).length && !learnedCount) {
+    sec2.appendChild(mkEmpty('Помилься у грі — слово потрапить до черги повторення'));
+  } else {
+    for (let i = 0; i < 5; i++) {
+      sec2.appendChild(mkBarRow('Коробка ' + (i+1), boxCounts[i], maxBox, BOX_COLORS[i], '' + boxCounts[i]));
+    }
+    const lMax = Math.max(maxBox, learnedCount, 1);
+    sec2.appendChild(mkBarRow('Вивчено', learnedCount, lMax, 'var(--success)', '' + learnedCount));
+    const dueEl = document.createElement('div');
+    dueEl.style.cssText = 'font-size:14px;font-weight:700;color:var(--cyan);padding-top:2px;border-top:1px solid var(--border);padding-top:10px;margin-top:2px;';
+    dueEl.textContent = 'Готово до повторення сьогодні: ' + dueToday;
+    sec2.appendChild(dueEl);
+  }
+  container.appendChild(sec2);
+
+  // ── Section 3a: По рівнях ─────────────────────────
+  const sec3a = mkCard();
+  sec3a.appendChild(mkTitle('По рівнях'));
+  LEVEL_ORDER.forEach(lvl => {
+    const words = wordsByLevel[lvl] || [];
+    if (!words.length) return;
+    const total   = words.length;
+    const lCount  = words.filter(w => learnedSet.has(w.id)).length;
+    const ipCount = words.filter(w => !learnedSet.has(w.id) && (wordHistory[w.id] || srsData[w.id])).length;
+    const pct     = Math.round((lCount + ipCount) / total * 100);
+    const wrap    = document.createElement('div');
+    wrap.style.cssText = 'display:flex;flex-direction:column;gap:5px;';
+    const lr = document.createElement('div');
+    lr.style.cssText = 'display:flex;justify-content:space-between;align-items:center;';
+    lr.innerHTML =
+      '<span style="font-size:14px;font-weight:700;">' + LEVEL_LABELS[lvl] +
+      ' <span style="font-size:11px;font-weight:600;color:var(--text3);">' + lvl + '</span></span>' +
+      '<span style="font-size:12px;color:var(--text2);font-weight:600;">' + (lCount+ipCount) + '/' + total + ' · ' + pct + '%</span>';
+    wrap.appendChild(lr);
+    const track = document.createElement('div');
+    track.style.cssText = 'height:10px;border-radius:5px;background:rgba(255,255,255,.07);overflow:hidden;display:flex;';
+    if (lCount > 0)  { const f=document.createElement('div'); f.style.cssText='flex:0 0 '+(lCount/total*100).toFixed(2)+'%;background:var(--success);';  track.appendChild(f); }
+    if (ipCount > 0) { const f=document.createElement('div'); f.style.cssText='flex:0 0 '+(ipCount/total*100).toFixed(2)+'%;background:var(--accent1);'; track.appendChild(f); }
+    wrap.appendChild(track);
+    sec3a.appendChild(wrap);
+  });
+  container.appendChild(sec3a);
+
+  // ── Section 3b: По темах ──────────────────────────
+  const topicData = topicList.map(t => {
+    const words   = wordsByTopic[t] || [];
+    const total   = words.length;
+    const lCount  = words.filter(w => learnedSet.has(w.id)).length;
+    const ipCount = words.filter(w => !learnedSet.has(w.id) && (wordHistory[w.id] || srsData[w.id])).length;
+    return { topic: t, total, lCount, ipCount, pct: total > 0 ? (lCount+ipCount)/total : 0 };
+  }).sort((a,b) => b.pct - a.pct);
+
+  if (topicData.length > 0) {
+    const sec3b = mkCard();
+    sec3b.appendChild(mkTitle('По темах'));
+    const mkTopicRow = ({ topic, total, lCount, ipCount }) => {
+      const wrap = document.createElement('div');
+      wrap.style.cssText = 'display:flex;flex-direction:column;gap:4px;';
+      const lr = document.createElement('div');
+      lr.style.cssText = 'display:flex;justify-content:space-between;';
+      const label = topic.charAt(0).toUpperCase() + topic.slice(1);
+      lr.innerHTML =
+        '<span style="font-size:13px;font-weight:600;color:var(--text2);">' + label + '</span>' +
+        '<span style="font-size:12px;color:var(--text3);">' + (lCount+ipCount) + '/' + total + '</span>';
+      wrap.appendChild(lr);
+      const track = document.createElement('div');
+      track.style.cssText = 'height:6px;border-radius:3px;background:rgba(255,255,255,.07);overflow:hidden;display:flex;';
+      if (lCount > 0)  { const f=document.createElement('div'); f.style.cssText='flex:0 0 '+(lCount/total*100).toFixed(2)+'%;background:var(--success);';  track.appendChild(f); }
+      if (ipCount > 0) { const f=document.createElement('div'); f.style.cssText='flex:0 0 '+(ipCount/total*100).toFixed(2)+'%;background:var(--accent1);'; track.appendChild(f); }
+      wrap.appendChild(track);
+      return wrap;
+    };
+    const TOP_N = 8;
+    topicData.slice(0, TOP_N).forEach(t => sec3b.appendChild(mkTopicRow(t)));
+    if (topicData.length > TOP_N) {
+      const moreDiv = document.createElement('div');
+      moreDiv.style.display = 'none';
+      topicData.slice(TOP_N).forEach(t => moreDiv.appendChild(mkTopicRow(t)));
+      sec3b.appendChild(moreDiv);
+      const btn = document.createElement('button');
+      btn.className = 'topic-expander-btn';
+      btn.textContent = 'Показати всі (' + (topicData.length - TOP_N) + ')';
+      let open = false;
+      btn.addEventListener('click', () => {
+        open = !open;
+        moreDiv.style.display = open ? '' : 'none';
+        btn.textContent = open ? 'Сховати' : 'Показати всі (' + (topicData.length - TOP_N) + ')';
+      });
+      sec3b.appendChild(btn);
+    }
+    container.appendChild(sec3b);
+  }
+
+  // ── Section 4: Активність ─────────────────────────
+  const sec4 = mkCard();
+  sec4.appendChild(mkTitle('Активність'));
+
+  // Streak: consecutive days ending today or yesterday
+  let streak = 0;
+  const streakStart = (dailyLog[today] && dailyLog[today].answers > 0) ? today : addDays(today, -1);
+  if (dailyLog[streakStart] && dailyLog[streakStart].answers > 0) {
+    let sd = streakStart;
+    while (dailyLog[sd] && dailyLog[sd].answers > 0) { streak++; sd = addDays(sd, -1); }
+  }
+  if (streak > 0) {
+    const sEl = document.createElement('div');
+    sEl.style.cssText = 'display:flex;align-items:center;gap:6px;font-size:14px;font-weight:700;color:var(--warning);';
+    const r10=streak%10, r100=streak%100;
+    const dw = (r100>=11&&r100<=14)?'днів':(r10===1)?'день':(r10>=2&&r10<=4)?'дні':'днів';
+    sEl.textContent = '🔥 ' + streak + ' ' + dw + ' поспіль';
+    sec4.appendChild(sEl);
+  }
+
+  const days14 = [];
+  for (let i = 13; i >= 0; i--) {
+    const date = addDays(today, -i);
+    days14.push({ date, data: dailyLog[date] || null });
+  }
+  const activeDayCount = days14.filter(d => d.data && d.data.answers > 0).length;
+
+  if (activeDayCount < 2) {
+    sec4.appendChild(mkEmpty('Статистика активності накопичується — повертайся за кілька днів'));
+  } else {
+    const maxA = Math.max(1, ...days14.map(d => d.data ? d.data.answers : 0));
+    const chartEl = document.createElement('div');
+    chartEl.className = 'activity-chart';
+    days14.forEach(({ date, data }) => {
+      const col     = document.createElement('div');
+      col.className = 'activity-col';
+      const barArea = document.createElement('div');
+      barArea.className = 'activity-bar-area';
+      if (data && data.answers > 0) {
+        const barH     = Math.max(2, Math.round(data.answers / maxA * 68));
+        const correctH = Math.max(0, Math.round((data.correct || 0) / data.answers * barH));
+        const wrongH   = barH - correctH;
+        const barEl    = document.createElement('div');
+        barEl.style.cssText = 'position:absolute;bottom:0;left:0;right:0;height:' + barH + 'px;border-radius:2px 2px 0 0;overflow:hidden;';
+        if (wrongH > 0) {
+          const wb = document.createElement('div');
+          wb.style.cssText = 'position:absolute;top:0;left:0;right:0;height:'+wrongH+'px;background:rgba(108,92,231,.28);';
+          barEl.appendChild(wb);
+        }
+        if (correctH > 0) {
+          const cb = document.createElement('div');
+          cb.style.cssText = 'position:absolute;bottom:0;left:0;right:0;height:'+correctH+'px;background:var(--accent1);';
+          barEl.appendChild(cb);
+        }
+        barArea.appendChild(barEl);
+      } else {
+        const empty = document.createElement('div');
+        empty.style.cssText = 'position:absolute;bottom:0;left:0;right:0;height:2px;background:rgba(255,255,255,.07);border-radius:1px;';
+        barArea.appendChild(empty);
+      }
+      const dayLbl = document.createElement('div');
+      dayLbl.className = 'activity-day-label';
+      dayLbl.textContent = parseInt(date.split('-')[2], 10);
+      col.appendChild(barArea);
+      col.appendChild(dayLbl);
+      chartEl.appendChild(col);
+    });
+    sec4.appendChild(chartEl);
+  }
+  container.appendChild(sec4);
+
+  // ── Section 5: Складні слова ──────────────────────
+  const sec5 = mkCard();
+  sec5.appendChild(mkTitle('Складні слова'));
+
+  const candidates = [];
+  for (const [id, h] of Object.entries(wordHistory)) {
+    if ((h.seen || 0) >= 4) {
+      candidates.push({ id, seen: h.seen, correct: h.correct || 0, wrongRate: 1 - (h.correct||0)/h.seen });
+    }
+  }
+  candidates.sort((a,b) => b.wrongRate - a.wrongRate);
+
+  if (!candidates.length) {
+    sec5.appendChild(mkEmpty('Ще недостатньо даних — потрібно щонайменше 4 спроби на слово'));
+  } else {
+    candidates.slice(0, 10).forEach(({ id, seen, correct }) => {
+      const word = wordMap.get(id);
+      if (!word) return;
+      const row = document.createElement('div');
+      row.className = 'hard-word-row';
+      const en = document.createElement('div');
+      en.className = 'hard-word-en';
+      en.textContent = word.en;
+      const ua = document.createElement('div');
+      ua.className = 'hard-word-ua';
+      ua.textContent = word.ua;
+      const pctEl = document.createElement('div');
+      pctEl.className = 'hard-word-pct';
+      pctEl.textContent = Math.round(correct / seen * 100) + '%';
+      pctEl.title = seen + ' спроб';
+      row.appendChild(en);
+      row.appendChild(ua);
+      row.appendChild(pctEl);
+      row.addEventListener('click', () => { haptic('light'); unlockAudio(); speak(word.en); });
+      sec5.appendChild(row);
+    });
+  }
+  container.appendChild(sec5);
+}
+
+// ── Stats helper elements ──
+function mkCard() {
+  const el = document.createElement('div');
+  el.className = 'stats-card';
+  return el;
+}
+function mkTitle(text) {
+  const el = document.createElement('div');
+  el.className = 'stats-section-title';
+  el.textContent = text;
+  return el;
+}
+function mkEmpty(text) {
+  const el = document.createElement('div');
+  el.className = 'stats-empty-msg';
+  el.textContent = text;
+  return el;
+}
+function mkBarRow(label, value, maxValue, color, displayValue) {
+  const row = document.createElement('div');
+  row.className = 'bar-row';
+  const lbl = document.createElement('div');
+  lbl.className = 'bar-row-label';
+  lbl.textContent = label;
+  const track = document.createElement('div');
+  track.className = 'bar-track';
+  const fill = document.createElement('div');
+  fill.className = 'bar-fill';
+  fill.style.cssText = 'width:' + (maxValue > 0 ? Math.min(100, value/maxValue*100).toFixed(2) : '0') + '%;background:' + color + ';';
+  track.appendChild(fill);
+  const val = document.createElement('div');
+  val.className = 'bar-row-value';
+  val.textContent = displayValue;
+  row.appendChild(lbl);
+  row.appendChild(track);
+  row.appendChild(val);
+  return row;
+}
+
+function initStats() {
+  document.getElementById('btnStats').addEventListener('click', () => {
+    haptic('light');
+    renderStatsScreen();
+    showScreen('screenStats');
+  });
+  document.getElementById('btnBackFromStats').addEventListener('click', () => {
+    haptic('light');
+    showScreen('screenMenu');
+  });
+}
+
+/* ═══════════════════════════════════════════════
+   TOAST
+═══════════════════════════════════════════════ */
+let _toastTimer = null;
+
+function showToast(msg, duration) {
+  duration = duration || 2800;
+  const el     = document.getElementById('toast');
+  const msgEl  = document.getElementById('toastMsg');
+  const undoEl = document.getElementById('toastUndoBtn');
+  clearTimeout(_toastTimer);
+  msgEl.textContent    = msg;
+  undoEl.style.display = 'none';
+  el.classList.add('show');
+  _toastTimer = setTimeout(function() { el.classList.remove('show'); }, duration);
+}
+
+function showToastWithUndo(msg, onUndo, duration) {
+  duration = duration || 5000;
+  const el     = document.getElementById('toast');
+  const msgEl  = document.getElementById('toastMsg');
+  const undoEl = document.getElementById('toastUndoBtn');
+  clearTimeout(_toastTimer);
+  msgEl.textContent    = msg;
+  undoEl.style.display = '';
+  const fresh = undoEl.cloneNode(true);
+  undoEl.parentNode.replaceChild(fresh, undoEl);
+  fresh.addEventListener('click', function() {
+    clearTimeout(_toastTimer);
+    el.classList.remove('show');
+    onUndo();
+  });
+  el.classList.add('show');
+  _toastTimer = setTimeout(function() { el.classList.remove('show'); }, duration);
+}
+
+function showImportConfirm(msg, onConfirm) {
+  const overlay   = document.getElementById('importConfirmOverlay');
+  const msgEl     = document.getElementById('importConfirmMsg');
+  const okBtn     = document.getElementById('importConfirmOk');
+  const cancelBtn = document.getElementById('importConfirmCancel');
+  msgEl.textContent = msg;
+  overlay.classList.add('active');
+  function close() {
+    overlay.classList.remove('active');
+    okBtn.removeEventListener('click', onOk);
+    cancelBtn.removeEventListener('click', onCancel);
+  }
+  function onOk()     { close(); onConfirm(); }
+  function onCancel() { close(); }
+  okBtn.addEventListener('click', onOk);
+  cancelBtn.addEventListener('click', onCancel);
+}
+
+/* ═══════════════════════════════════════════════
+   EXPORT / IMPORT
+   Export iterates localStorage filtered by startsWith('wordup_').
+   sessionStorage is a separate object — no collision possible.
+   No regex exclusion logic used.
+═══════════════════════════════════════════════ */
+function buildExportPayload() {
+  const keys = {};
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (k && k.startsWith('wordup_')) {
+      const raw = localStorage.getItem(k);
+      try { keys[k] = JSON.parse(raw); } catch (e) { keys[k] = raw; }
+    }
+  }
+  return { app: 'wordup', schemaVersion: 1, exportedAt: new Date().toISOString(), keys: keys };
+}
+
+async function doExport() {
+  const payload = buildExportPayload();
+  const keyCount = Object.keys(payload.keys).length;
+  const json = JSON.stringify(payload, null, 2);
+  const date = new Date().toISOString().slice(0, 10);
+  const filename = 'wordup-backup-' + date + '.json';
+  const file = new File([json], filename, { type: 'application/json' });
+
+  if (navigator.canShare && navigator.canShare({ files: [file] })) {
+    try {
+      await navigator.share({ files: [file], title: 'WordUp backup' });
+      showToast('Експортовано ' + keyCount + ' ключів');
+      return;
+    } catch (e) {
+      if (e.name !== 'AbortError') throw e;
+    }
+  }
+
+  const url = URL.createObjectURL(new Blob([json], { type: 'application/json' }));
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(function() { document.body.removeChild(a); URL.revokeObjectURL(url); }, 1000);
+  showToast('Експортовано ' + keyCount + ' ключів');
+}
+
+async function doCopyExport() {
+  const payload = buildExportPayload();
+  const keyCount = Object.keys(payload.keys).length;
+  try {
+    await navigator.clipboard.writeText(JSON.stringify(payload, null, 2));
+    showToast('Скопійовано ' + keyCount + ' ключів');
+  } catch (e) {
+    showToast('Не вдалося скопіювати');
+  }
+}
+
+function snapshotToSession() {
+  const snap = {};
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (k && k.startsWith('wordup_')) snap[k] = localStorage.getItem(k);
+  }
+  sessionStorage.setItem('wordup__pre_import_snapshot', JSON.stringify(snap));
+}
+
+function restorePreImportSnapshot() {
+  let snap;
+  try { snap = JSON.parse(sessionStorage.getItem('wordup__pre_import_snapshot') || '{}'); } catch { snap = {}; }
+  const toRemove = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (k && k.startsWith('wordup_')) toRemove.push(k);
+  }
+  toRemove.forEach(function(k) { localStorage.removeItem(k); });
+  Object.entries(snap).forEach(function(pair) { localStorage.setItem(pair[0], pair[1]); });
+  updateGlobalStats();
+  updateSrsBadge();
+  showToast('Прогрес відновлено');
+  haptic('success');
+}
+
+function formatExportedAt(isoStr) {
+  try {
+    const d = new Date(isoStr);
+    return d.toLocaleDateString('uk-UA', {
+      day: 'numeric', month: 'long', year: 'numeric',
+      hour: '2-digit', minute: '2-digit'
+    });
+  } catch (e) { return isoStr; }
+}
+
+function applyImport(json) {
+  // 1. Parse
+  let payload;
+  try { payload = JSON.parse(json); } catch (e) {
+    showToast('Помилка: невірний JSON');
+    haptic('error');
+    return;
+  }
+
+  // 2. Validate: app, schemaVersion, keys object, every key must start with wordup_
+  if (
+    payload.app !== 'wordup' ||
+    payload.schemaVersion !== 1 ||
+    !payload.keys ||
+    typeof payload.keys !== 'object' ||
+    Array.isArray(payload.keys)
+  ) {
+    showToast('Файл не є резервною копією WordUp v1');
+    haptic('error');
+    return;
+  }
+  const allPayloadKeys = Object.keys(payload.keys);
+  if (allPayloadKeys.length === 0) {
+    showToast('Резервна копія порожня');
+    return;
+  }
+  if (allPayloadKeys.some(function(k) { return !k.startsWith('wordup_'); })) {
+    showToast('Помилка: сторонні ключі у файлі');
+    haptic('error');
+    return;
+  }
+
+  // 3. Confirm dialog
+  const dateLabel = payload.exportedAt ? formatExportedAt(payload.exportedAt) : '(невідома дата)';
+  const msg = 'Замінити поточний прогрес даними з бекапу від ' + dateLabel + '?\n\nПоточний прогрес буде перезаписано.';
+
+  showImportConfirm(msg, function() {
+    // 4. Snapshot current state to sessionStorage for undo
+    snapshotToSession();
+
+    // 5. Full replace: remove ALL existing wordup_* keys first
+    const toRemove = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k && k.startsWith('wordup_')) toRemove.push(k);
+    }
+    toRemove.forEach(function(k) { localStorage.removeItem(k); });
+
+    // 6. Write every key from payload
+    allPayloadKeys.forEach(function(k) {
+      const v = payload.keys[k];
+      localStorage.setItem(k, typeof v === 'string' ? v : JSON.stringify(v));
+    });
+
+    updateGlobalStats();
+    updateSrsBadge();
+    haptic('success');
+    // 7. Toast with undo
+    showToastWithUndo('Імпортовано', restorePreImportSnapshot, 5000);
+  });
+}
+
+function initBackup() {
+  document.getElementById('btnExport').addEventListener('click', function() {
+    haptic('light');
+    doExport().catch(function(e) { showToast('Помилка експорту'); console.error(e); });
+  });
+
+  document.getElementById('btnCopyExport').addEventListener('click', function() {
+    haptic('light');
+    doCopyExport();
+  });
+
+  document.getElementById('btnImportOpen').addEventListener('click', function() {
+    haptic('light');
+    document.getElementById('importFileInput').click();
+  });
+
+  document.getElementById('importFileInput').addEventListener('change', function(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = function(ev) { applyImport(ev.target.result); };
+    reader.readAsText(file);
+    e.target.value = '';
+  });
+
+  document.getElementById('btnPasteImport').addEventListener('click', function() {
+    haptic('light');
+    navigator.clipboard.readText().then(function(text) {
+      applyImport(text);
+    }).catch(function() {
+      showToast('Не вдалося прочитати буфер');
+    });
+  });
+}
+
+/* ═══════════════════════════════════════════════
    BOOT
 ═══════════════════════════════════════════════ */
 async function boot() {
@@ -2483,6 +3511,8 @@ async function boot() {
   updateGlobalStats();
   bindEvents();
   initSpeech();
+  initBackup();
+  initStats();
   showScreen('screenMenu');
 }
 
