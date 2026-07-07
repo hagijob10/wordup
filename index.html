@@ -152,6 +152,113 @@
     .mode-card-desc  { font-size: 13px; color: var(--text2); margin-top: 3px; }
     .mode-card-arrow { color: var(--text3); font-size: 20px; flex-shrink: 0; }
 
+    /* ── CHALLENGE MODE CARD STATUS ── */
+    .mode-card-played { color: var(--success); font-weight: 700; }
+
+    /* ── CHALLENGE ENTRY SCREEN ── */
+    .challenge-entry-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-card);
+      padding: 24px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .cec-date { font-size: 13px; color: var(--text3); text-align: center; letter-spacing: .5px; }
+    .cec-vs-row { display: flex; align-items: center; gap: 8px; justify-content: center; }
+    .cec-player { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 3px; }
+    .cec-player-name  { font-size: 13px; color: var(--text2); font-weight: 600; }
+    .cec-player-score { font-size: 30px; font-weight: 800; color: var(--text); }
+    .cec-player-score.played { color: var(--success); }
+    .cec-player-lbl   { font-size: 11px; color: var(--text3); min-height: 14px; }
+    .cec-vs-sep       { font-size: 14px; font-weight: 800; color: var(--text3); flex-shrink: 0; }
+    .cec-verdict      { min-height: 20px; text-align: center; font-size: 14px; font-weight: 700; padding-top: 4px; }
+    .verdict-win      { color: var(--success); }
+    .verdict-lose     { color: var(--danger); }
+    .verdict-tie      { color: var(--cyan); }
+    .verdict-mismatch { font-size: 12px; font-weight: 500; color: var(--text3); }
+
+    /* ── CHALLENGE COMP PANEL (result screen) ── */
+    .challenge-comp-panel {
+      background: var(--card2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-card);
+      padding: 14px 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      width: 100%;
+      max-width: 340px;
+    }
+    .comp-panel-title   { font-size: 11px; font-weight: 700; color: var(--text3); text-transform: uppercase; letter-spacing: .5px; }
+    .comp-panel-row     { display: flex; align-items: center; justify-content: space-between; font-size: 14px; }
+    .comp-panel-label   { color: var(--text2); font-weight: 600; }
+    .comp-panel-score   { font-weight: 800; }
+    .comp-panel-verdict { text-align: center; font-size: 13px; font-weight: 700; padding-top: 6px; border-top: 1px solid var(--border); }
+
+    /* ── CHALLENGE HISTORY (stats screen) ── */
+    .ch-tally      { display: flex; justify-content: space-around; padding: 8px 0 4px; }
+    .ch-tally-stat { display: flex; flex-direction: column; align-items: center; gap: 1px; }
+    .ch-tally-val  { font-size: 26px; font-weight: 800; line-height: 1; }
+    .ch-tally-val.win  { color: var(--success); }
+    .ch-tally-val.lose { color: var(--danger); }
+    .ch-tally-val.tie  { color: var(--cyan); }
+    .ch-tally-lbl  { font-size: 10px; color: var(--text3); font-weight: 700; text-transform: uppercase; letter-spacing: .4px; }
+    .ch-hist-row   { display: flex; align-items: center; gap: 8px; font-size: 13px; padding: 5px 0; }
+    .ch-hist-row + .ch-hist-row { border-top: 1px solid var(--border); }
+    .ch-hist-date   { color: var(--text3); min-width: 42px; font-size: 12px; }
+    .ch-hist-result { flex: 1; font-weight: 700; }
+    .ch-hist-result.win      { color: var(--success); }
+    .ch-hist-result.lose     { color: var(--danger); }
+    .ch-hist-result.tie      { color: var(--cyan); }
+    .ch-hist-result.mismatch { color: var(--text3); font-weight: 500; }
+    .ch-hist-score  { color: var(--text2); font-size: 12px; white-space: nowrap; }
+
+    /* ── PLAYER PICKER OVERLAY ── */
+    .wu-picker-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.72);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 220ms;
+      padding: 24px;
+    }
+    .wu-picker-overlay.active { opacity: 1; pointer-events: all; }
+    .wu-picker-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px 20px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      width: 100%;
+      max-width: 320px;
+    }
+    .wu-picker-title    { font-size: 20px; font-weight: 800; text-align: center; }
+    .wu-picker-subtitle { font-size: 13px; color: var(--text2); text-align: center; }
+    .wu-player-btn {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: var(--card2);
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 16px 18px;
+      cursor: pointer;
+      transition: transform 140ms, border-color 140ms;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .wu-player-btn:active { transform: scale(.97); border-color: var(--accent1); }
+    .wu-player-avatar { font-size: 28px; }
+    .wu-player-name   { font-size: 17px; font-weight: 700; color: var(--text); }
+
     /* ── STATS BAR ── */
     .stats-bar {
       background: var(--card);
@@ -411,7 +518,8 @@
       font-family: var(--font);
       width: 100%;
     }
-    .btn-primary:active { transform: scale(.96); opacity: .9; }
+    .btn-primary:active   { transform: scale(.96); opacity: .9; }
+    .btn-primary:disabled { opacity: .45; cursor: default; transform: none !important; }
 
     .btn-secondary {
       background: var(--card);
@@ -1171,6 +1279,16 @@
           <div class="mode-card-arrow">›</div>
         </div>
 
+        <!-- Челендж дня mode card -->
+        <div class="mode-card" id="cardChallenge" role="button" tabindex="0">
+          <div class="mode-card-icon">🏆</div>
+          <div class="mode-card-body">
+            <div class="mode-card-title">Челендж дня</div>
+            <div class="mode-card-desc" id="challengeCardDesc">20 слів · щоденне змагання</div>
+          </div>
+          <div class="mode-card-arrow">›</div>
+        </div>
+
       </div>
 
       <button class="btn-stats-nav" id="btnStats">
@@ -1334,6 +1452,8 @@
         </div>
       </div>
 
+      <div id="challengeCompPanel" class="challenge-comp-panel" style="display:none;"></div>
+
       <div class="btn-actions">
         <button class="btn-primary" id="btnPlayAgain">Грати ще раз</button>
         <button class="btn-secondary" id="btnToMenu">До меню</button>
@@ -1447,6 +1567,37 @@
     </div>
   </div>
 
+  <!-- ══ SCREEN: CHALLENGE ENTRY ══ -->
+  <div class="screen" id="screenChallenge">
+    <div class="top-nav">
+      <button class="btn-back" id="btnBackFromChallenge">‹ Назад</button>
+      <div class="nav-title">Челендж дня</div>
+      <div id="wuSyncDot" style="font-size:11px;color:var(--text3);white-space:nowrap;">🟡 підключення...</div>
+    </div>
+    <div class="screen-inner" style="padding-top:16px;">
+      <div class="challenge-entry-card">
+        <div class="cec-date" id="cecDate"></div>
+        <div class="cec-vs-row">
+          <div class="cec-player">
+            <div class="cec-player-name" id="cecMyName">Я</div>
+            <div class="cec-player-score" id="cecMyScore">—</div>
+            <div class="cec-player-lbl" id="cecMyLbl"></div>
+          </div>
+          <div class="cec-vs-sep">VS</div>
+          <div class="cec-player">
+            <div class="cec-player-name" id="cecOppName">Суперник</div>
+            <div class="cec-player-score" id="cecOppScore">—</div>
+            <div class="cec-player-lbl" id="cecOppLbl">ще не грав</div>
+          </div>
+        </div>
+        <div class="cec-verdict" id="cecVerdict"></div>
+      </div>
+      <div class="btn-actions" style="margin-top:12px;">
+        <button class="btn-primary" id="btnStartChallenge">Грати</button>
+      </div>
+    </div>
+  </div>
+
   <!-- ══ SCREEN: STATISTICS ══ -->
   <div class="screen" id="screenStats">
     <div class="top-nav">
@@ -1455,6 +1606,22 @@
     </div>
     <div class="screen-inner" id="statsInner" style="gap:14px;padding-bottom:28px;">
       <!-- rendered dynamically by renderStatsScreen() -->
+    </div>
+  </div>
+
+  <!-- ══ PLAYER PICKER OVERLAY ══ -->
+  <div class="wu-picker-overlay" id="playerPickerOverlay">
+    <div class="wu-picker-card">
+      <div class="wu-picker-title">Хто грає?</div>
+      <div class="wu-picker-subtitle">Обери один раз — можна змінити пізніше</div>
+      <button class="wu-player-btn" data-player-id="bohdan">
+        <span class="wu-player-avatar">🧑</span>
+        <span class="wu-player-name">Богдан</span>
+      </button>
+      <button class="wu-player-btn" data-player-id="druzhyna">
+        <span class="wu-player-avatar">👩</span>
+        <span class="wu-player-name">Мілочка 🌸</span>
+      </button>
     </div>
   </div>
 
@@ -1562,6 +1729,16 @@ const MODES = {
     distractorCount: 2,
     posFilter: 'phrasal',
   },
+  challenge: {
+    id: 'challenge',
+    label: 'Челендж дня',
+    sessionSize: 20,
+    timerEnabled: false,
+    livesEnabled: false,
+    direction: 'en_to_ua',
+    distractorCount: 2,
+    posFilter: undefined,   // never read — getDailyWords() bypasses buildPool entirely
+  },
 };
 
 /* ═══════════════════════════════════════════════
@@ -1609,6 +1786,7 @@ function showScreen(id) {
   if (!next || next === currentScreen) return;
 
   if (currentScreen) {
+    if (currentScreen.id === 'screenStats') detachChallengeHistoryListener();
     currentScreen.classList.add('exit-up');
     const exiting = currentScreen;
     setTimeout(() => {
@@ -2190,6 +2368,48 @@ function getDistractorsReverse(targetWord, count, topicHint) {
   return result;
 }
 
+function getDistractorsSeeded(targetWord, count, dateStr) {
+  const rng        = mulberry32(getChallengeSeed(dateStr, targetWord.id));
+  const correctUa  = targetWord.ua.trim().toLowerCase();
+  const targetPos  = targetWord.pos;
+  const targetLevelIdx = LEVEL_ORDER.indexOf(targetWord.level);
+
+  let candidates = (wordsByPos[targetPos] || []).filter(w =>
+    w.id !== targetWord.id && w.ua.trim().toLowerCase() !== correctUa
+  );
+
+  if (candidates.length < count) {
+    candidates = allWords.filter(w =>
+      w.id !== targetWord.id &&
+      w.ua.trim().toLowerCase() !== correctUa &&
+      w.pos === targetPos
+    );
+  }
+
+  if (candidates.length < count) {
+    candidates = allWords.filter(w =>
+      w.id !== targetWord.id && w.ua.trim().toLowerCase() !== correctUa
+    );
+  }
+
+  const sameLevel = candidates.filter(w => w.level === targetWord.level);
+  const adjLevel  = candidates.filter(w => Math.abs(LEVEL_ORDER.indexOf(w.level) - targetLevelIdx) === 1);
+  const rest      = candidates.filter(w =>
+    w.level !== targetWord.level && Math.abs(LEVEL_ORDER.indexOf(w.level) - targetLevelIdx) > 1
+  );
+
+  const ordered = [...seededShuffle(sameLevel, rng), ...seededShuffle(adjLevel, rng), ...seededShuffle(rest, rng)];
+
+  const seen = new Set([correctUa]);
+  const result = [];
+  for (const w of ordered) {
+    const ua = w.ua.trim().toLowerCase();
+    if (!seen.has(ua)) { seen.add(ua); result.push(w); }
+    if (result.length === count) break;
+  }
+  return result;
+}
+
 /* ═══════════════════════════════════════════════
    UTILITIES
 ═══════════════════════════════════════════════ */
@@ -2205,6 +2425,106 @@ function shuffle(arr) {
 function sample(arr, n) {
   return shuffle(arr).slice(0, n);
 }
+
+/* ═══════════════════════════════════════════════
+   CHALLENGE — PRNG + DAILY SET + LOCAL CACHE
+═══════════════════════════════════════════════ */
+function mulberry32(seed) {
+  return function () {
+    seed |= 0; seed = (seed + 0x6D2B79F5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function dateStrToSeed(dateStr) {
+  let h = 0;
+  for (let i = 0; i < dateStr.length; i++) h = (Math.imul(31, h) + dateStr.charCodeAt(i)) | 0;
+  return h >>> 0;
+}
+
+function getChallengeSeed(dateStr, wordId) {
+  const s = dateStr + '|' + wordId;
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (Math.imul(31, h) + s.charCodeAt(i)) | 0;
+  return h >>> 0;
+}
+
+function seededShuffle(arr, rng) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function seededSample(arr, n, rng) {
+  return seededShuffle(arr, rng).slice(0, n);
+}
+
+function getCurrentDayKey() {
+  return new Date().toLocaleDateString('sv-SE', { timeZone: 'Europe/Kyiv' });
+}
+
+function getDailyWords(dateStr) {
+  const nonPhrasalPool = allWords.filter(w => w.pos !== 'phrasal').sort((a, b) => a.id < b.id ? -1 : 1);
+  const phrasalPool    = allWords.filter(w => w.pos === 'phrasal').sort((a, b) => a.id < b.id ? -1 : 1);
+  const seed  = dateStrToSeed(dateStr);
+  const set14 = seededSample(nonPhrasalPool, 14, mulberry32(seed));
+  const set6  = seededSample(phrasalPool,    6,  mulberry32(seed ^ 0xDEADBEEF));
+  return seededShuffle(set14.concat(set6), mulberry32(seed ^ 0xCAFEBABE));
+}
+
+const WU_CHALLENGE_KEY = 'wordup_challenge_v1';
+
+function loadChallengeCache() {
+  try { const v = localStorage.getItem(WU_CHALLENGE_KEY); return v ? JSON.parse(v) : null; } catch (e) { return null; }
+}
+function saveChallengeCache(d) {
+  try { localStorage.setItem(WU_CHALLENGE_KEY, JSON.stringify(d)); } catch (e) {}
+}
+function getChallengeToday() {
+  const c = loadChallengeCache();
+  if (!c || c.dayKey !== getCurrentDayKey()) return null;
+  return c;
+}
+
+/* ═══════════════════════════════════════════════
+   CHALLENGE — PLAYER + FIREBASE STATE
+═══════════════════════════════════════════════ */
+const WU_PLAYER_KEY  = 'wordup_player';
+const WU_FB_SYNCED_KEY = 'wordup_fb_synced_v1';
+const WU_DAY_CHECK_KEY = 'wordup_day_chk';
+
+const PLAYERS = {
+  bohdan:   { id: 'bohdan',   name: 'Богдан',      avatar: '🧑' },
+  druzhyna: { id: 'druzhyna', name: 'Мілочка 🌸', avatar: '👩' },
+};
+
+function getPlayer() {
+  try { const v = localStorage.getItem(WU_PLAYER_KEY); return v ? JSON.parse(v) : null; } catch (e) { return null; }
+}
+function setPlayer(id) {
+  try { localStorage.setItem(WU_PLAYER_KEY, JSON.stringify(PLAYERS[id])); } catch (e) {}
+}
+function getOpponentId(myId) { return myId === 'bohdan' ? 'druzhyna' : 'bohdan'; }
+
+function loadSyncFlag() {
+  try { const v = localStorage.getItem(WU_FB_SYNCED_KEY); return v ? JSON.parse(v) : null; } catch (e) { return null; }
+}
+function saveSyncFlag(d) { try { localStorage.setItem(WU_FB_SYNCED_KEY, JSON.stringify(d)); } catch (e) {} }
+function isSynced(dayKey) { const f = loadSyncFlag(); return !!(f && f.dayKey === dayKey && f.synced); }
+function markSynced(dayKey) { saveSyncFlag({ dayKey, synced: true }); }
+
+let wuFbDb = null;
+let wuFbTodayOff = null;
+let wuHistoryOff = null;
+window.__wuSyncStatus = 'retrying';
+window.__wuFirebaseFailedPermanently = false;
+
+const COMP_WU = { myScore: null, myTimeMs: null, oppScore: null, oppTimeMs: null, oppName: '', oppSize: null };
 
 function posUa(pos) {
   return POS_UA[pos] || pos;
@@ -2325,6 +2645,42 @@ function startSession(mode, level, topic) {
   renderQuestion();
 }
 
+function startChallengeSession() {
+  if (getChallengeToday()) return;   // replay guard — local block
+  if (!getPlayer()) return;          // safety — picker handles this before button is tappable
+  const dateStr    = getCurrentDayKey();
+  const dailyWords = getDailyWords(dateStr);
+
+  session = {
+    mode: 'challenge',
+    level: null,
+    topic: null,
+    pool: null,            // not used — getDailyWords() bypasses buildPool
+    queue: dailyWords,
+    idx: 0,
+    correct: 0,
+    incorrect: 0,
+    skip: 0,
+    streak: 0,
+    locked: false,
+    finished: false,
+    timerRafId: null,
+    timerEnd: null,
+    lives: null,
+    challengeDateStr: dateStr,
+    challengeStartMs: Date.now(),
+  };
+
+  const fill = document.getElementById('progressFill');
+  fill.classList.remove('depleting', 'timer-low');
+  fill.style.transition = '';
+  fill.style.width = '0%';
+  document.getElementById('heartsRow').classList.remove('visible');
+
+  showScreen('screenGame');
+  renderQuestion();
+}
+
 /* ═══════════════════════════════════════════════
    GAME RENDERING
 ═══════════════════════════════════════════════ */
@@ -2367,7 +2723,9 @@ function renderQuestion() {
   // Build options
   const distractors = isReverse
     ? getDistractorsReverse(word, MODES[s.mode].distractorCount, s.topic)
-    : getDistractors(word, MODES[s.mode].distractorCount, s.topic);
+    : s.mode === 'challenge'
+      ? getDistractorsSeeded(word, MODES[s.mode].distractorCount, s.challengeDateStr)
+      : getDistractors(word, MODES[s.mode].distractorCount, s.topic);
   const options = shuffle([word, ...distractors]);
 
   // Render buttons
@@ -2432,7 +2790,7 @@ function handleAnswer(btn, isCorrect, targetWord) {
   else           { s.incorrect++; s.streak = 0; }
 
   recordWordResult(targetWord.id, isCorrect, s.mode);
-  if (!isCorrect) srsAddWord(targetWord.id); // SRS hook — additive, does not affect existing flow
+  if (!isCorrect && s.mode !== 'challenge') srsAddWord(targetWord.id);
 
   // Survival: lose a life on wrong answer
   if (!isCorrect && s.mode === 'survival') {
@@ -2497,8 +2855,7 @@ function handleDontKnow(targetWord) {
   s.skip++;
   s.streak = 0;
 
-  // SRS: reuse the exact same code path as a wrong answer
-  srsAddWord(targetWord.id);
+  if (s.mode !== 'challenge') srsAddWord(targetWord.id);
   recordWordResult(targetWord.id, false, s.mode);
 
   // Survival: costs a life, same as a wrong answer
@@ -2567,8 +2924,26 @@ function finishSession() {
     const msgs = [[90,'Відмінно! 🎉'],[70,'Добре! 👍'],[50,'Непогано 🙂'],[0,'Потрібно більше практики 💪']];
     msg = msgs.find(([t]) => pct >= t)[1];
     recordReverseLevelResult(s.level, correct, total);
+  } else if (s.mode === 'challenge') {
+    total = s.queue.length;
+    const pct = Math.round(correct / total * 100);
+    stars = pct >= 90 ? 3 : pct >= 70 ? 2 : 1;
+    scoreBigText = `${correct}/${total}`;
+    scorePctText = `${pct}%`;
+    const msgs = [[90,'Відмінно! 🎉'],[70,'Добре! 👍'],[50,'Непогано 🙂'],[0,'Потрібно більше практики 💪']];
+    msg = msgs.find(([t]) => pct >= t)[1];
+    saveChallengeCache({
+      dayKey:       s.challengeDateStr,
+      score:        correct,
+      totalTimeMs:  Date.now() - s.challengeStartMs,
+      datasetSize:  allWords.length,
+      completedAt:  Date.now(),
+    });
+    writeChallengeResult();
+    updateChallengeCard();
+    renderChallengeCompPanel();
   } else {
-    // classic — unchanged behavior
+    // classic / phrasal — unchanged behavior
     total = s.queue.length;
     const pct = Math.round(correct / total * 100);
     stars = pct >= 90 ? 3 : pct >= 70 ? 2 : 1;
@@ -2610,6 +2985,159 @@ function updateGlobalStats() {
   const pcEl = document.getElementById('phrasalWordCount');
   if (pcEl) pcEl.textContent = (wordsByPos['phrasal'] || []).length;
   updateSrsBadge();
+  updateChallengeCard();
+}
+
+function updateChallengeCard() {
+  const c    = getChallengeToday();
+  const desc = document.getElementById('challengeCardDesc');
+  if (!desc) return;
+  if (c) {
+    desc.innerHTML = `<span class="mode-card-played">Зіграно: ${c.score}/20 ✓</span>`;
+  } else {
+    desc.textContent = '20 слів · щоденне змагання';
+  }
+}
+
+function openPlayerPicker(onSelected) {
+  const overlay = document.getElementById('playerPickerOverlay');
+  overlay.classList.add('active');
+  overlay.querySelectorAll('.wu-player-btn').forEach(btn => {
+    btn.onclick = () => {
+      haptic('medium');
+      const id = btn.dataset.playerId;
+      setPlayer(id);
+      overlay.classList.remove('active');
+      overlay.querySelectorAll('.wu-player-btn').forEach(b => b.onclick = null);
+      if (wuFbDb) {
+        // Firebase already connected — run full sync flow for the newly-selected player
+        syncLocalToFirebase(id)
+          .then(() => checkDailyWinner())
+          .then(() => subscribeChallengeToday(id));
+      }
+      if (onSelected) onSelected(id);
+    };
+  });
+}
+
+function buildChallengeState(myEntry) {
+  const hasPlayed = !!myEntry;
+  const oppScore  = COMP_WU.oppScore;
+  const oppTimeMs = COMP_WU.oppTimeMs;
+  const oppSize   = COMP_WU.oppSize;
+
+  let myScoreText = '—', myScoreClass = '', myLbl = 'ще не зіграно';
+  let oppScoreText = '—', oppScoreClass = '', oppLbl = 'ще не грав';
+  let verdictHtml = '', hasMismatch = false;
+
+  if (hasPlayed) {
+    myScoreText  = myEntry.score + '/20';
+    myScoreClass = 'played';
+    myLbl        = '';
+  }
+
+  if (!hasPlayed && oppScore !== null) {
+    oppLbl = 'вже зіграв';
+  } else if (hasPlayed && oppScore !== null) {
+    oppScoreText  = oppScore + '/20';
+    oppScoreClass = 'played';
+    oppLbl        = '';
+
+    if (myEntry.datasetSize !== oppSize) {
+      hasMismatch = true;
+      verdictHtml = '<span class="verdict-mismatch">день поза заліком</span>';
+    } else {
+      const myS = myEntry.score;
+      if (myS > oppScore) {
+        verdictHtml = '<span class="verdict-win">Перемога! 🏆</span>';
+      } else if (oppScore > myS) {
+        verdictHtml = '<span class="verdict-lose">Суперник переміг</span>';
+      } else {
+        const myT = myEntry.totalTimeMs, oppT = oppTimeMs;
+        if (myT !== null && oppT !== null && myT !== oppT) {
+          const diffSec = (Math.abs(oppT - myT) / 1000).toFixed(1);
+          verdictHtml = myT < oppT
+            ? '<span class="verdict-win">Нічия ⏱ Швидше на ' + diffSec + ' с</span>'
+            : '<span class="verdict-lose">Нічия ⏱ Суперник швидший на ' + diffSec + ' с</span>';
+        } else {
+          verdictHtml = '<span class="verdict-tie">Нічия!</span>';
+        }
+      }
+    }
+  }
+
+  return { myScoreText, myScoreClass, myLbl, oppScoreText, oppScoreClass, oppLbl, verdictHtml, hasMismatch };
+}
+
+function renderChallengeCompPanel() {
+  const panel = document.getElementById('challengeCompPanel');
+  if (!panel) return;
+  const myEntry = getChallengeToday();
+  if (!myEntry) { panel.style.display = 'none'; return; }
+  const player = getPlayer();
+  if (!player) { panel.style.display = 'none'; return; }
+
+  const state   = buildChallengeState(myEntry);
+  const oppId   = getOpponentId(player.id);
+  const oppName = PLAYERS[oppId].name;
+  const oppDisp = state.oppScoreText !== '—' ? state.oppScoreText : 'ще не грав';
+
+  panel.style.display = '';
+  panel.innerHTML =
+    '<div class="comp-panel-title">Змагання</div>' +
+    '<div class="comp-panel-row">' +
+      '<span class="comp-panel-label">' + player.name + '</span>' +
+      '<span class="comp-panel-score">' + state.myScoreText + '</span>' +
+    '</div>' +
+    '<div class="comp-panel-row">' +
+      '<span class="comp-panel-label">' + oppName + '</span>' +
+      '<span class="comp-panel-score">' + oppDisp + '</span>' +
+    '</div>' +
+    (state.verdictHtml ? '<div class="comp-panel-verdict">' + state.verdictHtml + '</div>' : '');
+}
+
+function renderChallengeEntry() {
+  const player = getPlayer();
+  if (!player) {
+    openPlayerPicker(() => renderChallengeEntry());
+    return;
+  }
+  const dateStr = getCurrentDayKey();
+  const c       = getChallengeToday();
+  const oppId   = getOpponentId(player.id);
+  const state   = buildChallengeState(c);
+
+  const el = id => document.getElementById(id);
+  const dateEl     = el('cecDate');
+  const myNameEl   = el('cecMyName');
+  const myScoreEl  = el('cecMyScore');
+  const myLblEl    = el('cecMyLbl');
+  const oppNameEl  = el('cecOppName');
+  const oppScoreEl = el('cecOppScore');
+  const oppLblEl   = el('cecOppLbl');
+  const verdictEl  = el('cecVerdict');
+  const startBtn   = el('btnStartChallenge');
+
+  if (dateEl)    dateEl.textContent    = dateStr;
+  if (myNameEl)  myNameEl.textContent  = player.name;
+  if (oppNameEl) oppNameEl.textContent = PLAYERS[oppId].name;
+
+  if (myScoreEl) {
+    myScoreEl.textContent = state.myScoreText;
+    myScoreEl.className   = 'cec-player-score' + (state.myScoreClass ? ' ' + state.myScoreClass : '');
+  }
+  if (myLblEl)    myLblEl.textContent    = state.myLbl;
+  if (oppScoreEl) {
+    oppScoreEl.textContent = state.oppScoreText;
+    oppScoreEl.className   = 'cec-player-score' + (state.oppScoreClass ? ' ' + state.oppScoreClass : '');
+  }
+  if (oppLblEl)  oppLblEl.textContent  = state.oppLbl;
+  if (verdictEl) verdictEl.innerHTML   = state.verdictHtml;
+
+  if (startBtn) {
+    startBtn.disabled    = !!c;
+    startBtn.textContent = c ? 'Зіграно сьогодні' : 'Грати';
+  }
 }
 
 function updateLevelStats(mode) {
@@ -2753,9 +3281,14 @@ function bindEvents() {
     showScreen('screenLevel');
   });
 
-  // Result: play again with same mode+level+topic
+  // Result: play again with same mode+level+topic (challenge: back to entry, already blocked there)
   document.getElementById('btnPlayAgain').addEventListener('click', () => {
     haptic('medium');
+    if (session && session.mode === 'challenge') {
+      renderChallengeEntry();
+      showScreen('screenChallenge');
+      return;
+    }
     if (session) startSession(session.mode, session.level, session.topic);
   });
 
@@ -2763,6 +3296,24 @@ function bindEvents() {
   document.getElementById('btnToMenu').addEventListener('click', () => {
     haptic('light');
     updateLevelStats(pendingMode);
+    showScreen('screenMenu');
+  });
+
+  // ── Challenge events ──
+  document.getElementById('cardChallenge').addEventListener('click', () => {
+    haptic('light');
+    renderChallengeEntry();
+    showScreen('screenChallenge');
+  });
+
+  document.getElementById('btnStartChallenge').addEventListener('click', () => {
+    haptic('medium');
+    unlockAudio();
+    startChallengeSession();
+  });
+
+  document.getElementById('btnBackFromChallenge').addEventListener('click', () => {
+    haptic('light');
     showScreen('screenMenu');
   });
 
@@ -2795,6 +3346,170 @@ function bindEvents() {
     updateSrsBadge();
     showScreen('screenMenu');
   });
+}
+
+/* ═══════════════════════════════════════════════
+   CHALLENGE — FIREBASE INIT + SYNC
+═══════════════════════════════════════════════ */
+function loadScript(src) {
+  return new Promise((res, rej) => {
+    const s = document.createElement('script');
+    s.src = src; s.onload = res; s.onerror = rej;
+    document.head.appendChild(s);
+  });
+}
+
+function updateWuSyncStatus(state) {
+  window.__wuSyncStatus = state;
+  const el = document.getElementById('wuSyncDot');
+  if (!el) return;
+  const dot   = state === 'connected' ? '🟢' : state === 'offline' ? '🔴' : '🟡';
+  const label = state === 'connected' ? 'синхронізовано' : state === 'offline' ? 'офлайн' : 'підключення...';
+  el.textContent = dot + ' ' + label;
+}
+
+async function initFirebase(attempt) {
+  attempt = attempt || 0;
+  const backoff = [2000, 5000, 10000];
+  try {
+    if (typeof firebase === 'undefined') {
+      await loadScript('https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js');
+      await loadScript('https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js');
+    }
+    if (typeof firebase === 'undefined') throw new Error('firebase unavailable after script load');
+    const app = firebase.apps.length
+      ? firebase.apps[0]
+      : firebase.initializeApp({
+          apiKey:            'AIzaSyAQvhywHqtyC-gfoltBDbylnyatYLUspeQ',
+          authDomain:        'brainup-game.firebaseapp.com',
+          databaseURL:       'https://brainup-game-default-rtdb.europe-west1.firebasedatabase.app',
+          projectId:         'brainup-game',
+          storageBucket:     'brainup-game.firebasestorage.app',
+          messagingSenderId: '879006997942',
+          appId:             '1:879006997942:web:d69c60d859fdb758f8f517',
+        });
+    wuFbDb = firebase.database(app);
+    window.__wuFirebaseFailedPermanently = false;
+    onFirebaseReady();
+  } catch (e) {
+    console.error('[WordUp] Firebase init failed, attempt ' + (attempt + 1) + ':', e);
+    if (attempt < 2) {
+      updateWuSyncStatus('retrying');
+      setTimeout(() => initFirebase(attempt + 1), backoff[attempt] || 10000);
+    } else {
+      window.__wuFirebaseFailedPermanently = true;
+      updateWuSyncStatus('offline');
+    }
+  }
+}
+
+async function onFirebaseReady() {
+  updateWuSyncStatus('connected');
+  const player = getPlayer();
+  if (!player) return;
+  // Order matters: sync our result first so checkDailyWinner sees it in Firebase
+  await syncLocalToFirebase(player.id);
+  await checkDailyWinner();
+  subscribeChallengeToday(player.id);
+}
+
+async function syncLocalToFirebase(playerId) {
+  if (!wuFbDb) return;
+  const cache = loadChallengeCache();
+  if (!cache) return;
+  const dayKey = cache.dayKey;   // the day it was played, NOT necessarily today (midnight-crossing case)
+  if (isSynced(dayKey)) return;
+  try {
+    await wuFbDb.ref('wordup_daily/' + dayKey + '/' + playerId).set({
+      score:       cache.score,
+      totalTimeMs: cache.totalTimeMs,
+      datasetSize: cache.datasetSize,
+      completedAt: cache.completedAt,
+    });
+    markSynced(dayKey);
+  } catch (e) {
+    if (e && e.code === 'PERMISSION_DENIED') {
+      // Entry already in Firebase (write-once rule). Treat as synced — stop retrying.
+      markSynced(dayKey);
+    }
+    // Other errors: leave unsynced; next onFirebaseReady() call retries.
+  }
+}
+
+function writeChallengeResult() {
+  const player = getPlayer();
+  if (!player || !wuFbDb) return;
+  syncLocalToFirebase(player.id);  // fire-and-forget; handles PERMISSION_DENIED internally
+}
+
+function subscribeChallengeToday(myId) {
+  if (!wuFbDb) return;
+  if (wuFbTodayOff) { wuFbTodayOff(); wuFbTodayOff = null; }
+  const oppId  = getOpponentId(myId);
+  const dayKey = getCurrentDayKey();
+  const ref    = wuFbDb.ref('wordup_daily/' + dayKey);
+  const handler = snap => {
+    const d  = snap.val() || {};
+    const me = d[myId]  || null;
+    const op = d[oppId] || null;
+    COMP_WU.myScore  = me ? me.score       : null;
+    COMP_WU.myTimeMs = me ? me.totalTimeMs : null;
+    COMP_WU.oppScore = op ? op.score       : null;
+    COMP_WU.oppTimeMs = op ? op.totalTimeMs : null;
+    COMP_WU.oppSize  = op ? op.datasetSize : null;
+    COMP_WU.oppName  = PLAYERS[oppId].name;
+    const scr = document.getElementById('screenChallenge');
+    if (scr && scr.classList.contains('active')) renderChallengeEntry();
+  };
+  ref.on('value', handler);
+  wuFbTodayOff = () => ref.off('value', handler);
+}
+
+async function checkDailyWinner() {
+  if (!wuFbDb) return;
+  const today     = getCurrentDayKey();
+  const lastCheck = localStorage.getItem(WU_DAY_CHECK_KEY) || '';
+  localStorage.setItem(WU_DAY_CHECK_KEY, today);
+  if (!lastCheck || lastCheck === today) return;
+  const yesterday = lastCheck;
+  // Known limitation: residual race — if the opponent's device called checkDailyWinner
+  // before our syncLocalToFirebase() just above had landed, they may have already
+  // written a walkover entry for yesterday. We attempt to write; PERMISSION_DENIED
+  // means they beat us to it, which is the correct final state. No recovery built.
+  try {
+    const histSnap = await wuFbDb.ref('wordup_history/' + yesterday).get();
+    if (histSnap.val()) return;   // already recorded
+    const daySnap  = await wuFbDb.ref('wordup_daily/' + yesterday).get();
+    const dayData  = daySnap.val() || {};
+    const bData    = dayData.bohdan   || null;
+    const dData    = dayData.druzhyna || null;
+    if (!bData && !dData) return;   // nobody played — write nothing (amendment 2)
+    let winner, walkover = false;
+    if (!bData || !dData) {
+      winner = bData ? 'bohdan' : 'druzhyna';
+      walkover = true;
+    } else {
+      const bScore = bData.score, dScore = dData.score;
+      if (bScore !== dScore) {
+        winner = bScore > dScore ? 'bohdan' : 'druzhyna';
+      } else {
+        const bTime = bData.totalTimeMs || Infinity, dTime = dData.totalTimeMs || Infinity;
+        winner = bTime < dTime ? 'bohdan' : dTime < bTime ? 'druzhyna' : 'tie';
+      }
+    }
+    const bSize = bData ? bData.datasetSize : null;
+    const dSize = dData ? dData.datasetSize : null;
+    const entry = {
+      winner,
+      scores: { bohdan: bData ? bData.score : 0, druzhyna: dData ? dData.score : 0 },
+      times:  { bohdan: bData ? bData.totalTimeMs : null, druzhyna: dData ? dData.totalTimeMs : null },
+    };
+    if (walkover)                          entry.walkover        = true;
+    if (bData && dData && bSize !== dSize) entry.datasetMismatch = true;
+    await wuFbDb.ref('wordup_history/' + yesterday).set(entry);
+  } catch (e) {
+    if (e && e.code === 'PERMISSION_DENIED') { /* already recorded — correct state */ }
+  }
 }
 
 /* ═══════════════════════════════════════════════
@@ -3193,6 +3908,12 @@ function renderStatsScreen() {
     });
   }
   container.appendChild(sec5);
+
+  // ── Section 6: Челендж дня ────────────────────────
+  const sec6 = document.createElement('div');
+  sec6.id = 'challengeHistorySection';
+  container.appendChild(sec6);
+  attachChallengeHistoryListener();
 }
 
 // ── Stats helper elements ──
@@ -3234,6 +3955,119 @@ function mkBarRow(label, value, maxValue, color, displayValue) {
   return row;
 }
 
+function detachChallengeHistoryListener() {
+  if (wuHistoryOff) { wuHistoryOff(); wuHistoryOff = null; }
+}
+
+function attachChallengeHistoryListener() {
+  detachChallengeHistoryListener();
+  const player = getPlayer();
+  if (!player) { renderChallengeHistorySection({}, 'bohdan'); return; }
+  if (!wuFbDb)  { renderChallengeHistorySection({}, player.id); return; }
+  const ref     = wuFbDb.ref('wordup_history');
+  const handler = snap => renderChallengeHistorySection(snap.val() || {}, player.id);
+  ref.orderByKey().limitToLast(14).on('value', handler);
+  wuHistoryOff = () => ref.off('value', handler);
+}
+
+function renderChallengeHistorySection(historyData, myId) {
+  const sec = document.getElementById('challengeHistorySection');
+  if (!sec) return;
+  sec.innerHTML = '';
+
+  const keys = Object.keys(historyData).sort().slice(-14).reverse();
+  let wins = 0, losses = 0, ties = 0;
+  const rows = [];
+
+  for (const dayKey of keys) {
+    const entry = historyData[dayKey];
+    if (!entry) continue;
+    const isMismatch = !!entry.datasetMismatch;
+    const isWalkover = !!entry.walkover;
+    const winner  = entry.winner;
+    const oppId   = getOpponentId(myId);
+    const myScore = entry.scores ? (entry.scores[myId]  != null ? entry.scores[myId]  : null) : null;
+    const oppScore= entry.scores ? (entry.scores[oppId] != null ? entry.scores[oppId] : null) : null;
+    const myTime  = entry.times  ? (entry.times[myId]   != null ? entry.times[myId]   : null) : null;
+    const oppTime = entry.times  ? (entry.times[oppId]  != null ? entry.times[oppId]  : null) : null;
+
+    let resultClass, resultText;
+    if (isMismatch) {
+      resultClass = 'mismatch'; resultText = 'поза заліком';
+    } else if (winner === myId) {
+      resultClass = 'win'; resultText = 'Перемога'; wins++;
+    } else if (winner === 'tie') {
+      resultClass = 'tie';
+      if (myTime !== null && oppTime !== null && myTime !== oppTime) {
+        const diffSec = (Math.abs(oppTime - myTime) / 1000).toFixed(1);
+        resultText = myTime < oppTime
+          ? 'Нічия ⏱ +' + diffSec + 'с'
+          : 'Нічия ⏱ -' + diffSec + 'с';
+      } else {
+        resultText = 'Нічия';
+      }
+      ties++;
+    } else {
+      resultClass = 'lose'; resultText = 'Поразка'; losses++;
+    }
+
+    const parts     = dayKey.split('-');
+    const dateLabel = parts[2] + '.' + parts[1];
+    const scoreText = myScore !== null && oppScore !== null ? myScore + ':' + oppScore : '—';
+    rows.push({ dateLabel, resultClass, resultText, scoreText });
+  }
+
+  const card = document.createElement('div');
+  card.className = 'stats-card';
+  card.appendChild(mkTitle('Челендж дня'));
+
+  if (rows.length === 0) {
+    card.appendChild(mkEmpty('Поки немає результатів — грайте кожен день!'));
+  } else {
+    const tallyEl = document.createElement('div');
+    tallyEl.className = 'ch-tally';
+    [{ val: wins, cls: 'win', lbl: 'Перемог' }, { val: ties, cls: 'tie', lbl: 'Нічиїх' }, { val: losses, cls: 'lose', lbl: 'Поразок' }]
+      .forEach(({ val, cls, lbl }) => {
+        const stat = document.createElement('div');
+        stat.className = 'ch-tally-stat';
+        const v = document.createElement('div');
+        v.className = 'ch-tally-val ' + cls;
+        v.textContent = val;
+        const l = document.createElement('div');
+        l.className = 'ch-tally-lbl';
+        l.textContent = lbl;
+        stat.appendChild(v);
+        stat.appendChild(l);
+        tallyEl.appendChild(stat);
+      });
+    card.appendChild(tallyEl);
+
+    const divEl = document.createElement('div');
+    divEl.style.cssText = 'border-top:1px solid var(--border);margin:4px -20px 2px;';
+    card.appendChild(divEl);
+
+    rows.forEach(({ dateLabel, resultClass, resultText, scoreText }) => {
+      const row = document.createElement('div');
+      row.className = 'ch-hist-row';
+      const dateEl = document.createElement('div');
+      dateEl.className = 'ch-hist-date';
+      dateEl.textContent = dateLabel;
+      const resEl = document.createElement('div');
+      resEl.className = 'ch-hist-result ' + resultClass;
+      resEl.textContent = resultText;
+      const scoreEl = document.createElement('div');
+      scoreEl.className = 'ch-hist-score';
+      scoreEl.textContent = scoreText;
+      row.appendChild(dateEl);
+      row.appendChild(resEl);
+      row.appendChild(scoreEl);
+      card.appendChild(row);
+    });
+  }
+
+  sec.appendChild(card);
+}
+
 function initStats() {
   document.getElementById('btnStats').addEventListener('click', () => {
     haptic('light');
@@ -3242,6 +4076,7 @@ function initStats() {
   });
   document.getElementById('btnBackFromStats').addEventListener('click', () => {
     haptic('light');
+    detachChallengeHistoryListener();
     showScreen('screenMenu');
   });
 }
@@ -3517,6 +4352,7 @@ async function boot() {
   initBackup();
   initStats();
   showScreen('screenMenu');
+  initFirebase();
 }
 
 boot();
