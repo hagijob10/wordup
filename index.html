@@ -322,6 +322,8 @@
       color: var(--text);
       cursor: pointer;
       text-align: center;
+      line-height: 1.3;
+      min-height: 52px;
       transition: transform 140ms, background 140ms, border-color 180ms;
       -webkit-tap-highlight-color: transparent;
       font-family: var(--font);
@@ -2708,6 +2710,7 @@ function bindEvents() {
     { id: 'cardBlitz',    mode: 'blitz'    },
     { id: 'cardSurvival', mode: 'survival' },
     { id: 'cardReverse',  mode: 'reverse'  },
+    { id: 'cardPhrasa',   mode: 'phrasal'  },
   ].forEach(({ id, mode }) => {
     document.getElementById(id).addEventListener('click', () => {
       haptic('light');
